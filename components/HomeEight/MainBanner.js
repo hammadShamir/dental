@@ -14,7 +14,7 @@ const MainBanner = () => {
           className="hero-slide-eight"
         >
           <SwiperSlide>
-            <div 
+            <div
               className="slider-item"
               style={{ backgroundImage: `url(/img/home-eight/home-eight-banner1.jpg)` }}
             >
@@ -22,7 +22,7 @@ const MainBanner = () => {
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="slider-text one">
-                      <span className="top-title">Welcome To Corf</span>
+                      <span className="top-title">Welcome To Esthetix</span>
                       <h1>Specializing Cosmetic Dental Surgery</h1>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -43,7 +43,7 @@ const MainBanner = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div 
+            <div
               className="slider-item"
               style={{ backgroundImage: `url(/img/home-eight/home-eight-banner2.jpg)` }}
             >
@@ -51,7 +51,7 @@ const MainBanner = () => {
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="slider-text two">
-                      <span className="top-title">Welcome To Corf</span>
+                      <span className="top-title">Welcome To Esthetix</span>
                       <h1>Our Smiles Speak Themselves</h1>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
