@@ -49,7 +49,7 @@ const NavbarFour = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    Esthentix Dental Center
+                    logo
                   </Link>
 
                   <button
