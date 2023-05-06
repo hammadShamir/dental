@@ -8,8 +8,8 @@ const DoctorsStyleOne = () => {
       <div className="doctors-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="top-title">Our Doctors</span>
-            <h2>Our Specialist Doctors</h2>
+            <span className="top-title">Our Team</span>
+            <h2>Meet Our Team</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
               vel consequatur tempora atque blanditiis exercitationem incidunt,
@@ -41,9 +41,9 @@ const DoctorsStyleOne = () => {
           >
             <SwiperSlide>
               <div className="single-doctor">
-                <img src="/img/doctors/doctor1.png" alt="Image" />
-                <h3>Dr. Jelin Alis</h3>
-                <span className="top-title">Cardiologist</span>
+                <img src="/img/doctors/1.png" alt="Image" />
+                <h3>Dr. Ranjeet Kumar</h3>
+                <span className="top-title">Cheif Executive Officer</span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmodin
@@ -76,9 +76,9 @@ const DoctorsStyleOne = () => {
 
             <SwiperSlide>
               <div className="single-doctor">
-                <img src="/img/doctors/doctor2.png" alt="Image" />
-                <h3>Dr. Jemse Watson</h3>
-                <span className="top-title">Necrologist</span>
+                <img src="/img/doctors/2.png" alt="Image" />
+                <h3>Dr. Pria Aahuja</h3>
+                <span className="top-title">Cheif Operating Officer</span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmodin
@@ -111,9 +111,44 @@ const DoctorsStyleOne = () => {
 
             <SwiperSlide>
               <div className="single-doctor">
-                <img src="/img/doctors/doctor3.png" alt="Image" />
-                <h3>Dr. Neels Bore</h3>
-                <span className="top-title">Surgery Specialist</span>
+                <img src="/img/doctors/3.png" alt="Image" />
+                <h3>Dr. Naresh Kumar</h3>
+                <span className="top-title">Quality Manager</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodin
+                </p>
+
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                      <i className="bx bxl-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com/" target="_blank">
+                      <i className="bx bxl-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.pinterest.com/" target="_blank">
+                      <i className="bx bxl-pinterest-alt"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <i className="bx bxl-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </SwiperSlide>
+
+            {/* <SwiperSlide>
+              <div className="single-doctor">
+                <img src="/img/doctors/doctor11.png" alt="Image" />
+                <h3>Dr. Manoj Kumar</h3>
+                <span className="top-title">MD, General Dentist (Maxillofacial Surgeon)</span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmodin
@@ -147,8 +182,9 @@ const DoctorsStyleOne = () => {
             <SwiperSlide>
               <div className="single-doctor">
                 <img src="/img/doctors/doctor11.png" alt="Image" />
-                <h3>Dr. Kilva Alis</h3>
-                <span className="top-title">Cardiologist</span>
+                <h3>Dr. Asirvatha Christina</h3>
+                <span className="top-title">Specialist Orthodontist
+</span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmodin
@@ -177,7 +213,7 @@ const DoctorsStyleOne = () => {
                   </li>
                 </ul>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>

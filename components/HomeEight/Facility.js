@@ -9,10 +9,9 @@ const Facility = () => {
             <div className="col-lg-3 col-sm-6 p-0">
               <div className="second-facility-item">
                 <i className="bx bx-certification"></i>
-                <h3>Certification</h3>
+                <h3>Quality Doctors</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut.
+                Our Doctors are providing high quality care as not only a professional responsibility but also as their passion.
                 </p>
               </div>
             </div>
@@ -20,10 +19,9 @@ const Facility = () => {
             <div className="col-lg-3 col-sm-6 p-0">
               <div className="second-facility-item">
                 <i className="bx bx-time"></i>
-                <h3>24/7 Opened</h3>
+                <h3>Free Checkup</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut.
+                Come and benefit from our free dental check-up and talk to our highly specialized Dentists. Open to all.
                 </p>
               </div>
             </div>
@@ -31,10 +29,9 @@ const Facility = () => {
             <div className="col-lg-3 col-sm-6 p-0">
               <div className="second-facility-item">
                 <i className="bx bx-user"></i>
-                <h3>Professional Staff</h3>
+                <h3>Affordable Clinic</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut.
+                We professional, affordable, and the best dental care in town. Providing a comprehensive range of dental services in Dubai.
                 </p>
               </div>
             </div>
@@ -42,10 +39,9 @@ const Facility = () => {
             <div className="col-lg-3 col-sm-6 p-0">
               <div className="second-facility-item">
                 <i className="bx bx-like"></i>
-                <h3>Fair Prices</h3>
+                <h3>Latest Technology</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut.
+                We use latest technology & employ some of the UAE's best, internationally accredited dentists to provide you with a range of dental treatments.
                 </p>
               </div>
             </div>
