@@ -10,18 +10,18 @@ const TopHeader = () => {
               <ul className="header-content-left">
                 <li>
                   <i className="bx bx-time"></i>
-                  Mon-Fri 9am-5pm
+                  Mon-sun 9am-10pm 
                 </li>
                 <li>
                   <a href="tel:+822456974">
                     <i className="bx bx-phone-call"></i>
-                    Call Us: +821-456-241
+                    Call Us: +971-4-5294-421
                   </a>
                 </li>
                 <li>
                   <a href="mailto:hello@info.com">
                     <i className="bx bxs-paper-plane"></i>
-                    Email: hello@info.com
+                    Email: info@esthetixdentalcenters.com
                   </a>
                 </li>
               </ul>
