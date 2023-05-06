@@ -20,7 +20,7 @@ const OurServices = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <span className="flaticon-man"></span>
-                <h3>Cancer Service</h3>
+                <h3>Root Canal</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore dolore
@@ -39,7 +39,7 @@ const OurServices = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <span className="flaticon-liver"></span>
-                <h3>Liver Transport</h3>
+                <h3>Orthodontic Treatment</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore dolore
@@ -58,7 +58,7 @@ const OurServices = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <span className="flaticon-kidney"></span>
-                <h3>Kidney Transport</h3>
+                <h3>Pediatric Dentistry</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore dolore
@@ -77,7 +77,7 @@ const OurServices = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <span className="flaticon-heart"></span>
-                <h3>Cardiac Arrhythmia</h3>
+                <h3>Tooth Extraction</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore dolore
@@ -96,7 +96,7 @@ const OurServices = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <span className="flaticon-brain"></span>
-                <h3>Neurology Care</h3>
+                <h3>Composite Filling</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore dolore
@@ -115,7 +115,7 @@ const OurServices = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <span className="flaticon-walker"></span>
-                <h3>Orthopedic Care</h3>
+                <h3>Dental Implants</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore dolore
