@@ -10,14 +10,15 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              <div 
+              <div
                 className="single-widget"
                 data-aos="fade-in"
                 data-aos-delay="100"
                 data-aos-duration="1200"
               >
                 <Link href="/">
-                  <img src="/img/logo.png" alt="Image" />
+                  {/* <img src="/img/logo.png" alt="Image" /> */}
+                  Logo
                 </Link>
 
                 <p>
@@ -63,7 +64,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-2 col-md-6">
-              <div 
+              <div
                 className="single-widget"
                 data-aos="fade-in"
                 data-aos-delay="200"
@@ -94,7 +95,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div 
+              <div
                 className="single-widget open-time"
                 data-aos="fade-in"
                 data-aos-delay="300"
@@ -123,7 +124,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6">
-              <div 
+              <div
                 className="single-widget contact"
                 data-aos="fade-in"
                 data-aos-delay="400"
@@ -161,9 +162,9 @@ const Footer = () => {
         <div className="container">
           <div className="copy-right">
             <p>
-              Copyright &copy; {currentYear} Corf Designed by{" "}
-              <a href="https://envytheme.com/" target="blank">
-                EnvyTheme
+              Copyright &copy; {currentYear} Esthetix Designed by{" "}
+              <a href="" target="blank">
+                Hammad Shamir
               </a>
             </p>
           </div>
