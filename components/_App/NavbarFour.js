@@ -3,11 +3,105 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import TopHeader from "./TopHeader";
 
+
+
+// Menu Objects
+const menuObj = [{
+                  name: `Home`
+                },
+                { 
+                  name: `About Us`,
+                  dropDown: [ { element: `Our Mission`, href: `mission` },
+                              { element: `Our Vision`, href: `vision` },
+                              { element: `Our Team`, href: `team` }
+                            ] 
+                },
+                { name: `Services`,
+                dropDown: [ { element: `Root Canal Treatment`, href: `mission` },
+                            { element: `Orthodontic Braces`, href: `vision` },
+                            { element: `Invisible Aligners`, href: `team` },
+                            { element: `Hollywood Smile`, href: `team` },
+                            { element: `Denture`, href: `team` },
+                            { element: `Teeth Whitening`, href: `team` },
+                            { element: `Dental Crown`, href: `team` },
+                            { element: `DentalImplant`, href: `team` },
+                            { element: `Tooth Extraction`, href: `team` },
+                            { element: `Composite Filling`, href: `team` },
+                            { element: `Scaling & Polishing`, href: `team` },
+                            { element: `Pendiatric Dentistry`, href: `team` },
+                            { element: `Veeners`, href: `team` }
+                          ] 
+                },
+                { name: `Blog` },
+                { name: `Resources`,
+                dropDown: [ { element: `Our Gallery`, href: `mission` },
+                            { element: `Our Insurances`, href: `vision` },
+                            { element: `Our Blogs`, href: `team` },
+                            { element: `Testimonials`, href: `team` },
+                            { element: `Success Stories`, href: `team` }
+                          ]
+                },
+{ name: `Contact Us` }];
+
+
+
 const NavbarFour = () => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
   // console.log(router.asPath)
+
+
+  const [menuItems, setMenuItems] = useState(menuObj);
+
+
+  const navbar = menuItems.map(menuLink => {
+    return (
+      <li className="nav-item">
+        <Link
+          href={`/${menuLink[`name`].split(' ')[0].toLowerCase()}/`}
+          className={`nav-link ${currentPath == `/${menuLink[`name`].split(' ')[0].toLowerCase()}}/` && "active"
+            }`}
+        >
+          {menuLink.name}
+
+          {menuLink.dropDown && (<i className="bx bx-plus"></i>)}
+        </Link>
+
+        {menuLink.dropDown &&
+          (
+            <ul className="dropdown-menu">
+              {
+                menuLink.dropDown.map(dropDown => {
+
+
+                  return (
+
+                    <li className="nav-item">
+                      <Link
+                        href={`/${dropDown['href'].toLowerCase()}/`}
+                        className={`nav-link ${currentPath == `/${dropDown['href'].toLowerCase()}/` && "active"}`}
+                      >
+                        {dropDown['element']}
+                      </Link>
+                    </li>
+
+
+                  )
+
+
+
+
+                })
+              }
+            </ul>
+          )
+        }
+
+      </li>
+    )
+
+  })
 
   useEffect(() => {
     setCurrentPath(router.asPath);
@@ -69,171 +163,10 @@ const NavbarFour = () => {
 
                   <div className={classOne} id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto">
-                      {/* Home */}
-                      <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
-                        >
-                          Home
-                        </Link>
-                      </li>
-
-                      {/* About */}
-                      <li className="nav-item">
-                        <Link
-                          href="/about/"
-                          className={`nav-link ${currentPath == "/about/" && "active"
-                            }`}
-                        >
-                          About us
-                           <i className="bx bx-plus"></i>
-                        </Link>
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/mission"
-                              className={`nav-link ${currentPath == "/mission" && "active"
-                                }`}
-                            >
-                              Our Mission
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/vision"
-                              className={`nav-link ${currentPath == "/vision" && "active"
-                                }`}
-                            >
-                              Our Vision
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/team"
-                              className={`nav-link ${currentPath == "/team" && "active"
-                                }`}
-                            >
-                              Our Team
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
 
 
-                      {/* Services */}
-                      <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
-                        >
-                          Services
-                          <i className="bx bx-plus"></i>
-                        </Link>
+                      {navbar}
 
-                     <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/services-1/"
-                              className={`nav-link ${currentPath == "/services-1/" && "active"
-                                }`}
-                            >
-                              Root canval Treatment
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-2/"
-                              className={`nav-link ${currentPath == "/services-2/" && "active"
-                                }`}
-                            >
-                              Orthodontic Braces
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-3/"
-                              className={`nav-link ${currentPath == "/services-3/" && "active"
-                                }`}
-                            >
-                              Invisible Alligners
-                            </Link>
-                          </li>
-
-                        </ul> 
-                      </li>
-
-                      {/* Blogs */}
-                      <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
-                        >
-                          Blog
-                          {/* <i className="bx bx-plus"></i> */}
-                        </Link>
-
-                        {/* <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-grid/"
-                              className={`nav-link ${currentPath == "/blog-grid/" && "active"
-                                }`}
-                            >
-                              Blog Grid
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-left-sidebar/"
-                              className={`nav-link ${currentPath == "/blog-left-sidebar/" && "active"
-                                }`}
-                            >
-                              Blog Left Sidebar
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-right-sidebar/"
-                              className={`nav-link ${currentPath == "/blog-right-sidebar/" &&
-                                "active"
-                                }`}
-                            >
-                              Blog Right Sidebar
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-details/"
-                              className={`nav-link ${currentPath == "/blog-details/" && "active"
-                                }`}
-                            >
-                              Blog Details
-                            </Link>
-                          </li>
-                        </ul> */}
-                      </li>
-
-                      {/* Contact us */}
-                      <li className="nav-item">
-                        <Link
-                          href="/contact/"
-                          className={`nav-link ${currentPath == "/contact/" && "active"
-                            }`}
-                        >
-                          Contact us
-                        </Link>
-                      </li>
 
 
                     </ul>
