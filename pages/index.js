@@ -18,6 +18,7 @@ import Footer from "../components/_App/Footer";
 const index = () => {
   return (
     <>
+    {/* completed */}
       <NavbarFour />
 
       <MainBanner />
@@ -32,6 +33,7 @@ const index = () => {
 
       <OurServices />
 
+{/* Completed */}
       <div className="bg-color">
         <DoctorsStyleFour />
       </div>

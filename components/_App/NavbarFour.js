@@ -41,7 +41,7 @@ const menuObj = [{
                             { element: `Success Stories`, href: `team` }
                           ]
                 },
-{ name: `Contact Us` }];
+{ name: `Contact Us`}];
 
 
 
@@ -162,7 +162,7 @@ const NavbarFour = () => {
                   </button>
 
                   <div className={classOne} id="navbarSupportedContent">
-                    <ul className="navbar-nav m-auto">
+                    <ul className="navbar-nav m-auto gap-4">
 
 
                       {navbar}

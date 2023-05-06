@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className="social-area">
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/" target="_blank">
+                      <a href="https://www.facebook.com/profile.php?id=100082956321235&mibextid=ZbWKwL" target="_blank">
                         <i className="bx bxl-facebook"></i>
                       </a>
                     </li>
@@ -38,7 +38,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/" target="_blank">
+                      <a href="https://www.linkedin.com/company/esthetix-dental-center/" target="_blank">
                         <i className="bx bxl-linkedin"></i>
                       </a>
                     </li>
@@ -47,11 +47,11 @@ const Footer = () => {
                         href="https://www.facebyoutubeook.com/"
                         target="_blank"
                       >
-                        <i className="bx bxl-youtube"></i>
+                        <i className="bx x-bxl-tiktok"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a href="https://instagram.com/esthetixdentalcenter?igshid=ZDdkNTZiNTM=" target="_blank">
                         <i className="bx bxl-instagram"></i>
                       </a>
                     </li>
@@ -132,8 +132,8 @@ const Footer = () => {
                   <li>
                     <a href="tel:+822456974">
                       <i className="bx bx-phone-call"></i>
-                      <span>Hotline:</span>
-                      Phone: +971 4 5294 421
+                      <span>Phone:</span>
+                       +971 4 5294 421
                     </a>
                   </li>
                   <li>
