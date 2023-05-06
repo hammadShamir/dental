@@ -178,10 +178,11 @@ const NavbarFour = () => {
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Pages <i className="bx bx-plus"></i>
+                          Pages
+                          {/* <i className="bx bx-plus"></i> */}
                         </Link>
 
-                        <ul className="dropdown-menu">
+                        {/* <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
                               href="/pricing/"
@@ -314,7 +315,7 @@ const NavbarFour = () => {
                               404 Error Page
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
 
                       <li className="nav-item">
@@ -323,10 +324,11 @@ const NavbarFour = () => {
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Services <i className="bx bx-plus"></i>
+                          Services
+                          {/* <i className="bx bx-plus"></i> */}
                         </Link>
 
-                        <ul className="dropdown-menu">
+                        {/* <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
                               href="/services-1/"
@@ -366,7 +368,7 @@ const NavbarFour = () => {
                               Service Details
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
 
                       <li className="nav-item">
@@ -375,10 +377,11 @@ const NavbarFour = () => {
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Doctors <i className="bx bx-plus"></i>
+                          Doctors
+                          {/* <i className="bx bx-plus"></i> */}
                         </Link>
 
-                        <ul className="dropdown-menu">
+                        {/* <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
                               href="/doctors-1/"
@@ -418,7 +421,7 @@ const NavbarFour = () => {
                               Doctors Details
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
 
                       <li className="nav-item">
@@ -427,10 +430,11 @@ const NavbarFour = () => {
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Blog <i className="bx bx-plus"></i>
+                          Blog
+                          {/* <i className="bx bx-plus"></i> */}
                         </Link>
 
-                        <ul className="dropdown-menu">
+                        {/* <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
                               href="/blog-grid/"
@@ -471,7 +475,7 @@ const NavbarFour = () => {
                               Blog Details
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
 
                       <li className="nav-item">
