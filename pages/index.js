@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarFour from "../components/_App/NavbarFour"
-import MainBanner from "../components/HomeEight/MainBanner"
+import MainBanner from "../components/HomeSeven/MainBanner"
 import Facility from "../components/HomeEight/Facility";
 import AboutUs from "../components/HomeTwo/AboutUs";
 import Department from "../components/HomeEight/Department";
@@ -23,7 +23,7 @@ const index = () => {
 
       <MainBanner />
 
-      <Facility />
+      {/* <Facility /> */}
 
       <AboutUs />
 
@@ -31,7 +31,6 @@ const index = () => {
 
       <FunFactStyleThree />
 
-{/* Completed */}
       <div className="bg-color">
         <DoctorsStyleFour />
       </div>

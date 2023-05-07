@@ -20,21 +20,19 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-seven/home-seven-banner1.jpg)`,
+                backgroundImage: `url(/img/home-Eight/home-Eight-banner1.jpg)`,
               }}
             >
               <div className="d-table">
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="slider-text one">
-                      <span className="top-title">Welcome To Corf</span>
+                      <h3 className="top-title">Regain Your Confidence</h3>
                       <h1>
-                        All The Services You Expect From A Clinical Trial Lab
+                        Dazzling Smile that brightens your Life
                       </h1>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nihil architecto laborum eaque! Deserunt maxime, minus
-                        quas molestiae reiciendis esse natus nisi iure.
+                        We are committed to provide world class dental treatment in a spaciously designed modern clinic where quality and care is given utmost importance
                       </p>
 
                       <div className="slider-btn">
@@ -53,19 +51,17 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-seven/home-seven-banner2.jpg)`,
+                backgroundImage: `url(/img/home-Eight/home-Eight-banner2.jpg)`,
               }}
             >
               <div className="d-table">
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="slider-text two">
-                      <span className="top-title">Welcome To Corf</span>
+                      <span className="top-title">Welcome to Exthetix Dental Center</span>
                       <h1>We Ensure Safe Diagnoses And Effective Therapies</h1>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nihil architecto laborum eaque! Deserunt maxime, minus
-                        quas molestiae reiciendis esse natus nisi iure.
+                        Perfect Smile & Perfect You
                       </p>
 
                       <div className="slider-btn">
