@@ -174,12 +174,12 @@ const NavbarFour = () => {
 
                   <div className="others-option">
                     <div className="subscribe">
-                      <Link href="/appointment" className="default-btn">
-                        Book an Appointment
-                      </Link>
+                      <a href={`tel:+97145294421`} className="default-btn">
+                        Call For Appointment
+                      </a>
                     </div>
                   </div>
-
+                  
                 </div>
               </nav>
             </div>
