@@ -5,7 +5,7 @@ import Facility from "../components/HomeEight/Facility";
 import AboutUs from "../components/HomeTwo/AboutUs";
 import Department from "../components/HomeEight/Department";
 import FunFactStyleThree from "../components/Common/FunFactStyleOne";
-import OurServices from "../components/HomeThree/OurServices";
+import OurServices from "../components/HomeEight/OurServices";
 import DoctorsStyleFour from "../components/Common/DoctorsStyleOne";
 import Pricing from "../components/HomeEight/Pricing";
 import Faqs from "../components/Common/Faqs";
@@ -18,7 +18,7 @@ import Footer from "../components/_App/Footer";
 const index = () => {
   return (
     <>
-    {/* completed */}
+
       <NavbarFour />
 
       <MainBanner />
@@ -27,24 +27,22 @@ const index = () => {
 
       <AboutUs />
 
-      <Department />
+      <OurServices />
 
       <FunFactStyleThree />
-
-      <OurServices />
 
 {/* Completed */}
       <div className="bg-color">
         <DoctorsStyleFour />
       </div>
 
-      <Pricing />
+      <TestimonialStyleOne />
+
+      {/* <Pricing /> */}
 
       <Faqs />
 
       <AppointmentForm />
-
-      <TestimonialStyleOne />
 
       <NewsStyleTwo />
 
