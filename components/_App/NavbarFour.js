@@ -7,41 +7,43 @@ import TopHeader from "./TopHeader";
 
 // Menu Objects
 const menuObj = [{
-                  name: `Home`
-                },
-                { 
-                  name: `About Us`,
-                  // dropDown: [ { element: `Our Mission`, href: `mission` },
-                  //             { element: `Our Vision`, href: `vision` },
-                  //             { element: `Our Team`, href: `team` }
-                  //           ] 
-                },
-                { name: `Services`,
-                // dropDown: [ { element: `Root Canal Treatment`, href: `mission` },
-                //             { element: `Orthodontic Braces`, href: `vision` },
-                //             { element: `Invisible Aligners`, href: `team` },
-                //             { element: `Hollywood Smile`, href: `team` },
-                //             { element: `Denture`, href: `team` },
-                //             { element: `Teeth Whitening`, href: `team` },
-                //             { element: `Dental Crown`, href: `team` },
-                //             { element: `DentalImplant`, href: `team` },
-                //             { element: `Tooth Extraction`, href: `team` },
-                //             { element: `Composite Filling`, href: `team` },
-                //             { element: `Scaling & Polishing`, href: `team` },
-                //             { element: `Pendiatric Dentistry`, href: `team` },
-                //             { element: `Veeners`, href: `team` }
-                //           ] 
-                },
-                { name: `Blog` },
-                { name: `Resources`,
-                dropDown: [ { element: `Our Gallery`, href: `mission` },
-                            { element: `Our Insurances`, href: `vision` },
-                            { element: `Our Blogs`, href: `team` },
-                            { element: `Testimonials`, href: `team` },
-                            { element: `Success Stories`, href: `team` }
-                          ]
-                },
-{ name: `Contact Us`}];
+  name: `Home`
+},
+{
+  name: `About Us`,
+  // dropDown: [ { element: `Our Mission`, href: `mission` },
+  //             { element: `Our Vision`, href: `vision` },
+  //             { element: `Our Team`, href: `team` }
+  //           ] 
+},
+{
+  name: `Services`,
+  // dropDown: [ { element: `Root Canal Treatment`, href: `mission` },
+  //             { element: `Orthodontic Braces`, href: `vision` },
+  //             { element: `Invisible Aligners`, href: `team` },
+  //             { element: `Hollywood Smile`, href: `team` },
+  //             { element: `Denture`, href: `team` },
+  //             { element: `Teeth Whitening`, href: `team` },
+  //             { element: `Dental Crown`, href: `team` },
+  //             { element: `DentalImplant`, href: `team` },
+  //             { element: `Tooth Extraction`, href: `team` },
+  //             { element: `Composite Filling`, href: `team` },
+  //             { element: `Scaling & Polishing`, href: `team` },
+  //             { element: `Pendiatric Dentistry`, href: `team` },
+  //             { element: `Veeners`, href: `team` }
+  //           ] 
+},
+{ name: `Blog` },
+{
+  name: `Resources`,
+  dropDown: [{ element: `Our Gallery`, href: `mission` },
+  { element: `Our Insurances`, href: `vision` },
+  { element: `Our Blogs`, href: `team` },
+  { element: `Testimonials`, href: `team` },
+  { element: `Success Stories`, href: `team` }
+  ]
+},
+{ name: `Contact Us` }];
 
 
 
@@ -174,12 +176,12 @@ const NavbarFour = () => {
 
                   <div className="others-option">
                     <div className="subscribe">
-                      <a href={`tel:+97145294421`} className="default-btn">
-                        Call For Appointment
+                      <a href='/appointment' className="default-btn">
+                        Appointment
                       </a>
                     </div>
                   </div>
-                  
+
                 </div>
               </nav>
             </div>

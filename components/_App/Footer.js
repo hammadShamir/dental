@@ -101,10 +101,10 @@ const Footer = () => {
                 <h3>Opening Hours</h3>
                 <ul>
                   <li>
-                    <span>All 7 Days:</span>
+                    <span>Mon-Tue:</span>
                     <span className="right">9:00 AM - 10:00 PM</span>
                   </li>
-                  {/* <li>
+                  <li>
                     <span>Wed-Thu:</span>
                     <span className="right">6:00 AM - 10:00 PM</span>
                   </li>
@@ -115,7 +115,7 @@ const Footer = () => {
                   <li>
                     <span>Sun:</span>
                     <span className="right">Closed</span>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Footer = () => {
                     <a href="tel:+822456974">
                       <i className="bx bx-phone-call"></i>
                       <span>Phone:</span>
-                       +971 4 5294 421
+                      +971 4 5294 421
                     </a>
                   </li>
                   <li>
