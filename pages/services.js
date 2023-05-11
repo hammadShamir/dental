@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../components/_App/Navbar";
+import Navbar from "../components/_App/NavbarFour"
 import PageBanner from "../components/Common/PageBanner";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
@@ -10,13 +10,12 @@ const services = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Services Style Three"
+                pageTitle="Services"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Services Style Three"
                 imgClass="bg-2"
             />
-
 
             <div className="second-facility-area two pt-100 pb-70">
                 <div className="container">
@@ -56,6 +55,8 @@ const services = () => {
                     </div>
                 </div>
             </div>
+
+
 
             <div className="services-area pb-70">
                 <div className="container">

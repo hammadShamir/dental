@@ -55,9 +55,7 @@ const ContactForm = () => {
             <span className="top-title">Contact Us</span>
             <h2>Drop us a message for any query</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              quibusdam deleniti porro praesentium. Aliquam minus quisquam velit
-              in at nam.
+            If you have any questions feel free to quickly contact us
             </p>
           </div>
 
@@ -145,7 +143,7 @@ const ContactForm = () => {
                     <div className="contact-num">
                       <h3>For Emergency</h3>
                       <span>
-                        <a href="tel:+442-456a-789">+442-456a-789</a>
+                        <a href="tel:+442-456a-789">+971-56-114-0462</a>
                       </span>
                     </div>
                   </div>

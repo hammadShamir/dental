@@ -11,26 +11,26 @@ const menuObj = [{
                 },
                 { 
                   name: `About Us`,
-                  dropDown: [ { element: `Our Mission`, href: `mission` },
-                              { element: `Our Vision`, href: `vision` },
-                              { element: `Our Team`, href: `team` }
-                            ] 
+                  // dropDown: [ { element: `Our Mission`, href: `mission` },
+                  //             { element: `Our Vision`, href: `vision` },
+                  //             { element: `Our Team`, href: `team` }
+                  //           ] 
                 },
                 { name: `Services`,
-                dropDown: [ { element: `Root Canal Treatment`, href: `mission` },
-                            { element: `Orthodontic Braces`, href: `vision` },
-                            { element: `Invisible Aligners`, href: `team` },
-                            { element: `Hollywood Smile`, href: `team` },
-                            { element: `Denture`, href: `team` },
-                            { element: `Teeth Whitening`, href: `team` },
-                            { element: `Dental Crown`, href: `team` },
-                            { element: `DentalImplant`, href: `team` },
-                            { element: `Tooth Extraction`, href: `team` },
-                            { element: `Composite Filling`, href: `team` },
-                            { element: `Scaling & Polishing`, href: `team` },
-                            { element: `Pendiatric Dentistry`, href: `team` },
-                            { element: `Veeners`, href: `team` }
-                          ] 
+                // dropDown: [ { element: `Root Canal Treatment`, href: `mission` },
+                //             { element: `Orthodontic Braces`, href: `vision` },
+                //             { element: `Invisible Aligners`, href: `team` },
+                //             { element: `Hollywood Smile`, href: `team` },
+                //             { element: `Denture`, href: `team` },
+                //             { element: `Teeth Whitening`, href: `team` },
+                //             { element: `Dental Crown`, href: `team` },
+                //             { element: `DentalImplant`, href: `team` },
+                //             { element: `Tooth Extraction`, href: `team` },
+                //             { element: `Composite Filling`, href: `team` },
+                //             { element: `Scaling & Polishing`, href: `team` },
+                //             { element: `Pendiatric Dentistry`, href: `team` },
+                //             { element: `Veeners`, href: `team` }
+                //           ] 
                 },
                 { name: `Blog` },
                 { name: `Resources`,

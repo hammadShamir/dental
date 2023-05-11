@@ -11,37 +11,18 @@ const AboutUs = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-content">
-                <span className="top-title">COVID-19 Testing</span>
-                <h2>The clinic will be testing and treating COVID-19 cases </h2>
+                <span style={{ background: `#0CB8B6`, color: `#fff`, borderRadius: `10px`, marginTop: `2rem` }} className="top-title p-2">Our Mission</span>
+                <h2> Make a difference in a patient’s life</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Our Mission is to make a difference in a patient’s life, We deeply care about our patients and everything we do to help them maintain their dental health for a lifetime. We will continue to grow in our professional skills through lifelong education and commitment to being the best.
                 </p>
-
-                <ul>
-                  <li>
-                    <h3>Criteria For testing:</h3>
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Odio magnam recusandae doloribus facere. Distinctio
-                      nesciunt unde facere rerum natus eveniet nam
-                    </p>
-                  </li>
-                  <li>
-                    <h3>High-risk staff testing:</h3>
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Odio magnam recusandae doloribus facere. Distinctio
-                      nesciunt unde facere rerum natus eveniet nam
-                    </p>
-                  </li>
-                </ul>
-
-                <Link href="/about" className="default-btn">
-                  About Us
-                </Link>
+              </div>
+              <div className="about-content">
+                <span style={{ background: `#0CB8B6`, color: `#fff`, borderRadius: `10px`, marginTop: `2rem` }} className="top-title p-2">Our Vision</span>
+                <h2>Change the way you think about Dentistry</h2>
+                <p>
+                  Esthetix Dental Center is committed to changing the way you think about dentistry. It’s our goal to make every visit for every patient comfortable. Our focus is to provide both general dental and specialty dental services in a professional and relaxing environment. Our team of dental experts not only love what they do, but also love the patients they serve.
+                </p>
               </div>
             </div>
 
@@ -56,7 +37,7 @@ const AboutUs = () => {
                   <SwiperSlide>
                     <div className="about-item">
                       <img
-                        src="/img/home-three/home-three-about1.jpg"
+                        src="/img/home-three/vision1.jpg"
                         alt="Image"
                       />
                     </div>
@@ -64,7 +45,7 @@ const AboutUs = () => {
                   <SwiperSlide>
                     <div className="about-item">
                       <img
-                        src="/img/home-three/home-three-about2.jpg"
+                        src="/img/home-three/vision2.jpg"
                         alt="Image"
                       />
                     </div>
