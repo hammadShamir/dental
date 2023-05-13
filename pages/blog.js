@@ -13,21 +13,6 @@ const BlogGrid = () => {
     const [initial, setInitial] = useState(0)
 
 
-    const pagination = [];
-
-    //  6  == no of links per page
-
-    for (let i = 0; i < blogs.length % 6; i++) {
-        pagination.push(
-            <li className={(i == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(i * 6)}>
-                <a className="page-link" >
-                    {i + 1}
-                </a>
-            </li>
-        )
-    }
-
-
 
     return (
         <>
