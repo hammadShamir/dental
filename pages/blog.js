@@ -318,15 +318,16 @@ const BlogGrid = () => {
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                        {(initial >= 6) && (
-                                            <li className="page-item" onClick={() => setInitial(initial-6)}>
-                                                <a className="page-link page-links" href="#">
-                                                    <i className="bx bx-chevrons-left"></i>
-                                                </a>
-                                            </li>
-                                        )}
-
+                                        <li className="page-item"
+                                            onClick={(e) =>
+                                                initial != 0 ? setInitial(initial - 6) : e.preventDefault()
+                                            }>
+                                            <a className="page-link page-links" >
+                                                <i className="bx bx-chevrons-left"></i>
+                                            </a>
+                                        </li>
                                         {[...Array(Math.round(blogs.length / 6) + 1)].map((val, index) => (
+
                                             <li key={index} className={(index == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * 6)}>
                                                 <a className="page-link" >
                                                     {index + 1}
@@ -335,8 +336,8 @@ const BlogGrid = () => {
                                         ))}
                                         {/* todo if blogslength%6 ===  */}
                                         {/* {(initial >= 6) && ()} */}
-                                        <li className="page-item">
-                                            <a className="page-link" href="#">
+                                        <li className="page-item" >
+                                            <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>
                                             </a>
                                         </li>
@@ -346,7 +347,7 @@ const BlogGrid = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
             <Subscribe />
 

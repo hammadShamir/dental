@@ -9,7 +9,8 @@ import { teamInfo } from '../components/information/data'
 const Doctors1 = () => {
 
     const [team, setTeam] = useState(teamInfo);
-
+    const [initial, setInitial] = useState(0);
+    const [final, setFinal] = useState(6);
     return (
         <>
             <Navbar />
@@ -37,7 +38,7 @@ const Doctors1 = () => {
                     <div className="row">
 
                         {
-                            team.slice(0,6).map(member => (
+                            team.slice(initial, final).map(member => (
                                 <div className="col-lg-4 col-sm-6">
                                     <div className="single-doctor">
                                         <img src={`${member.image}`} alt={`${member.name}`} />
@@ -98,9 +99,15 @@ const Doctors1 = () => {
                                             </a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">
+                                            <button
+                                                className="page-link"
+                                                onClick={() => {
+                                                    setInitial(initial + 6)
+                                                    setFinal(final + 6)
+                                                }
+                                                }>
                                                 <i className="bx bx-chevrons-right"></i>
-                                            </a>
+                                            </button>
                                         </li>
                                     </ul>
                                 </nav>
@@ -108,7 +115,7 @@ const Doctors1 = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
             <Subscribe />
 
