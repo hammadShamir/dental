@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const BlogSidebar = () => {
+const BlogSidebar = (props) => {
   return (
     <>
       <div className="widget-area" id="secondary">
@@ -169,12 +169,9 @@ const BlogSidebar = () => {
           <h3 className="widget-title">Tags</h3>
           <div className="post-wrap">
             <div className="tagcloud">
-              <Link href="/blog-grid">Antibiotic (3)</Link>
-              <Link href="/blog-grid">Diseases (3)</Link>
-              <Link href="/blog-grid">Heart (2)</Link>
-              <Link href="/blog-grid">Health (2)</Link>
-              <Link href="/blog-grid">Hospital (1)</Link>
-              <Link href="/blog-grid">Infectious </Link>
+            {props.tags && (
+            props.tags.map(tag => (<Link href='/'>{tag}</Link>))
+            )}
             </div>
           </div>
         </div>
