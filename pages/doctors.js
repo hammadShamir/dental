@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../components/_App/NavbarFour";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
@@ -16,10 +16,10 @@ const Doctors1 = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Doctors Style One"
+                pageTitle="Doctors"
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Doctors Style One"
+                activePageText="Doctors"
                 imgClass="bg-1"
             />
 

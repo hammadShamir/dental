@@ -20,8 +20,8 @@ const menuObj = [{
 },
 {
   name: `Resources`,
-  dropDown: [{ element: `Our Gallery`, href: `mission` },
-  { element: `Our Insurances`, href: `vision` },
+  dropDown: [{ element: `Our Gallery`, href: `gallery` },
+  { element: `Terms & Conditions`, href: `termscondition` },
   { element: `Our Blogs`, href: `blog` },
   { element: `Testimonials`, href: `testimonials` },
   { element: `Success Stories`, href: `team` }

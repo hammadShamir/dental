@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../components/_App/NavbarFour"
+import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
@@ -16,10 +16,10 @@ const BlogGrid = () => {
         <>
             <Navbar />
             <PageBanner
-                pageTitle="Blog Grid"
+                pageTitle="Our Blogs"
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Blog Grid"
+                activePageText="Blog"
                 imgClass="bg-2"
             />
             <div className="blog-area ptb-100">
