@@ -29,8 +29,8 @@ export const teamInfo = [
     facebook: ``,
     linkedin: `https://www.linkedin.com/in/priya-ahuja-172839108`,
     instagram: ``,
-    education: [],
-    experience: [],
+    education: [`Bachelor in Dental Surgery`,`Diploma in Health management and Leadership from Westford university`],
+    experience: [`more than 12 years of experience in the field of dentistry`,`Data Analyst in a well know healthcare company in UAE`],
     speciality: [],
   }, {
     name: `Dr. Naresh Kumar`,
@@ -43,8 +43,8 @@ export const teamInfo = [
     linkedin: `https://www.linkedin.com/in/naresh-kumar-60b81467`,
     instagram: ``,
     education: [],
-    experience: [],
-    speciality: [],
+    experience: [`worked as Senior Quality Officer with a well known organisation in UAE`, `Quality Manager at Esthetix Dental Center`],
+    speciality: [`General Dentist with more than 13 years of experience in the field of dentistry with multiple reputed dental practices in Pakistan and UAE`],
   }, {
     name: `Dr. Manoj Kumar`,
     designation: `MD, General Dentist (Maxillofacial Surgeon)`,
@@ -72,7 +72,10 @@ export const teamInfo = [
     image: `/img/doctors/5.png`,
     facebook: ``,
     linkedin: `https://instagram.com/christina_dubaiorthodontist?igshid=MDM4ZDc5MmU=`,
-    instagram: ``
+    instagram: ``,
+    education: [],
+    experience: [`more than 12 years of experience has been working with children and adults at multiple reputed dental practices in India and UAE`],
+    speciality: [`Orthodontic procedure`, `functional and fixed functional therapies`, `surgical Orthognathic procedures`, `Aesthetic Dentistry`, `Preventive and interceptive orthodontics`]
   }, {
     name: `Dr. Reshma Samir Naik`,
     designation: `Specialist Implantologist  `,
@@ -90,25 +93,16 @@ export const teamInfo = [
     image: `/img/doctors/6.png`,
     facebook: ``,
     linkedin: ``,
-    instagram: ``
+    instagram: ``,
+    education: [`BDS from india`, `PG diploma in Implantology from university of Cambridge`, `Master level full mouth rehabilitation course from Poland`],
+    experience: [`more than 26 years of experience, working as an Implantologist at multiple reputed dental practices in London and Dubai`, `vast experience in the field of teaching to undergraduate students, house officers and Dental nurses`, `UK accredited Licensed Specialist Implantologist`],
+    speciality: [`Dental implants`, `Full mouth rehabilitation`, `bone grafting`, `sinus lift`]
   }, {
     name: `Dr. Vaishali Jindam`,
     designation: `General & Aesthetic Dentist`,
     detail: `Dr vaishali is a General and Aesthetic Dentist with 5+ years of experience.
   
                       She has completed the fellowship in Advanced Aesthetic Dentistry and Soft Tissue Lasers from Greifswald University of Medicine, Germany.
-                      
-                      CLINICAL EXPERTISE IN
-                      . General dentistry
-                      . Endodontics
-                      . Teeth extractions
-                      . Crowns and Bridges
-                      . Partial and Complete Dentures
-                      . Veneers and Smile Designing
-                      . Hollywood Smile
-                      . Tooth colored fillings
-                      . Teeth Whitening
-                      . Soft Tissue Laser Surgeries
                       
                       LANGUAGES
                       . English
@@ -120,25 +114,17 @@ export const teamInfo = [
     image: `/img/doctors/7.png`,
     facebook: ``,
     linkedin: ``,
-    instagram: ``
+    instagram: ``,
+    education: [`fellowship in Advanced Aesthetic Dentistry`, `fellowship in Soft Tissue Lasers from Greifswald University of Medicine, Germany`],
+    experience: [`General and Aesthetic Dentist with 5+ years of experience`],
+    speciality: [`General & Aesthetic Dentististry`, `General dentistry`, `Endodontics`, `Teeth extractions`, `Crowns and Bridges`, `Partial and Complete Dentures`, `Veneers and Smile Designing`, `Hollywood Smile`, `Tooth colored fillings`, `Teeth Whitening`, `Soft Tissue Laser Surgeries`]
   }, {
     name: `Dr. Vishal Shah`,
     designation: `General & Cosmetic Dentist`,
     detail: `Dr. Vishal is a General and Aesthetic Dentist With a rich experience of 9+ years. He has completed his fellowship in Endodontic and Aesthetic Dentistry.
   
                       He is well experienced in surgical, aesthetic and endodontic procedures and has a great understanding of patients.
-                      
-                      CLINICAL EXPERTISE IN
-                      . General Dentistry
-                      . Endodontics
-                      . Teeth Extractions
-                      . Crowns and Bridges
-                      . Partial and Complete Dentures
-                      . Veneers and Smile Designing
-                      . Hollywood Smile
-                      . Teeth Whitening
-                      . Tooth Colored Fillings
-                      
+
                       LANGUAGES
                       . English
                       . Urdu
@@ -147,7 +133,10 @@ export const teamInfo = [
     image: `/img/doctors/8.png`,
     facebook: ``,
     linkedin: ``,
-    instagram: ``
+    instagram: ``,
+    education: [`fellowship in Endodontic and Aesthetic Dentistry`],
+    experience: [`General and Aesthetic Dentist With a rich experience of 9+ years.`],
+    speciality: [`General & Cosmetic Dentistry`, `General Dentistry`, `Endodontics`, `Teeth Extractions`, `Crowns and Bridges`, `Partial and Complete Dentures`, `Veneers and Smile Designing`, `Hollywood Smile`, `Teeth Whitening`, `Tooth Colored Fillings`]
   }, {
     name: `Mr. Vishal Kumar`,
     designation: `HR Executive`,
@@ -157,6 +146,9 @@ export const teamInfo = [
     image: `/img/doctors/9.png`,
     facebook: ``,
     linkedin: `https://www.linkedin.com/in/vishal-rejhra-697238204`,
-    instagram: ``
+    instagram: ``,
+    education: [],
+    experience: [`HR Executive of Esthetix Dental Center`],
+    speciality: []
   }
 ]

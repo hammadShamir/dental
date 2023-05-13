@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useMemo } from "react";
 import DatePicker from "react-datepicker";
 import Navbar from "../../components/_App/NavbarFour"
 import PageBanner from "../../components/Common/PageBanner";
@@ -15,7 +15,7 @@ const DoctorDetails = () => {
   const router = useRouter();
   const { name } = router.query;
 
-  let member = teamInfo.filter(member => member.name.replace(/\s/g, '') === name)[0]
+const member = useMemo(() => teamInfo.filter(member => member.name.replace(/\s/g, '') === name)[0],[name])
 
   return (
     <>
@@ -28,7 +28,8 @@ const DoctorDetails = () => {
         activePageText="Doctors Details"
         imgClass="bg-3"
       />
-
+      {member && (
+        
       <div className="doctors-details-area ptb-100">
         <div className="container">
           <div className="row">
@@ -174,79 +175,80 @@ const DoctorDetails = () => {
                   <p>
                     {member.detail}
                   </p>
-                {member.speciality && (
-                  <div className="row borders">
-                    <div className="col-lg-3 pl-0">
-                      <div className="left-title">
-                        <h3>Specialty</h3>
+                  {member.education.length > 0 && (
+                    <div className="row borders">
+                      <div className="col-lg-3 pl-0">
+                        <div className="left-title">
+                          <h3>Education</h3>
+                        </div>
+                      </div>
+
+                      <div className="col-lg-9">
+                        <div className="right-title">
+                          <ul>
+                            {member.education.map(edu => (
+                              <li>
+                                <i className="bx bxs-hand-right"></i>
+                                {edu}
+                              </li>
+
+                            ))}
+                          </ul>
+                        </div>
                       </div>
                     </div>
-
-                    <div className="col-lg-9">
-                      <div className="right-title">
-                        <ul>
-                          { 
-                          member.speciality.map((speciality) => (
-                            <li>
-                            <i className="bx bxs-hand-right"></i>
-                            {speciality}
-                          </li>
-                          ))
-                        }
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
                   )}
 
-                  {/* <div className="row borders">
-                    <div className="col-lg-3 pl-0">
-                      <div className="left-title">
-                        <h3>Education</h3>
+                  {member.experience.length > 0 && (
+                    <div className="row borders">
+                      <div className="col-lg-3 pl-0">
+                        <div className="left-title">
+                          <h3>Experience</h3>
+                        </div>
+                      </div>
+
+                      <div className="col-lg-9">
+                        <div className="right-title">
+                          <ul>
+
+                            {member.experience.map(exp => (
+                              <li>
+                                <i className="bx bxs-hand-right"></i>
+                                {exp}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {member.speciality.length > 0 && (
+                    <div className="row borders">
+                      <div className="col-lg-3 pl-0">
+                        <div className="left-title">
+                          <h3>Specialty</h3>
+                        </div>
+                      </div>
+
+                      <div className="col-lg-9">
+                        <div className="right-title">
+                          <ul>
+                            {
+                              member.speciality.map((speciality) => (
+                                <li>
+                                  <i className="bx bxs-hand-right"></i>
+                                  {speciality}
+                                </li>
+                              ))
+                            }
+                          </ul>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="col-lg-9">
-                      <div className="right-title">
-                        <ul>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            Endocrinology
-                          </li>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            Doctor of Medicine, University of Texas, USA (1990)
-                          </li>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            Medical Orientation Program, St. Louis University
-                            (St. Louis, Missouri 1996)
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="row borders">
-                    <div className="col-lg-3 pl-0">
-                      <div className="left-title">
-                        <h3>Experience</h3>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-9">
-                      <div className="right-title">
-                        <ul>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            25 years of Experience in Medicine
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
+                  )}
+                  {/*
                   <div className="row borders">
                     <div className="col-lg-3 pl-0">
                       <div className="left-title">
@@ -437,7 +439,7 @@ const DoctorDetails = () => {
           </div>
         </div>
       </div>
-
+)}  
       <Subscribe />
 
       <Footer />
