@@ -70,94 +70,12 @@ const Navbar = () => {
                     <ul className="navbar-nav m-auto">
                       <li className="nav-item">
                         <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                          href="/"
+                          className={`nav-link ${currentPath == "/" && "active"
+                            }`}
                         >
-                          Home <i className="bx bx-plus"></i>
+                          Home
                         </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/"
-                              className={`nav-link ${currentPath == "/" && "active"
-                                }`}
-                            >
-                              Home 1 (Emergency Medical Clinic)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-2/"
-                              className={`nav-link ${currentPath == "/index-2/" && "active"
-                                }`}
-                            >
-                              Home 2 (Covid-19 Treatment Clinic)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-3/"
-                              className={`nav-link ${currentPath == "/index-3/" && "active"
-                                }`}
-                            >
-                              Home 3 (Covid-19 Test Center)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-4/"
-                              className={`nav-link ${currentPath == "/index-4/" && "active"
-                                }`}
-                            >
-                              Home 4 (Vaccination Center/Clinic)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-5/"
-                              className={`nav-link ${currentPath == "/index-5/" && "active"
-                                }`}
-                            >
-                              Home 5 (Doctors Directory Listing)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-6/"
-                              className={`nav-link ${currentPath == "/index-6/" && "active"
-                                }`}
-                            >
-                              Home 6 (Health Charity Event)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-7/"
-                              className={`nav-link ${currentPath == "/index-7/" && "active"
-                                }`}
-                            >
-                              Home 7 (Medical Research)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-8/"
-                              className={`nav-link ${currentPath == "/index-8/" && "active"
-                                }`}
-                            >
-                              Home 8 (Dental Clinic)
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">
@@ -317,159 +235,35 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                          href="/services"
+                          className={`nav-link ${currentPath == "/services/" && "active"
+                            }`}
                         >
-                          Services <i className="bx bx-plus"></i>
+                          Services
                         </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/services-1/"
-                              className={`nav-link ${currentPath == "/services-1/" && "active"
-                                }`}
-                            >
-                              Services Style One
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-2/"
-                              className={`nav-link ${currentPath == "/services-2/" && "active"
-                                }`}
-                            >
-                              Services Style Two
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-3/"
-                              className={`nav-link ${currentPath == "/services-3/" && "active"
-                                }`}
-                            >
-                              Services Style Three
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/service-details/"
-                              className={`nav-link ${currentPath == "/service-details/" && "active"
-                                }`}
-                            >
-                              Service Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">
                         <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                          href="/doctors"
+                          className={`nav-link ${currentPath == "/doctors/" && "active"
+                            }`}
                         >
-                          Doctors <i className="bx bx-plus"></i>
+                          Doctors
                         </Link>
 
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/doctors-1/"
-                              className={`nav-link ${currentPath == "/doctors-1/" && "active"
-                                }`}
-                            >
-                              Doctors Style One
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/doctors-2/"
-                              className={`nav-link ${currentPath == "/doctors-2/" && "active"
-                                }`}
-                            >
-                              Doctors Style Two
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/doctors-3/"
-                              className={`nav-link ${currentPath == "/doctors-3/" && "active"
-                                }`}
-                            >
-                              Doctors Style Three
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/doctor-details/"
-                              className={`nav-link ${currentPath == "/doctor-details/" && "active"
-                                }`}
-                            >
-                              Doctors Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">
                         <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                          href="/blog"
+                          className={`nav-link ${currentPath == "/blog/" && "active"
+                            }`}
                         >
-                          Blog <i className="bx bx-plus"></i>
+                          Blog
                         </Link>
 
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-grid/"
-                              className={`nav-link ${currentPath == "/blog-grid/" && "active"
-                                }`}
-                            >
-                              Blog Grid
-                            </Link>
-                          </li>
 
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-left-sidebar/"
-                              className={`nav-link ${currentPath == "/blog-left-sidebar/" && "active"
-                                }`}
-                            >
-                              Blog Left Sidebar
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-right-sidebar/"
-                              className={`nav-link ${currentPath == "/blog-right-sidebar/" &&
-                                "active"
-                                }`}
-                            >
-                              Blog Right Sidebar
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-details/"
-                              className={`nav-link ${currentPath == "/blog-details/" && "active"
-                                }`}
-                            >
-                              Blog Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">

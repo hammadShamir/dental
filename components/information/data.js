@@ -29,8 +29,8 @@ export const teamInfo = [
     facebook: ``,
     linkedin: `https://www.linkedin.com/in/priya-ahuja-172839108`,
     instagram: ``,
-    education: [`Bachelor in Dental Surgery`,`Diploma in Health management and Leadership from Westford university`],
-    experience: [`more than 12 years of experience in the field of dentistry`,`Data Analyst in a well know healthcare company in UAE`],
+    education: [`Bachelor in Dental Surgery`, `Diploma in Health management and Leadership from Westford university`],
+    experience: [`more than 12 years of experience in the field of dentistry`, `Data Analyst in a well know healthcare company in UAE`],
     speciality: [],
   }, {
     name: `Dr. Naresh Kumar`,

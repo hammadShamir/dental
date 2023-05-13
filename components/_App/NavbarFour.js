@@ -11,27 +11,12 @@ const menuObj = [{
 },
 {
   name: `About Us`,
-  // dropDown: [ { element: `Our Mission`, href: `mission` },
-  //             { element: `Our Vision`, href: `vision` },
-  //             { element: `Our Team`, href: `team` }
-  //           ] 
 },
 {
   name: `Services`,
-  // dropDown: [ { element: `Root Canal Treatment`, href: `mission` },
-  //             { element: `Orthodontic Braces`, href: `vision` },
-  //             { element: `Invisible Aligners`, href: `team` },
-  //             { element: `Hollywood Smile`, href: `team` },
-  //             { element: `Denture`, href: `team` },
-  //             { element: `Teeth Whitening`, href: `team` },
-  //             { element: `Dental Crown`, href: `team` },
-  //             { element: `DentalImplant`, href: `team` },
-  //             { element: `Tooth Extraction`, href: `team` },
-  //             { element: `Composite Filling`, href: `team` },
-  //             { element: `Scaling & Polishing`, href: `team` },
-  //             { element: `Pendiatric Dentistry`, href: `team` },
-  //             { element: `Veeners`, href: `team` }
-  //           ] 
+},
+{
+  name: `Doctors`,
 },
 { name: `Blog` },
 {
@@ -59,19 +44,42 @@ const NavbarFour = () => {
 
   const navbar = menuItems.map(menuLink => {
     return (
-      <li className="nav-item">
-        <Link
-          href={(menuLink[`name`].split(' ')[0].toLowerCase() ===`home`) ?  
-          `/` :  `/${menuLink[`name`].split(' ')[0].toLowerCase()}/`
-          
-          }
-          className={`nav-link ${currentPath == `/${menuLink[`name`].split(' ')[0].toLowerCase()}}/` && "active"
-            }`}
-        >
-          {menuLink.name}
 
-          {menuLink.dropDown && (<i className="bx bx-plus"></i>)}
-        </Link>
+      <li className="nav-item">
+
+        {
+          menuLink.dropDown ? (
+            <Link
+              href=""
+              onClick={
+                (e) => {
+                  e.preventDefault()
+                }
+              }
+              className={`nav-link ${currentPath == `/${menuLink[`name`].split(' ')[0].toLowerCase()}}/` && "active"
+                }`}
+            >
+              {menuLink.name}
+
+              {menuLink.dropDown && (<i className="bx bx-plus"></i>)}
+            </Link>
+          ) : (
+            <Link
+              href={(menuLink[`name`].split(' ')[0].toLowerCase() === `home`) ?
+                `/` : `/${menuLink[`name`].split(' ')[0].toLowerCase()}/`
+
+              }
+              className={`nav-link ${currentPath == `/${menuLink[`name`].split(' ')[0].toLowerCase()}}/` && "active"
+                }`}
+            >
+              {menuLink.name}
+
+              {menuLink.dropDown && (<i className="bx bx-plus"></i>)}
+            </Link>
+          )
+        }
+
+
 
         {menuLink.dropDown &&
           (

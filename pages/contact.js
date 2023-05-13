@@ -19,11 +19,11 @@ const contact = () => {
                 imgClass="bg-2"
             />
 
-<ContactInfo />
+            <ContactInfo />
 
-<ContactForm />
+            <ContactForm />
 
-            <Subscribe /> 
+            <Subscribe />
             <Footer />
         </>
     )

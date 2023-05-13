@@ -35,7 +35,7 @@ const about = () => {
                                 </div>
 
                                 <div className="shape-3">
-                                    <img  src="/img/about/about-shape-3.png" alt="Image" />
+                                    <img src="/img/about/about-shape-3.png" alt="Image" />
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const about = () => {
                                 <span className="top-title">About Us</span>
                                 <h2>Welcome to Esthetix Dental Center</h2>
                                 <p><i className="flaticon-tick"></i>
-                                    <strong> 
+                                    <strong>
                                         Leading Multispecialty Oral Healthcare Clinic in Dubai
                                     </strong> <br />
                                     We, at Esthetix Dental Center, are committed to provide world class dental treatment in a spaciously designed modern clinic where quality and care is given utmost importance. Esthetix Dental Center, Dubai assures its patients a holistic personalized dental experience through its team of internationally trained dental specialists, world class dental equipment and technology and patient centered treatment plans.
