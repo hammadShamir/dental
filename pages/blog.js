@@ -10,7 +10,8 @@ const BlogGrid = () => {
 
     const [blogs, setBlogs] = useState(blogsInfo);
 
-    const [initial, setInitial] = useState(0)
+    const [initial, setInitial] = useState(0);
+    const [cut,setCut] = useState(6);
 
     return (
         <>
@@ -36,7 +37,7 @@ const BlogGrid = () => {
                     <div className="row">
                         {blogs && (
 
-                            blogs.slice(initial, initial + 6).map(blog => (
+                            blogs.slice(initial, initial + cut).map(blog => (
 
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-blog">
@@ -71,27 +72,31 @@ const BlogGrid = () => {
                                     <ul className="pagination">
                                         <li className="page-item"
                                             onClick={(e) =>
-                                                initial != 0 ? setInitial(initial - 6) : e.preventDefault()
+                                                initial != 0 ? setInitial(initial - cut) : e.preventDefault()
                                             }>
                                             <a className="page-link page-links" >
                                                 <i className="bx bx-chevrons-left"></i>
                                             </a>
                                         </li>
-                                        {[...Array(Math.round(blogs.length / 6) + 1)].map((val, index) => (
 
-                                            <li key={index} className={(index == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * 6)}>
+                                        {[...Array(Math.floor(blogs.length / cut)+1 )].map((val, index) => (
+                                            <li key={index} className={(index*cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
                                                 <a className="page-link" >
                                                     {index + 1}
                                                 </a>
                                             </li>
                                         ))}
-                                        {/* todo if blogslength%6 ===  */}
-                                        {/* {(initial >= 6) && ()} */}
-                                        <li className="page-item" >
+                                     
+                                       
+                                        <li className="page-item"
+                                                onClick={
+                                                    (e) => ( (blogs.length - (blogs.length % cut) -1) >= initial ? setInitial(initial + cut) : e.preventDefault() )
+                                                } >
                                             <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>
                                             </a>
                                         </li>
+                                    
                                     </ul>
                                 </nav>
                             </div>
