@@ -20,15 +20,15 @@ const member = useMemo(() => teamInfo.filter(member => member.name.replace(/\s/g
   return (
     <>
       <Navbar />
-
+      {member && (<>
       <PageBanner
-        pageTitle="Doctors Details"
+        pageTitle={member.designation}
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Doctors Details"
+        activePageText={member.name}
         imgClass="bg-3"
       />
-      {member && (
+      
         
       <div className="doctors-details-area ptb-100">
         <div className="container">
@@ -95,7 +95,8 @@ const member = useMemo(() => teamInfo.filter(member => member.name.replace(/\s/g
                   </Link>
                 </div>
 
-                {/* <div className="client-area doctors-feedback">
+                
+                 <div className="client-area doctors-feedback">
                   <div className="client-wrap-two owl-carousel owl-theme">
                     <div className="single-client">
                       <img src="/img/client/client1.jpg" alt="img" />
@@ -162,7 +163,7 @@ const member = useMemo(() => teamInfo.filter(member => member.name.replace(/\s/g
                       <span>Company Founder</span>
                     </div>
                   </div>
-                </div> */}
+                </div> 
               </div>
             </div>
 
@@ -439,6 +440,7 @@ const member = useMemo(() => teamInfo.filter(member => member.name.replace(/\s/g
           </div>
         </div>
       </div>
+      </>
 )}  
       <Subscribe />
 
