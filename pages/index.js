@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarFour from "../components/_App/NavbarFour"
+import Navbar from "../components/_App/NavbarFour"
 import MainBanner from "../components/HomeSeven/MainBanner"
 import Facility from "../components/HomeEight/Facility";
 import AboutUs from "../components/HomeTwo/AboutUs";
@@ -19,7 +19,7 @@ const index = () => {
   return (
     <>
 
-      <NavbarFour />
+      <Navbar />
 
       <MainBanner />
 

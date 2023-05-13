@@ -61,7 +61,10 @@ const NavbarFour = () => {
     return (
       <li className="nav-item">
         <Link
-          href={`/${menuLink[`name`].split(' ')[0].toLowerCase()}/`}
+          href={(menuLink[`name`].split(' ')[0].toLowerCase() ===`home`) ?  
+          `/` :  `/${menuLink[`name`].split(' ')[0].toLowerCase()}/`
+          
+          }
           className={`nav-link ${currentPath == `/${menuLink[`name`].split(' ')[0].toLowerCase()}}/` && "active"
             }`}
         >
