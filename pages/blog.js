@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/_App/NavbarFour"
 import PageBanner from "../components/Common/PageBanner";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
 import Link from "next/link";
+import { blogsInfo } from '../components/information/data';
 
 const BlogGrid = () => {
+
+    const [blogs, setBlogs] = useState(blogsInfo);
+
+    const [initial, setInitial] = useState(0)
+
+
+    const pagination = [];
+
+    //  6  == no of links per page
+
+    for (let i = 0; i < blogs.length % 6; i++) {
+        pagination.push(
+            <li className={(i == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(i * 6)}>
+                <a className="page-link" >
+                    {i + 1}
+                </a>
+            </li>
+        )
+    }
+
+
+
     return (
         <>
             <Navbar />
@@ -31,31 +54,46 @@ const BlogGrid = () => {
                     </div>
 
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog1.jpg" alt="Image" />
-                                </Link>
 
-                                <span>10 May 2020</span>
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Medical</a>
-                                        </li>
-                                    </ul>
+                        {blogs && (
 
-                                    <Link href="/blog-details">
-                                        <h3>250+ Medical Tips We just had to share</h3>
-                                    </Link>
+                            blogs.slice(initial, initial + 6).map(blog => (
 
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="single-blog">
+                                        <Link href={`/blog/${blog.id}`}>
+                                            <img src={blog.mainImg} alt="Image" />
+                                        </Link>
+
+                                        <span>{blog.tags[0]}</span>
+                                        <div className="blog-content">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">{blog.postedBy}</a>
+                                                </li>
+                                                <li>Date: {blog.postedOn}</li>
+                                            </ul>
+
+                                            <Link href="/blog-details">
+                                                <h3>{blog.title}</h3>
+                                            </Link>
+
+                                            <Link href={`/blog/${blog.id}`} className="read-more">
+                                                Read More <i className="bx bx-plus"></i>
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
+
+
+                            ))
+
+
+
+                        )}
+
+                        {/* 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog">
                                 <Link href="/blog-details">
@@ -289,32 +327,29 @@ const BlogGrid = () => {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-lg-12">
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                        <li className="page-item">
-                                            <a className="page-link page-links" href="#">
-                                                <i className="bx bx-chevrons-left"></i>
-                                            </a>
-                                        </li>
-                                        <li className="page-item active">
-                                            <a className="page-link" href="#">
-                                                1
-                                            </a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a className="page-link" href="#">
-                                                2
-                                            </a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a className="page-link" href="#">
-                                                3
-                                            </a>
-                                        </li>
+                                        {(initial >= 6) && (
+                                            <li className="page-item" onClick={() => setInitial(initial-6)}>
+                                                <a className="page-link page-links" href="#">
+                                                    <i className="bx bx-chevrons-left"></i>
+                                                </a>
+                                            </li>
+                                        )}
+
+                                        {[...Array(Math.round(blogs.length / 6) + 1)].map((val, index) => (
+                                            <li key={index} className={(index == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * 6)}>
+                                                <a className="page-link" >
+                                                    {index + 1}
+                                                </a>
+                                            </li>
+                                        ))}
+                                        {/* todo if blogslength%6 ===  */}
+                                        {/* {(initial >= 6) && ()} */}
                                         <li className="page-item">
                                             <a className="page-link" href="#">
                                                 <i className="bx bx-chevrons-right"></i>

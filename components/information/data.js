@@ -339,4 +339,502 @@ export const blogsInfo = [{
       Duis aute irure dolor in reprehenderit in sed quia non
       numquam. consectetur adipisicing elit, sed
   </p>`
+},{
+  id: 2,
+  postedOn: `24/11/20`,
+  postedBy: `Adeel Atta`,
+  category: `Diseases`,
+  mainImg: `/img/blog/blog2.jpg`,
+  title: `What Can I Do Disease`,
+  tags: [`antibiotics`,`Diseases`,`Heart`,`Health`,`Hospital`,`Infection`],
+  content:`
+
+  <p>
+      Quuntur magni dolores eos qui ratione voluptatem sequi
+      nesciunt. Neque porro quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam dolor sit, consectetur
+      qui ratione voluptatem sequi nesciunt.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat labore et dolore magna aliqua
+      consectetur adipisicing elit.
+  </p>
+
+  <blockquote className="flaticon-quote">
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Repellendus aliquid praesentium eveniet illum asperiores,
+          quidem, ipsum voluptatum numquam ducimus nisi
+          exercitationem dolorum facilis Repellendus aliquid
+          praesentium eveniet illum asperiores.
+      </p>
+  </blockquote>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat
+      consectetur adipisicing.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
+      commodo laboris nisi.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>`
+},{
+  id: 2,
+  postedOn: `24/11/20`,
+  postedBy: `Adeel Atta`,
+  category: `Diseases`,
+  mainImg: `/img/blog/blog2.jpg`,
+  title: `What Can I Do Disease`,
+  tags: [`antibiotics`,`Diseases`,`Heart`,`Health`,`Hospital`,`Infection`],
+  content:`
+
+  <p>
+      Quuntur magni dolores eos qui ratione voluptatem sequi
+      nesciunt. Neque porro quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam dolor sit, consectetur
+      qui ratione voluptatem sequi nesciunt.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat labore et dolore magna aliqua
+      consectetur adipisicing elit.
+  </p>
+
+  <blockquote className="flaticon-quote">
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Repellendus aliquid praesentium eveniet illum asperiores,
+          quidem, ipsum voluptatum numquam ducimus nisi
+          exercitationem dolorum facilis Repellendus aliquid
+          praesentium eveniet illum asperiores.
+      </p>
+  </blockquote>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat
+      consectetur adipisicing.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
+      commodo laboris nisi.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>`
+},{
+  id: 2,
+  postedOn: `24/11/20`,
+  postedBy: `Adeel Atta`,
+  category: `Diseases`,
+  mainImg: `/img/blog/blog2.jpg`,
+  title: `What Can I Do Disease`,
+  tags: [`antibiotics`,`Diseases`,`Heart`,`Health`,`Hospital`,`Infection`],
+  content:`
+
+  <p>
+      Quuntur magni dolores eos qui ratione voluptatem sequi
+      nesciunt. Neque porro quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam dolor sit, consectetur
+      qui ratione voluptatem sequi nesciunt.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat labore et dolore magna aliqua
+      consectetur adipisicing elit.
+  </p>
+
+  <blockquote className="flaticon-quote">
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Repellendus aliquid praesentium eveniet illum asperiores,
+          quidem, ipsum voluptatum numquam ducimus nisi
+          exercitationem dolorum facilis Repellendus aliquid
+          praesentium eveniet illum asperiores.
+      </p>
+  </blockquote>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat
+      consectetur adipisicing.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
+      commodo laboris nisi.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>`
+},{
+  id: 2,
+  postedOn: `24/11/20`,
+  postedBy: `Adeel Atta`,
+  category: `Diseases`,
+  mainImg: `/img/blog/blog2.jpg`,
+  title: `What Can I Do Disease`,
+  tags: [`antibiotics`,`Diseases`,`Heart`,`Health`,`Hospital`,`Infection`],
+  content:`
+
+  <p>
+      Quuntur magni dolores eos qui ratione voluptatem sequi
+      nesciunt. Neque porro quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam dolor sit, consectetur
+      qui ratione voluptatem sequi nesciunt.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat labore et dolore magna aliqua
+      consectetur adipisicing elit.
+  </p>
+
+  <blockquote className="flaticon-quote">
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Repellendus aliquid praesentium eveniet illum asperiores,
+          quidem, ipsum voluptatum numquam ducimus nisi
+          exercitationem dolorum facilis Repellendus aliquid
+          praesentium eveniet illum asperiores.
+      </p>
+  </blockquote>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat
+      consectetur adipisicing.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
+      commodo laboris nisi.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>`
+},{
+  id: 2,
+  postedOn: `24/11/20`,
+  postedBy: `Adeel Atta`,
+  category: `Diseases`,
+  mainImg: `/img/blog/blog2.jpg`,
+  title: `What Can I Do Disease`,
+  tags: [`antibiotics`,`Diseases`,`Heart`,`Health`,`Hospital`,`Infection`],
+  content:`
+
+  <p>
+      Quuntur magni dolores eos qui ratione voluptatem sequi
+      nesciunt. Neque porro quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam dolor sit, consectetur
+      qui ratione voluptatem sequi nesciunt.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat labore et dolore magna aliqua
+      consectetur adipisicing elit.
+  </p>
+
+  <blockquote className="flaticon-quote">
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Repellendus aliquid praesentium eveniet illum asperiores,
+          quidem, ipsum voluptatum numquam ducimus nisi
+          exercitationem dolorum facilis Repellendus aliquid
+          praesentium eveniet illum asperiores.
+      </p>
+  </blockquote>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat
+      consectetur adipisicing.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
+      commodo laboris nisi.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>`
+},{
+  id: 2,
+  postedOn: `24/11/20`,
+  postedBy: `Adeel Atta`,
+  category: `Diseases`,
+  mainImg: `/img/blog/blog2.jpg`,
+  title: `What Can I Do Disease`,
+  tags: [`antibiotics`,`Diseases`,`Heart`,`Health`,`Hospital`,`Infection`],
+  content:`
+
+  <p>
+      Quuntur magni dolores eos qui ratione voluptatem sequi
+      nesciunt. Neque porro quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam dolor sit, consectetur
+      qui ratione voluptatem sequi nesciunt.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat labore et dolore magna aliqua
+      consectetur adipisicing elit.
+  </p>
+
+  <blockquote className="flaticon-quote">
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Repellendus aliquid praesentium eveniet illum asperiores,
+          quidem, ipsum voluptatum numquam ducimus nisi
+          exercitationem dolorum facilis Repellendus aliquid
+          praesentium eveniet illum asperiores.
+      </p>
+  </blockquote>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat
+      consectetur adipisicing.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
+      commodo laboris nisi.
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>
+
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in sed quia non
+      numquam. consectetur adipisicing elit, sed
+  </p>`
 }]

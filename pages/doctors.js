@@ -37,7 +37,7 @@ const Doctors1 = () => {
                     <div className="row">
 
                         {
-                            team.map(member => (
+                            team.slice(0,6).map(member => (
                                 <div className="col-lg-4 col-sm-6">
                                     <div className="single-doctor">
                                         <img src={`${member.image}`} alt={`${member.name}`} />
