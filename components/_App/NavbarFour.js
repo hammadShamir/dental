@@ -18,13 +18,12 @@ const menuObj = [{
 {
   name: `Doctors`,
 },
-{ name: `Blog` },
 {
   name: `Resources`,
   dropDown: [{ element: `Our Gallery`, href: `mission` },
   { element: `Our Insurances`, href: `vision` },
-  { element: `Our Blogs`, href: `team` },
-  { element: `Testimonials`, href: `team` },
+  { element: `Our Blogs`, href: `blog` },
+  { element: `Testimonials`, href: `testimonials` },
   { element: `Success Stories`, href: `team` }
   ]
 },
@@ -156,7 +155,8 @@ const NavbarFour = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    logo
+                    <img width='67px' height="47px" src="/img/logo.png" alt="logo" />
+                    Esthetix
                   </Link>
 
                   <button

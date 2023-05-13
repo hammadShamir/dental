@@ -12,12 +12,9 @@ const BlogGrid = () => {
 
     const [initial, setInitial] = useState(0)
 
-
-
     return (
         <>
             <Navbar />
-
             <PageBanner
                 pageTitle="Blog Grid"
                 homePageUrl="/"
@@ -25,7 +22,6 @@ const BlogGrid = () => {
                 activePageText="Blog Grid"
                 imgClass="bg-2"
             />
-
             <div className="blog-area ptb-100">
                 <div className="container">
                     <div className="section-title">
@@ -37,9 +33,7 @@ const BlogGrid = () => {
                             ipsum suspendisse ultrices gravida. Risus
                         </p>
                     </div>
-
                     <div className="row">
-
                         {blogs && (
 
                             blogs.slice(initial, initial + 6).map(blog => (
@@ -69,251 +63,8 @@ const BlogGrid = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
                             ))
-
-
-
                         )}
-
-                        {/* 
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog2.jpg" alt="Image" />
-                                </Link>
-
-                                <span>11 May 2020</span>
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Treatment</a>
-                                        </li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>What Can I Do To Prevent Myself & prevent Disease</h3>
-                                    </Link>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog3.jpg" alt="Image" />
-                                </Link>
-                                <span>13 May 2020</span>
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">COVID-19</a>
-                                        </li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>CCU For Emergency Services & Medical support</h3>
-                                    </Link>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog4.jpg" alt="Image" />
-                                </Link>
-
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Admin</a>
-                                        </li>
-                                        <li>Date: 14/05/2020</li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>The blood sample</h3>
-                                    </Link>
-
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Soluta, iusto. In, impedit ab quidem harum consectetur aut
-                                        elit
-                                    </p>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog5.jpg" alt="Image" />
-                                </Link>
-
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Admin</a>
-                                        </li>
-                                        <li>Date: 15/05/2020</li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>Stethoscope and notepad</h3>
-                                    </Link>
-
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Soluta, iusto. In, impedit ab quidem harum consectetur aut
-                                        elit
-                                    </p>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog6.jpg" alt="Image" />
-                                </Link>
-
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Admin</a>
-                                        </li>
-                                        <li>Date: 16/05/2020</li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>Doctor is scanning</h3>
-                                    </Link>
-
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Soluta, iusto. In, impedit ab quidem harum consectetur aut
-                                        elit
-                                    </p>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog7.jpg" alt="Image" />
-                                </Link>
-
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Admin</a>
-                                        </li>
-                                        <li>Date: 17/05/2020</li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>The ENT specialist</h3>
-                                    </Link>
-
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Soluta, iusto. In, impedit ab quidem harum consectetur aut
-                                        elit
-                                    </p>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog8.jpg" alt="Image" />
-                                </Link>
-
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Admin</a>
-                                        </li>
-                                        <li>Date: 18/05/2020</li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>Monitoring the pulse</h3>
-                                    </Link>
-
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Soluta, iusto. In, impedit ab quidem harum consectetur aut
-                                        elit
-                                    </p>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog">
-                                <Link href="/blog-details">
-                                    <img src="/img/blog/blog9.jpg" alt="Image" />
-                                </Link>
-
-                                <div className="blog-content">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Admin</a>
-                                        </li>
-                                        <li>Date: 19/05/2020</li>
-                                    </ul>
-
-                                    <Link href="/blog-details">
-                                        <h3>Admission wristband</h3>
-                                    </Link>
-
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Soluta, iusto. In, impedit ab quidem harum consectetur aut
-                                        elit
-                                    </p>
-
-                                    <Link href="/blog-details" className="read-more">
-                                        Read More <i className="bx bx-plus"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div> */}
-
                         <div className="col-lg-12">
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">

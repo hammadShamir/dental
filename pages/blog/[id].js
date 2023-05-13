@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useEffect, useState } from "react";
-import Navbar from "../../components/_App/Navbar"
+import Navbar from "../../components/_App/NavbarFour"
 import PageBanner from "../../components/Common/PageBanner";
 import Subscribe from "../../components/Common/Subscribe";
 import Footer from "../../components/_App/Footer";
@@ -106,12 +106,12 @@ const BlogGrid = () => {
                                             </div>
 
                                             <div className="nav-next">
-                                            {blogsInfo[blog.id] && (
-                                                <a href="#">
-                                                    <Link href={`/blog/${blog.id + 1}`}>
-                                                        Next Post <i className="bx bx-right-arrow-alt"></i>
-                                                    </Link>
-                                                </a>
+                                                {blogsInfo[blog.id] && (
+                                                    <a href="#">
+                                                        <Link href={`/blog/${blog.id + 1}`}>
+                                                            Next Post <i className="bx bx-right-arrow-alt"></i>
+                                                        </Link>
+                                                    </a>
                                                 )}
                                             </div>
                                         </div>
