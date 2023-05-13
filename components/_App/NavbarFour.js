@@ -21,10 +21,10 @@ const menuObj = [{
 {
   name: `Resources`,
   dropDown: [{ element: `Our Gallery`, href: `gallery` },
-  { element: `Terms & Conditions`, href: `termscondition` },
   { element: `Our Blogs`, href: `blog` },
   { element: `Testimonials`, href: `testimonials` },
-  { element: `Success Stories`, href: `team` }
+  { element: `Success Stories`, href: `team` },
+  { element: `Terms & Conditions`, href: `termscondition` },
   ]
 },
 { name: `Contact Us` }];

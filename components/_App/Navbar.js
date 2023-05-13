@@ -158,6 +158,15 @@ const Navbar = () => {
                               Terms & Conditions
                             </Link>
                           </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/stories/"
+                              className={`nav-link ${currentPath == "/stories/" && "active"
+                                }`}
+                            >
+                              Success Stories
+                            </Link>
+                          </li>
                         </ul>
                       </li>
 
