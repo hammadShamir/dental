@@ -820,3 +820,67 @@ export const blogsInfo = [{
       numquam. consectetur adipisicing elit, sed
   </p>`
 }]
+
+
+export const serviceInfo = [
+    {
+        id: 1,
+        name: `Root Canal`,
+        desc: `Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth's root`
+    },
+    {
+        id: 2,
+        name: `Orthodontic Treatment`,
+        desc: `Orthodontic treatment is a way of straightening or moving teeth to improve the appearance of the teeth and how they work.`
+    },
+    {
+        id: 3,
+        name: `Pediatric Dentistry`,
+        desc: `We specialize in pediatric dentistry using state-of-the-art techniques...`
+    },
+    {
+        id: 4,
+        name: `Tooth Extraction`,
+        desc: `Tooth Extraction is mostly done to remove the tooth that is either damaged, decayed, worn out, or crowded.`
+    },
+    {
+        id: 5,
+        name: `Composite Filling`,
+        desc: `A composite filling is a quick and pain-free process of restoring teeth to their original shape and function.`
+    },
+    {
+        id: 6,
+        name: `Scaling & Polishing`,
+        desc: `Scaling & Polishing can remove built-up plaque & tartar on the teeth to ensure a healthy smile on your face.`
+    },
+    {
+        id: 7,
+        name: `Dental Implants`,
+        desc: `If you have missing or broken teeth, you have come to the right place. We proudly offer a wide range of dental implants services.`
+    },
+    {
+        id: 8,
+        name: `Dental Crowns`,
+        desc: `Dental crowns are used to restore function and aesthetics to the mouth. They can be used to replace missing teeth, protect weak or damaged teeth, and improve the appearance of teeth that are discolored or poorly shaped.`
+    },
+    {
+        id: 9,
+        name: `Denture`,
+        desc: `Dentures are artificial teeth and gums that are formed to replace lost or removed natural teeth. They are a cost effective way of improving facial shape and chewing efficiency, giving you a healthy new smile.`
+    },
+    {
+        id: 10,
+        name: `Invisible Aligners`,
+        desc: `Invisible Aligners are great for patients who had braces when they were younger and just need a “touch up,” as well as for patients who have mild to moderate dental problems like misaligned teeth...`
+    },
+    {
+        id: 11,
+        name: `Teeth Whitening`,
+        desc: `If stained and discolored teeth are standing between you and a brilliant, sparkling smile, teeth whitening might be just the thing to give you the smile you’ve always wanted.`
+    },
+    {
+        id: 12,
+        name: `Hollywood Smile`,
+        desc: `It simply refers to the procedure that involves improvement in the appearance of the smile. It includes many Cosmetic makeover processes ranging from teeth straightening to dental...`
+    },
+]
