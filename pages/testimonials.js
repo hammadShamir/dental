@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
+import { testimonials } from "../components/information/data"
 
 const Testimonials = () => {
+
+    const [testimonial, setTestimonial] = useState(testimonials)
+
+    const [initial, setInitial] = useState(0)
+    const [cut, setCut] = useState(3);
+
+
     return (
         <>
             <Navbar />
@@ -30,242 +38,67 @@ const Testimonials = () => {
                     </div>
 
                     <div className="row">
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-client mr-0 ml-0">
-                                <img src="/img/client/client1.jpg" alt="img" />
 
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem Ipsum is simply dummy text of the printing and Quis
-                                    suspendisse typesetting ipsum dolor sit amet, consectetur
-                                    ipsum dolor sit amet, consectetur suspendisse
-                                </p>
 
-                                <ul>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                </ul>
+                        {testimonial.slice(initial, initial + cut).map(client => (
 
-                                <h3>Steven Jony</h3>
-                                <span>CEO of Company</span>
+                            <div className="col-lg-6 col-md-6">
+                                <div className="single-client mr-0 ml-0">
+                                    <img src={client.img} alt="img" />
+
+                                    <p>
+                                        {client.message}
+                                    </p>
+
+                                    <ul>
+                                        {[...Array(client.rating)].map(index => (
+
+                                            <li>
+                                                <i className="bx bxs-star"></i>
+                                            </li>
+
+
+                                        ))}
+                                    </ul>
+
+                                    <h3>{client.name}</h3>
+                                    <span>{client.designation}</span>
+                                </div>
                             </div>
-                        </div>
+                        ))}
 
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-client mr-0 ml-0">
-                                <img src="/img/client/client2.jpg" alt="img" />
 
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem Ipsum is simply dummy text of the printing and Quis
-                                    suspendisse typesetting ipsum dolor sit amet, consectetur
-                                    ipsum dolor sit amet, consectetur suspendisse
-                                </p>
 
-                                <ul>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                </ul>
 
-                                <h3>Omit Jacson</h3>
-                                <span>Company Founder</span>
-                            </div>
-                        </div>
 
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-client mr-0 ml-0">
-                                <img src="/img/client/client3.jpg" alt="img" />
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem Ipsum is simply dummy text of the printing and Quis
-                                    suspendisse typesetting ipsum dolor sit amet, consectetur
-                                    ipsum dolor sit amet, consectetur suspendisse
-                                </p>
-
-                                <ul>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                </ul>
-
-                                <h3>Kilva Dew</h3>
-                                <span>Marketing Manager</span>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-client mr-0 ml-0">
-                                <img src="/img/client/client4.jpg" alt="img" />
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem Ipsum is simply dummy text of the printing and Quis
-                                    suspendisse typesetting ipsum dolor sit amet, consectetur
-                                    ipsum dolor sit amet, consectetur suspendisse
-                                </p>
-
-                                <ul>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                </ul>
-
-                                <h3>Juhon Kilva</h3>
-                                <span>Company CEO</span>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-client mr-0 ml-0">
-                                <img src="/img/client/client5.jpg" alt="img" />
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem Ipsum is simply dummy text of the printing and Quis
-                                    suspendisse typesetting ipsum dolor sit amet, consectetur
-                                    ipsum dolor sit amet, consectetur suspendisse
-                                </p>
-
-                                <ul>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                </ul>
-
-                                <h3>Anna Keatch</h3>
-                                <span>Medical Founder</span>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-client mr-0 ml-0">
-                                <img src="/img/client/client6.jpg" alt="img" />
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem Ipsum is simply dummy text of the printing and Quis
-                                    suspendisse typesetting ipsum dolor sit amet, consectetur
-                                    ipsum dolor sit amet, consectetur suspendisse
-                                </p>
-
-                                <ul>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                    <li>
-                                        <i className="bx bxs-star"></i>
-                                    </li>
-                                </ul>
-
-                                <h3>Lezkit Smith</h3>
-                                <span>Medical Manager</span>
-                            </div>
-                        </div>
 
                         <div className="col-lg-12">
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                        <li className="page-item">
-                                            <a className="page-link page-links" href="#">
+                                    <li className="page-item"
+                                            onClick={(e) =>
+                                                initial != 0 ? setInitial(initial - cut) : e.preventDefault()
+                                            }>
+                                            <a className="page-link page-links" >
                                                 <i className="bx bx-chevrons-left"></i>
                                             </a>
                                         </li>
-                                        <li className="page-item active">
-                                            <a className="page-link" href="#">
-                                                1
-                                            </a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a className="page-link" href="#">
-                                                2
-                                            </a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a className="page-link" href="#">
-                                                3
-                                            </a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a className="page-link" href="#">
+                                        {[...Array(Math.floor(testimonial.length / cut) + 1)].map((val, index) => (
+
+                                            <li className="page-item active">
+                                                <a className="page-link" href="#">
+                                                    {index + 1}
+                                                </a>
+                                            </li>
+
+                                        ))}
+
+                                        <li className="page-item"
+                                            onClick={
+                                                (e) => ((testimonial.length - (testimonial.length % cut) - 1) >= initial ? setInitial(initial + cut) : e.preventDefault())
+                                            } >
+                                            <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>
                                             </a>
                                         </li>
@@ -273,6 +106,7 @@ const Testimonials = () => {
                                 </nav>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
