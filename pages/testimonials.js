@@ -10,7 +10,7 @@ const Testimonials = () => {
     const [testimonial, setTestimonial] = useState(testimonials)
 
     const [initial, setInitial] = useState(0)
-    const [cut, setCut] = useState(3);
+    const [cut, setCut] = useState(4);
 
 
     return (
@@ -84,14 +84,12 @@ const Testimonials = () => {
                                                 <i className="bx bx-chevrons-left"></i>
                                             </a>
                                         </li>
-                                        {[...Array(Math.floor(testimonial.length / cut) + 1)].map((val, index) => (
-
-                                            <li className="page-item active">
-                                                <a className="page-link" href="#">
+                                        {[...Array(Math.ceil(testimonial.length / cut))].map((val, index) => (
+                                            <li key={index} className={(index*cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
+                                                <a className="page-link" >
                                                     {index + 1}
                                                 </a>
                                             </li>
-
                                         ))}
 
                                         <li className="page-item"

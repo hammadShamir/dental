@@ -899,4 +899,125 @@ export const testimonials = [{
     suspendisse typesetting ipsum dolor sit amet, consectetur
     ipsum dolor sit amet, consectetur suspendisse`,
 
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
+},{
+    name:`Steven Jony`,
+    designation:`CEO of Company`,
+    rating:4,
+    img: `/img/client/client1.jpg`,
+    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+
 }]
