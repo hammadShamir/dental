@@ -11,7 +11,7 @@ const BlogGrid = () => {
     const [blogs, setBlogs] = useState(blogsInfo);
 
     const [initial, setInitial] = useState(0);
-    const [cut,setCut] = useState(6);
+    const [cut, setCut] = useState(6);
 
     return (
         <>
@@ -79,24 +79,24 @@ const BlogGrid = () => {
                                             </a>
                                         </li>
 
-                                        {[...Array(Math.floor(blogs.length / cut)+1 )].map((val, index) => (
-                                            <li key={index} className={(index*cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
+                                        {[...Array(Math.floor(blogs.length / cut) + 1)].map((val, index) => (
+                                            <li key={index} className={(index * cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
                                                 <a className="page-link" >
                                                     {index + 1}
                                                 </a>
                                             </li>
                                         ))}
-                                     
-                                       
+
+
                                         <li className="page-item"
-                                                onClick={
-                                                    (e) => ( (blogs.length - (blogs.length % cut) -1) >= initial ? setInitial(initial + cut) : e.preventDefault() )
-                                                } >
+                                            onClick={
+                                                (e) => ((blogs.length - (blogs.length % cut) - 1) >= initial ? setInitial(initial + cut) : e.preventDefault())
+                                            } >
                                             <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>
                                             </a>
                                         </li>
-                                    
+
                                     </ul>
                                 </nav>
                             </div>
