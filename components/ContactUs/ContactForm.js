@@ -30,7 +30,7 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
-    // console.log(contact)
+    // console.log(contact)x
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -55,7 +55,7 @@ const ContactForm = () => {
             <span className="top-title">Contact Us</span>
             <h2>Drop us a message for any query</h2>
             <p>
-            If you have any questions feel free to quickly contact us
+              If you have any questions feel free to quickly contact us
             </p>
           </div>
 
