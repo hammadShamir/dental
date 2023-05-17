@@ -19,47 +19,31 @@ const AboutUs = () => {
 
             <div className="col-lg-6">
               <div className="about-content">
-                <span className="top-title">About Corona</span>
-                <h2>How COV-19 Spreads</h2>
+                <span className="top-title">Welcome to Esthetix Dental Center</span>
+                <h2>About Us</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Esthetix Dental Center is a leading multispecialty oral healthcare clinic in Dubai. <br />We, at Esthetix Dental Center, are committed to provide world class dental treatment in a spaciously designed modern clinic where quality and care is given utmost importance. Esthetix Dental Center, Dubai assures its patients a holistic personalized dental experience through its team of internationally trained dental specialists, world class dental equipment and technology and patient centered treatment plans.
                 </p>
                 <strong>
-                  The best way to prevent illness is to avoid being exposed to
-                  this virus.
+                  Providing comprehensive dental services with a focus on quality, affordability, and the latest technology.
                 </strong>
 
                 <ul>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Clean and disinfect frequently touched surfaces
+                    Our Doctors are providing high quality care as not only a professional responsibility but also as their passion.
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Avoid touching your eyes, nose, and mouth
+                    Come and benefit from our free dental check-up and talk to our highly specialized Dentists. Open to all.
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Clean your hands with a hand sanitizer
+                    We professional, affordable, and the best dental care in town. Providing a comprehensive range of dental services in Dubai.
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Cover coughs and sneezes
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Stay home if you’re sick
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Wear a facemask if sick
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Cover your mouth and nose
+                    We use latest technology & employ some of the UAE's best, internationally accredited dentists to provide you with a range of dental treatments.
                   </li>
                 </ul>
 

@@ -47,7 +47,7 @@ const FunFactStyleThree = () => {
                 <i className="flaticon-experience"></i>
 
                 <h2>
-                  54 <span className="traget">+</span>
+                  1 <span className="traget">+</span>
                 </h2>
 
                 <p>Experiences</p>

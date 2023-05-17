@@ -63,7 +63,7 @@ const services = () => {
                 <div className="container">
                     <div className="section-title">
                         <span className="top-title">Our Services</span>
-                        <h2>Our Healthcare Service</h2>
+                        <h2>Our Dental Service</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
                             vel consequatur tempora atque blanditiis exercitationem incidunt,

@@ -20,24 +20,22 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-Eight/home-Eight-banner1.jpg)`,
+                backgroundImage: `url(/img/home-Eight/home-Eight-banner2.jpg)`,
               }}
             >
               <div className="d-table">
-                <div className="d-table-cell">
+                <div className="">
                   <div className="container">
-                    <div className="slider-text one">
-                      <h3 className="top-title">Regain Your Confidence</h3>
-                      <h1>
-                        Dazzling Smile that brightens your Life
-                      </h1>
+                    <div className="slider-text two">
+                      <span className="top-title">Welcome to Exthetix Dental Center</span>
+                      <h1>Perfect Smile, Perfect You</h1>
                       <p>
-                        We are committed to provide world class dental treatment in a spaciously designed modern clinic where quality and care is given utmost importance
+                        We are committed to provide world class dental treatment in a spaciously  designed modern clinic where quality and care is given utmost importance
                       </p>
 
                       <div className="slider-btn">
-                        <Link href="/appointment" className="default-btn">
-                          Book An Appointment
+                        <Link href="/about" className="default-btn">
+                          Know More
                         </Link>
                       </div>
                     </div>
@@ -51,22 +49,24 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-Eight/home-Eight-banner2.jpg)`,
+                backgroundImage: `url(/img/home-Eight/home-Eight-banner1.jpg)`,
               }}
             >
               <div className="d-table">
-                <div className="d-table-cell">
+                <div className="">
                   <div className="container">
-                    <div className="slider-text two">
-                      <span className="top-title">Welcome to Exthetix Dental Center</span>
-                      <h1>We Ensure Safe Diagnoses And Effective Therapies</h1>
+                    <div className="slider-text one">
+                      <h3 className="top-title">World Class Dental Treatments</h3>
+                      <h1>
+                        Quality & Affortable
+                      </h1>
                       <p>
-                        Perfect Smile & Perfect You
+                        Excellence in Cosmetic, Reconstructive,  Implant and General Dentistry.
                       </p>
 
                       <div className="slider-btn">
-                        <Link href="/appointment" className="default-btn">
-                          Book An Appointment
+                        <Link href="/services" className="default-btn">
+                          Our Services
                         </Link>
                       </div>
                     </div>
@@ -75,6 +75,39 @@ const MainBanner = () => {
               </div>
             </div>
           </SwiperSlide>
+
+
+          <SwiperSlide>
+            <div
+              className="slider-item"
+              style={{
+                backgroundImage: `url(/img/home-Eight/home-Eight-banner1.jpg)`,
+              }}
+            >
+              <div className="d-table">
+                <div className="">
+                  <div className="container">
+                    <div className="slider-text one">
+                      <h3 className="top-title">Regain Your Confidence</h3>
+                      <h1>
+                        Dazzling smile that brightens your life.
+                      </h1>
+                      <p>
+                        Our professional friendly staff is knowledgeable in all areas of dentistry to give you the best possible results that last.
+                      </p>
+
+                      <div className="slider-btn">
+                        <Link href="/doctors" className="default-btn">
+                          Our Team
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
         </Swiper>
       </div>
     </>

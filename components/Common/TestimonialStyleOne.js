@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
-
+import { testimonials } from "../information/data"
 const TestimonialStyleOne = () => {
   return (
     <>
@@ -38,105 +38,32 @@ const TestimonialStyleOne = () => {
             modules={[Pagination, Autoplay]}
             className="client-slide"
           >
-            <SwiperSlide>
-              <div className="single-client">
-                <img src="/img/client/client1.jpg" alt="img" />
+            {
+              testimonials && testimonials.map((item) => {
+                return (
+                  <SwiperSlide>
+                    <div className="single-client">
+                      <img src={item.img} alt="img" />
 
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem Ipsum is simply dummy text of the printing and Quis
-                  suspendisse typesetting ipsum dolor sit amet, consectetur
-                </p>
+                      <p>
+                        {item.message}
+                      </p>
 
-                <ul>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                </ul>
+                      <ul>
+                        {[...Array(item.rating)].map((_, index) => (
+                          <li key={index}>
+                            <i className="bx bxs-star"></i>
+                          </li>
+                        ))}
+                      </ul>
 
-                <h3>Steven Jony</h3>
-                <span>CEO of Company</span>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-client">
-                <img src="/img/client/client2.jpg" alt="img" />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem Ipsum is simply dummy text of the printing and Quis
-                  suspendisse typesetting ipsum dolor sit amet, consectetur
-                </p>
-
-                <ul>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                </ul>
-
-                <h3>Omit Jacson</h3>
-                <span>Supervisor</span>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-client">
-                <img src="/img/client/client3.jpg" alt="img" />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem Ipsum is simply dummy text of the printing and Quis
-                  suspendisse typesetting ipsum dolor sit amet, consectetur
-                </p>
-
-                <ul>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i className="bx bxs-star"></i>
-                  </li>
-                </ul>
-
-                <h3>Johnson</h3>
-                <span>Team Leader</span>
-              </div>
-            </SwiperSlide>
+                      <h3>{item.name}</h3>
+                      <span>{item.designation}</span>
+                    </div>
+                  </SwiperSlide>
+                )
+              })
+            }
           </Swiper>
         </div>
       </div>

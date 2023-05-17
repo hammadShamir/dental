@@ -888,15 +888,135 @@ export const serviceInfo = [
 
 
 
-export const testimonials = [{
-    name:`Steven Jony`,
-    designation:`CEO of Company`,
-    rating:4,
-    img: `/img/client/client1.jpg`,
-    message:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+export const testimonials = [
+    {
+        name: `Ankit Saraswat`,
+        designation: `CEO of Company`,
+        rating: 5,
+        img: `/img/client/client1.jpg`,
+        message: `
+        Esthetix Dental Center, A professional, gentle, friendly, and affordable dentist in Dubai. Like many, I’ve had some horrific experiences with dentists, leaving me petrified to sit in the chair, let alone undergo any treatment, Dr. Vishal has spent enough time with me ensuring I’m comfortable, explaining the treatments and being able to perform without having a panic attack, and completely pain-free and there is simply no one else I would go to. I cannot recommend him enough. There is no need to fear the dentist anymore!
+    `,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Lorem Ipsum is simply dummy text of the printing and Quis
     suspendisse typesetting ipsum dolor sit amet, consectetur
     ipsum dolor sit amet, consectetur suspendisse`,
-
-}]
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+    {
+        name: `Steven Jony12`,
+        designation: `CEO of Company`,
+        rating: 4,
+        img: `/img/client/client1.jpg`,
+        message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem Ipsum is simply dummy text of the printing and Quis
+    suspendisse typesetting ipsum dolor sit amet, consectetur
+    ipsum dolor sit amet, consectetur suspendisse`,
+    },
+]
