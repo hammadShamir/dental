@@ -87,7 +87,7 @@ const Doctors1 = () => {
                                                 <i className="bx bx-chevrons-left"></i>
                                             </a>
                                         </li>
-                                        {[...Array(Math.floor(team.length / cut) + 1)].map((val, index) => (
+                                        {[...Array(Math.ceil(team.length / cut))].map((val, index) => (
                                             <li key={index} className={(index*cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
                                                 <a className="page-link" >
                                                     {index + 1}
@@ -97,7 +97,7 @@ const Doctors1 = () => {
                                         
                                         <li className="page-item"
                                                 onClick={
-                                                    (e) => ( (team.length - (team.length % cut) -1) >= initial ? setInitial(initial + cut) : e.preventDefault() )
+                                                    (e) => ( (team.length - initial) > cut ? setInitial(initial + cut) : e.preventDefault() )
                                                 } >
                                             <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>

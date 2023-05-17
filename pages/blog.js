@@ -79,7 +79,7 @@ const BlogGrid = () => {
                                             </a>
                                         </li>
 
-                                        {[...Array(Math.floor(blogs.length / cut) + 1)].map((val, index) => (
+                                        {[...Array(Math.ceil(blogs.length / cut))].map((val, index) => (
                                             <li key={index} className={(index * cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
                                                 <a className="page-link" >
                                                     {index + 1}
@@ -90,7 +90,7 @@ const BlogGrid = () => {
 
                                         <li className="page-item"
                                             onClick={
-                                                (e) => ((blogs.length - (blogs.length % cut) - 1) >= initial ? setInitial(initial + cut) : e.preventDefault())
+                                                (e) => ((blogs.length - initial) > cut ? setInitial(initial + cut) : e.preventDefault())
                                             } >
                                             <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>

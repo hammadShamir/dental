@@ -10,9 +10,7 @@ const Testimonials = () => {
     const [testimonial, setTestimonial] = useState(testimonials)
 
     const [initial, setInitial] = useState(0)
-    const [cut, setCut] = useState(4);
-
-
+    const [cut, setCut] = useState(6);
     return (
         <>
             <Navbar />
@@ -76,7 +74,7 @@ const Testimonials = () => {
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                    <li className="page-item"
+                                        <li className="page-item"
                                             onClick={(e) =>
                                                 initial != 0 ? setInitial(initial - cut) : e.preventDefault()
                                             }>
@@ -85,7 +83,7 @@ const Testimonials = () => {
                                             </a>
                                         </li>
                                         {[...Array(Math.ceil(testimonial.length / cut))].map((val, index) => (
-                                            <li key={index} className={(index*cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
+                                            <li key={index} className={(index * cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
                                                 <a className="page-link" >
                                                     {index + 1}
                                                 </a>
@@ -94,7 +92,7 @@ const Testimonials = () => {
 
                                         <li className="page-item"
                                             onClick={
-                                                (e) => ((testimonial.length - (testimonial.length % cut) - 1) >= initial ? setInitial(initial + cut) : e.preventDefault())
+                                                (e) => ((team.length - initial) > cut ? setInitial(initial + cut) : e.preventDefault())
                                             } >
                                             <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>
