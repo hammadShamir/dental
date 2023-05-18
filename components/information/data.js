@@ -1164,7 +1164,7 @@ export const testimonials = [
         name: `Sweta Patil`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/fdummy.jpg`,
         message: `d
         Had a very pleasant experience. Dr.Vaishali  provided an excellent experience. After having had a previous experience that was not ideal, I was reluctant to find a new dentist that I could trust. Dr. Vaishali took the time to explain the details of what my treatment plan was and the “why behind the what”.I highly recommend this place they have a great bedside manner.Great job!!
     `
@@ -1172,7 +1172,7 @@ export const testimonials = [
         name: `Khalid Iqbal`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/dummy.jpg`,
         message: ` 
         I've visited a lot of clinics in the UAE, and this is one of the best for a variety of reasons, in my opinion. These include attentive patient care, qualified medical professionals, accessibility and the facility's cleanliness and orderliness.
         I received two implants from Dr. Reshma, and she is my heroine. She simplified the process and gave thorough explanations of each step. I appreciate her concern and guidance. She has my highest recommendation.
@@ -1181,7 +1181,7 @@ export const testimonials = [
         name: `Ayesha Akram`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/fdummy.jpg`,
         message: `
         Very nice, hygienic clinic with highly skilled and competent drs. Drs and staff deal you professionally and with a lot of compassion especially Dr Manoj Kumar. Highly recommended.
     `
@@ -1189,7 +1189,7 @@ export const testimonials = [
         name: `Farha ukc`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/fdummy.jpg`,
         message: `
         Had a great experience.
         My complaint was treated and given good treatment and advice for me to maintain my teeth healthy. I would really recommend Dr. Christina for Ortho treatments. As I''m a very happy patient who is seeing good results.
@@ -1198,7 +1198,7 @@ export const testimonials = [
         name: `Ankit Saraswat`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/dummy.jpg`,
         message: `
         Esthetix Dental Center, A professional, gentle, friendly, and affordable dentist in Dubai. Like many, I’ve had some horrific experiences with dentists, leaving me petrified to sit in the chair, let alone undergo any treatment, Dr. Vishal has spent enough time with me ensuring I’m comfortable, explaining the treatments and being able to perform without having a panic attack, and completely pain-free and there is simply no one else I would go to. I cannot recommend him enough. There is no need to fear the dentist anymore!                          
     `
@@ -1206,7 +1206,7 @@ export const testimonials = [
         name: `Hitesh Jain`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/dummy.jpg`,
         message: `
         Had a great experience with Dr. Vishal at Esthetix Clinic. A young enthusiastic doctor who is excellent with his work. The consultation and the procedure was very comfortable and smooth. My teeth and smile have not felt so good as now. Earlier a doctor and now a friend. Thanks Vishal.                          
     `
@@ -1214,7 +1214,7 @@ export const testimonials = [
         name: `Malik Abdullah Zahoor`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/dummy.jpg`,
         message: `
         A really very nice clinic with great doctors, prices are affordable for everyone, consultation is absolutly free (which is a geart thing) service, hygine and behavior, it's really a VIP clinic.
         Thank you so much
@@ -1223,7 +1223,7 @@ export const testimonials = [
         name: `Michael Cobin`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/dummy.jpg`,
         message: `
         Superb service from Dr. Manoj. Got my cleaning and polishing here and definitely recommending this clinic. He’s even giving advice for proper teeth care which you normally don’t get from other clinics.                          
     `
@@ -1231,7 +1231,7 @@ export const testimonials = [
         name: `fashionMonk Fmonk`,
         designation: ``,
         rating: 5,
-        img: `/img/client/client1.jpg`,
+        img: `/img/client/dummy.jpg`,
         message: `
         I recently visited Esthetix Dental Center for a routine check-up and was blown away by the level of care and professionalism exhibited by the staff. From the moment I walked in the door, I felt welcomed and at ease. The dentist who treated me was extremely knowledgeable and took the time to answer all of my questions. I would highly recommend Esthetix Dental Center to anyone in need of dental care in Dubai.                                          
     `

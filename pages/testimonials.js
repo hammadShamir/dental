@@ -10,7 +10,7 @@ const Testimonials = () => {
     const [testimonial, setTestimonial] = useState(testimonials)
 
     const [initial, setInitial] = useState(0)
-    const [cut, setCut] = useState(2);
+    const [cut, setCut] = useState(4);
     return (
         <>
             <Navbar />
@@ -42,7 +42,7 @@ const Testimonials = () => {
 
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-client mr-0 ml-0">
-                                    <img src={client.img} alt={client.name} />
+                                    <img width="60px" height="60px" src={client.img} alt={client.name} />
 
                                     <p>
                                         {client.message}
