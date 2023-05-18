@@ -826,62 +826,333 @@ export const serviceInfo = [
     {
         id: 1,
         name: `Root Canal`,
-        desc: `Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth's root`
+        title: `Root Canal Treatment`,
+        desc: `Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth's root`,
+        img: [
+            {
+                url: 'rootcanal-before.jpeg'
+            },
+            {
+                url: 'rootcanal-after.jpeg'
+            },
+        ],
+        content: `
+        <p> Root Canal Treatment is a dental procedure that aims to remove contaminated material from the tooth. What’s more, it can help prevent the tooth from becoming infected in the future. It is often the last solution before an extraction.</p>
+       
+        <p> Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth's root.</p>
+       
+        <p>Root canal treatment is not painful and can save a tooth that might otherwise have to be removed completely.</p>
+        `
     },
     {
         id: 2,
         name: `Orthodontic Treatment`,
-        desc: `Orthodontic treatment is a way of straightening or moving teeth to improve the appearance of the teeth and how they work.`
+        title: `Orthodontics Braces`,
+        desc: `Orthodontic treatment is a way of straightening or moving teeth to improve the appearance of the teeth and how they work.`,
+        img: [
+            {
+                url: 'orthodontic-braces-before.jpeg'
+            },
+            {
+                url: 'orthodontic-braces-after.jpeg'
+            },
+            {
+                url: 'orthodontic-braces-before-2.jpeg'
+            },
+            {
+                url: 'orthodontic-braces-after-2.jpeg'
+            },
+        ],
+        content: `
+        <p> The purpose of orthodontic treatment is to make the best of your teeth. This includes straightening your teeth.
+        Orthodontic treatment is a way of straightening or moving teeth to improve the appearance of the teeth and how they work.
+        It can also help to look after the long-term health of your teeth, gums, and jaw joints by spreading the biting pressure over all your teeth.
+        </p>
+
+        <h6>There are 4 main types of braces available today: </h6>
+
+        <h3>Metal braces:</h3>
+        <p>Metal or traditional braces are the most common type of braces world-wide. Metal braces are most popular among children and adolescent patients.<p/>
+
+        
+        <h3>Ceramic braces:</h3>
+        <p>Ceramic braces are braces made of clear, tooth colored material. They work in the same way as metal braces, but are more discreet and less visible.<p/>
+
+
+        
+        <h3>Self-ligating braces:</h3>
+        <p>Self-ligating braces work similarly to metal and ceramic braces and are available in metal or clear/ceramic material. We have found that self-ligating braces result in mildly shorter appointment times because of how easy they are to adjust.<p/>
+
+        
+        <h3>Lingual braces:</h3>
+        <p>Lingual braces behind the teeth are especially well-suited for adults who do not want noticeable braces, but also have complex orthodontic needs. We have also seen an increase in the popularity of braces behind the teeth among esthetically conscious adolescents.<p/>
+        `
     },
     {
         id: 3,
         name: `Pediatric Dentistry`,
-        desc: `We specialize in pediatric dentistry using state-of-the-art techniques...`
+        title: `Pediatric Dentistry`,
+        desc: `We specialize in pediatric dentistry using state-of-the-art techniques...`,
+        img: [
+            {
+                url: 'pediatric-dentistry-before-1.jpeg'
+            },
+            {
+                url: 'pediatric-dentistry-after-1.jpeg'
+            },
+            {
+                url: 'pediatric-dentistry-before-2.jpeg'
+            },
+            {
+                url: 'pediatric-dentistry-after-2.jpeg'
+            },
+        ],
+        content: `
+        <p>At Esthetix Dental Center, we understand the importance of providing children with high-quality dental care from an early age. Our pediatric dentistry service is designed to meet the unique needs of children, from infancy to adolescence. Whether your child is due for their first dental check-up or requires more specialized care, our team of dental experts is here to help.</p>
+        <p>Our pediatric dentistry service is designed to provide children with a positive and comfortable experience at the dentist. We understand that many children can feel anxious or fearful when visiting the dentist, and our team of dental experts is trained to provide care in a gentle and nurturing manner. We believe in taking the time to get to know each child, building trust and ensuring that their experience at the dentist is a positive one.</p>
+        `
     },
     {
         id: 4,
         name: `Tooth Extraction`,
-        desc: `Tooth Extraction is mostly done to remove the tooth that is either damaged, decayed, worn out, or crowded.`
+        title: `Tooth Extraction`,
+        desc: `Tooth Extraction is mostly done to remove the tooth that is either damaged, decayed, worn out, or crowded.`,
+        img: [
+            {
+                url: 'tooth-extraction-1.jpeg'
+            },
+            {
+                url: 'tooth-extraction-2.jpeg'
+            },
+        ],
+        content: `
+        <p>
+        Tooth Extraction is mostly done to remove the tooth that is either damaged, decayed, worn out, or crowded. It’s a quick outpatient procedure done by oral surgeons or dentists mostly.</P>
+        <p>We use local anesthesia to numb the area before performing teeth extraction surgery. The procedure is virtually painless for the patient.</p>
+        `
     },
     {
         id: 5,
         name: `Composite Filling`,
-        desc: `A composite filling is a quick and pain-free process of restoring teeth to their original shape and function.`
+        title: `Composite Filling`,
+        desc: `A composite filling is a quick and pain-free process of restoring teeth to their original shape and function.`,
+        img: [
+            {
+                url: 'composite-filling-before-1.jpeg'
+            },
+            {
+                url: 'composite-filling-after-1.jpeg'
+            },
+            {
+                url: 'composite-filling-before-2.jpeg'
+            },
+            {
+                url: 'composite-filling-after-2.jpeg'
+            },
+        ],
+        content: `
+        <p>
+        A composite filling is a quick and pain-free process of restoring teeth to their original shape and function. If you have an injured or decayed tooth, a composite filling can be used to preserve your original teeth without much drilling.
+        </P>
+        <p>
+        We at Dental Hub, provide cost-effective and expert composite filling treatment to patients with no pain and discomfort.
+        </p>
+        `
     },
     {
         id: 6,
         name: `Scaling & Polishing`,
-        desc: `Scaling & Polishing can remove built-up plaque & tartar on the teeth to ensure a healthy smile on your face.`
+        title: `Scaling & Polishing`,
+        desc: `Scaling & Polishing can remove built-up plaque & tartar on the teeth to ensure a healthy smile on your face.`,
+        img: [
+            {
+                url: 'scaling-polishing-before-1.jpeg'
+            },
+            {
+                url: 'scaling-polishing-after-1.jpeg'
+            },
+            {
+                url: 'scaling-polishing-before-2.jpeg'
+            },
+            {
+                url: 'scaling-polishing-after-2.jpeg'
+            },
+        ],
+        content: `
+        <p>
+        Professional dental cleanings in Dubai can remove built-up plaque & tartar on the teeth to ensure a healthy smile on your face.
+        </P>
+        <p>
+        While brushing your teeth at home contributes to a fresh, beautiful smile, but a routine professional teeth scaling and polishing is needed to maintain the health of your smile.
+        </p>
+        `
     },
     {
         id: 7,
         name: `Dental Implants`,
-        desc: `If you have missing or broken teeth, you have come to the right place. We proudly offer a wide range of dental implants services.`
+        title: `Dental Implants`,
+        desc: `If you have missing or broken teeth, you have come to the right place. We proudly offer a wide range of dental implants services.`,
+        img: [
+            {
+                url: 'dental-implant-before-1.jpeg'
+            },
+            {
+                url: 'dental-implant-after-1.jpeg'
+            },
+            {
+                url: 'dental-implant-before-2.jpeg'
+            },
+            {
+                url: 'dental-implant-after-2.jpeg'
+            },
+        ],
+        content: `
+        <p>
+        If you have missing or broken teeth, you have come to the right place. We proudly offer a wide range of dental implants services to help patients get brand new, healthy smiles.
+        </P>
+        <p>
+        Dental implants are medical devices surgically implanted into the jaw to restore a person's ability to chew or their appearance. They provide support for artificial (fake) teeth, such as crowns, bridges, or dentures.
+        </p>
+        <strong>Background</strong>
+        <p>
+        When a tooth is lost due to injury or disease, a person can experience complications such as rapid bone loss, defective speech, or changes to chewing patterns that result in discomfort. Replacing a lost tooth with a dental implant can significantly improve the patient's quality of life and health.
+        </p>
+        <p>
+        Dental implant systems consist of a dental implant body and dental implant abutment and may also include an abutment fixation screw. The dental implant body is surgically inserted in the jawbone in place of the tooth's root. The dental implant abutment is usually attached to the implant body by the abutment fixation screw and extends through gums into the mouth to support the attached artificial teeth.
+        </p>
+        `
     },
     {
         id: 8,
         name: `Dental Crowns`,
-        desc: `Dental crowns are used to restore function and aesthetics to the mouth. They can be used to replace missing teeth, protect weak or damaged teeth, and improve the appearance of teeth that are discolored or poorly shaped.`
+        title: `Dental Crowns`,
+        desc: `Dental crowns are used to restore function and aesthetics to the mouth. They can be used to replace missing teeth, protect weak or damaged teeth, and improve the appearance of teeth that are discolored or poorly shaped.`,
+        img: [
+            {
+                url: 'dental-crown-before-1.jpeg'
+            },
+            {
+                url: 'dental-crown-after-1.jpeg'
+            },
+            {
+                url: 'dental-crown-before-2.jpeg'
+            },
+            {
+                url: 'dental-crown-after-2.jpeg'
+            },
+        ],
+        content: `
+        <p>
+        Dental Crowns are used to restore function and aesthetics to the mouth. It can be used to replace missing teeth, protect weak or damaged teeth, and improve the appearance of teeth that are discolored or poorly shaped.
+        If you think you might need a dental crown, you should book an appointment for an evaluation and to discuss your treatment options.
+        </p>
+        `
     },
     {
         id: 9,
         name: `Denture`,
-        desc: `Dentures are artificial teeth and gums that are formed to replace lost or removed natural teeth. They are a cost effective way of improving facial shape and chewing efficiency, giving you a healthy new smile.`
+        title: `Denture`,
+        desc: `Dentures are artificial teeth and gums that are formed to replace lost or removed natural teeth. They are a cost effective way of improving facial shape and chewing efficiency, giving you a healthy new smile.`,
+        img: [
+            {
+                url: 'partial-denture-before-1.jpeg'
+            },
+            {
+                url: 'partial-denture-after-1.jpeg'
+            },
+            {
+                url: 'complete-denture-before-1.jpeg'
+            },
+            {
+                url: 'complete-denture-after-1.jpeg'
+            },
+        ],
+        content: `
+        <p>Dentures are artificial teeth and gums that are formed to replace lost or removed natural teeth. They are a cost effective way of improving facial shape and chewing efficiency, giving you a healthy new smile.</p>
+        <p>The loss of teeth can lead to several discomforting situations such as not being able to consume food, difficulty in speaking and it also affects the overall look. Two types of dentures are available -- complete and partial dentures. Complete dentures are used when all the teeth are missing, while partial dentures are used when some natural teeth remain.</p>
+        `
     },
     {
         id: 10,
         name: `Invisible Aligners`,
-        desc: `Invisible Aligners are great for patients who had braces when they were younger and just need a “touch up,” as well as for patients who have mild to moderate dental problems like misaligned teeth...`
+        title: `Invisible Aligners`,
+        desc: `Invisible Aligners are great for patients who had braces when they were younger and just need a “touch up,” as well as for patients who have mild to moderate dental problems like misaligned teeth...`,
+        img: [
+            {
+                url: 'invi-aligners-1.jpeg'
+            },
+            {
+                url: 'invi-aligners-2.jpeg'
+            },
+            {
+                url: 'invi-aligners-3.jpeg'
+            }
+        ],
+        content: `
+        <p> It is clear why clear Invisible Aligners are so popular right now because they are</p>
+        <ul>
+            <li>Clear and transparent</li>
+            <li>Removable</li>
+            <li>Allow for easier brushing and flossing</li>
+            <li> Faster than braces for some limited treatments</li>
+            <li> Require less appointments in some cases</li>
+            <li> Shorter appointments are sometimes possible</li>
+        </ul>
+        <p>Invisible Aligners are great for patients who had braces when they were younger and just need a “touch up,” as well as for patients who have mild to moderate dental problems like misaligned teeth, large overbite, no jaw alignment problems, and who have gaps in their front teeth (open bite).</p>
+        `
     },
     {
         id: 11,
         name: `Teeth Whitening`,
-        desc: `If stained and discolored teeth are standing between you and a brilliant, sparkling smile, teeth whitening might be just the thing to give you the smile you’ve always wanted.`
+        title: `Teeth Whitening`,
+        desc: `If stained and discolored teeth are standing between you and a brilliant, sparkling smile, teeth whitening might be just the thing to give you the smile you’ve always wanted.`,
+        img: [
+            {
+                url: 'teeth-whitening-before-1.jpeg'
+            },
+            {
+                url: 'teeth-whitening-after-1.jpeg'
+            },
+            {
+                url: 'teeth-whitening-before-2.jpeg'
+            },
+            {
+                url: 'teeth-whitening-after-2.jpeg'
+            }
+        ],
+        content: `
+        <p>If stained and discolored teeth are standing between you and a brilliant, sparkling smile, teeth whitening might be just the thing to give you the smile you’ve always wanted.
+        </p>
+        <p>It is a quick, cost-effective way to help improve the overall look of your smile.
+        </p>
+        `
     },
     {
         id: 12,
         name: `Hollywood Smile`,
-        desc: `It simply refers to the procedure that involves improvement in the appearance of the smile. It includes many Cosmetic makeover processes ranging from teeth straightening to dental...`
+        title: `Hollywood Smile`,
+        desc: `It simply refers to the procedure that involves improvement in the appearance of the smile. It includes many Cosmetic makeover processes ranging from teeth straightening to dental...`,
+        img: [
+            {
+                url: 'hollyowood-smile-before-1.jpeg'
+            },
+            {
+                url: 'hollyowood-smile-after-1.jpeg'
+            },
+            {
+                url: 'hollyowood-smile-before-2.jpeg'
+            },
+            {
+                url: 'hollyowood-smile-after-2.jpeg'
+            }
+        ],
+        content: `
+        <p>It simply refers to the procedure that involves improvement in the appearance of the smile. It includes many Cosmetic makeover processes ranging from teeth straightening to dental Lumineers or Venners and more.</p>
+        <p>It’s the fact that a pretty smile is the most important social aspect.Therefore our aim of Hollywood Smile Design is to achieve individual goals when it comes to getting the makeover they wish for.
+        </p>
+        <p>A Hollywood Smile gives you a full smile makeover. Veneers have played an important role in giving a beautiful and perfect smile to millions of people worldwide and thousands of celebrities.
+        </p>
+        `
     },
 ]
 
@@ -897,7 +1168,7 @@ export const testimonials = [
         message: `d
         Had a very pleasant experience. Dr.Vaishali  provided an excellent experience. After having had a previous experience that was not ideal, I was reluctant to find a new dentist that I could trust. Dr. Vaishali took the time to explain the details of what my treatment plan was and the “why behind the what”.I highly recommend this place they have a great bedside manner.Great job!!
     `
-    },{
+    }, {
         name: `Khalid Iqbal`,
         designation: ``,
         rating: 5,
@@ -906,7 +1177,7 @@ export const testimonials = [
         I've visited a lot of clinics in the UAE, and this is one of the best for a variety of reasons, in my opinion. These include attentive patient care, qualified medical professionals, accessibility and the facility's cleanliness and orderliness.
         I received two implants from Dr. Reshma, and she is my heroine. She simplified the process and gave thorough explanations of each step. I appreciate her concern and guidance. She has my highest recommendation.
     `
-    },{
+    }, {
         name: `Ayesha Akram`,
         designation: ``,
         rating: 5,
@@ -914,7 +1185,7 @@ export const testimonials = [
         message: `
         Very nice, hygienic clinic with highly skilled and competent drs. Drs and staff deal you professionally and with a lot of compassion especially Dr Manoj Kumar. Highly recommended.
     `
-    },{
+    }, {
         name: `Farha ukc`,
         designation: ``,
         rating: 5,
@@ -923,7 +1194,7 @@ export const testimonials = [
         Had a great experience.
         My complaint was treated and given good treatment and advice for me to maintain my teeth healthy. I would really recommend Dr. Christina for Ortho treatments. As I''m a very happy patient who is seeing good results.
     `
-    },{
+    }, {
         name: `Ankit Saraswat`,
         designation: ``,
         rating: 5,
@@ -931,7 +1202,7 @@ export const testimonials = [
         message: `
         Esthetix Dental Center, A professional, gentle, friendly, and affordable dentist in Dubai. Like many, I’ve had some horrific experiences with dentists, leaving me petrified to sit in the chair, let alone undergo any treatment, Dr. Vishal has spent enough time with me ensuring I’m comfortable, explaining the treatments and being able to perform without having a panic attack, and completely pain-free and there is simply no one else I would go to. I cannot recommend him enough. There is no need to fear the dentist anymore!                          
     `
-    },{
+    }, {
         name: `Hitesh Jain`,
         designation: ``,
         rating: 5,
@@ -939,16 +1210,16 @@ export const testimonials = [
         message: `
         Had a great experience with Dr. Vishal at Esthetix Clinic. A young enthusiastic doctor who is excellent with his work. The consultation and the procedure was very comfortable and smooth. My teeth and smile have not felt so good as now. Earlier a doctor and now a friend. Thanks Vishal.                          
     `
-    },{
+    }, {
         name: `Malik Abdullah Zahoor`,
         designation: ``,
-        rating: 5,  
+        rating: 5,
         img: `/img/client/client1.jpg`,
         message: `
         A really very nice clinic with great doctors, prices are affordable for everyone, consultation is absolutly free (which is a geart thing) service, hygine and behavior, it's really a VIP clinic.
         Thank you so much
     `
-    },{
+    }, {
         name: `Michael Cobin`,
         designation: ``,
         rating: 5,
@@ -956,7 +1227,7 @@ export const testimonials = [
         message: `
         Superb service from Dr. Manoj. Got my cleaning and polishing here and definitely recommending this clinic. He’s even giving advice for proper teeth care which you normally don’t get from other clinics.                          
     `
-    },{
+    }, {
         name: `fashionMonk Fmonk`,
         designation: ``,
         rating: 5,
