@@ -139,69 +139,269 @@ export const teamInfo = [
 
 export const blogsInfo = [{
     id: 1,
+    postedOn: `05/19/2023`,
+    postedBy: `Doctor`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog1.jpg`,
+    title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
+    tags: [`white smile `, `veneer`, `Teeth`, `Health`, `Hospital`, `Infection`],
+    content: `
+
+  <p>
+  A beaming white smile isn’t something that has to be reserved for anyone.
+  </p>
+
+  <p>
+  In fact, just about anyone with a bit of cash lying around can commit to getting porcelain veneers on
+  their teeth for an effortless ivory shine.
+  However, once you’ve jumped into this wonderful world, you’ll soon realize that you need to take
+  care of these instant perfect teeth if you want to keep them looking good long-term. Not every dentist
+  will give you the instructions for the after-care and maintenance that you might need, but at Milltown
+  Dental, we make sure you know how to take care of your new veneers. Here are the top 5 tips for
+  maintaining porcelain veneers
+  </p>
+
+ <h4>1. Don’t skip follow-ups</h4>
+ <br>
+  <p>
+  Once you’ve completed your first new veneer placement it can be tempting to walk out and never
+  return, ready to beam your smile at the world. However, there’s a reason a follow-up visit, scheduled
+  usually for a week later, is important to attend.
+  </p>
+
+  <p>
+  This is because there needs to be an evaluation of the treatment and to check if there have been
+  any complications. While it can be annoying, this visit is of the utmost importance. It will allow the
+  dentist to assess the placement of your porcelain veneers to ensure everything is going according to
+  plan.
+  </p>
+
+  <p>More importantly, this will give you the opportunity to ask any questions or raise any concerns you
+  may have experienced with your new veneers in the days since your treatment. This appointment
+  will establish what maintenance is required to keep your upgraded TEETH LOOKING GOOD.</p>
+
+
+  <h4>2. Ask any questions on your mind</h4>
+  <br>
+  <p>
+  Say whatever you want to say and whatever’s on your mind.
+  </p>
+
+  <p>
+  For instance, if you have concerns about any oral care habits you have or if you’re unsure about
+  something, don’t hold back. Always ask the dentist to explain exactly what you need to do to
+  preserve the veneers and to maintain your general oral health.
+  </p>
+
+  <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+  that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+  as well as the tips here, you could have veneers that last for up to 20 years.</p>
+
+  <p>Their dependability, functionality, and cosmetic beauty are really quite second to none, making them
+  one of the best ways to easily improve your smile.</p>
+
+
+  <h4>3. Continue oral health measures</h4>
+  <br>
+  <p>
+  Just because you have sparkling new white encasings on top of your teeth doesn’t make proper
+  health care any less important. In fact, good dental care may be more important than ever, as your
+  veneer will need all the support it can get to stay shining as bright as the first day you get them.
+  </p>
+
+  <p>
+  So, this brings us to the main point. Brush and floss your teeth every day exactly like you used to.
+  Make sure to use non-abrasive fluoride toothpaste and prioritize your oral health.
+  </p>
+
+  <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+  that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+  as well as the tips here, you could have veneers that last for up to 20 years.</p>
+
+  <h4>4. Protect them from excessive grinding</h4>
+  <p>A lot of people have the common problem of clenching or grinding their teeth too much. This can
+  happen if you’re highly stressed, or anxious and tends to be a problem mostly when you’re sleeping.
+  This is not good if you have porcelain veneers and the constant pressure and stress can cause
+  damage to their shiny exterior.</p>
+
+  <p>If you’re worried about this happening, or if you have a history of grinding teeth, make sure to tell
+  your dentist. In fact, it’s possible to get a PROTECTIVE BITE GUARD that you can wear when you
+  go to sleep that will help minimize these stresses and damages. So get fitted for one and walk out
+  with everything you need to protect yourself and your investment.</p>
+
+  <h4>5. Avoid dangerous foods</h4>
+  <p>This is an unfortunate and somewhat restrictive impact of having veneers. You have to avoid food
+  that would be damaging to them. Thankfully, this usually overlaps with food that would be bad for
+  your natural teeth.</p>
+
+  <p>For instance, don’t chew on ice or hard candy, as it could cause ugly-looking chips and cracks.</p>
+
+  <p>However, on the flip side, things that stain your natural teeth like coffee, blueberries or food dyes are
+  a lot less of a problem and shouldn’t adversely impact YOUR VENEERS. However, they can STAIN
+  YOUR NATURAL TEETH, which might make a noticeable colour difference over time.</p>
+
+  <h4>Closing Thoughts</h4>
+
+<p>Remember that a smile won’t change your whole life but it could help you feel a lot more confident. A
+beautiful smile is a great asset and being able to smile without worrying about the appearance of
+your teeth, enhances your self-esteem and can improve the quality of your life.
+By this point, you should have a pretty good idea of how porcelain veneers can deteriorate over time
+and how you can ensure that this doesn’t happen. You don’t want to have to replace your expensive
+veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
+appointment with Esthetix Dental.</p>
+`
+},{
+    id: 2,
+    postedOn: `05/20/2023`,
+    postedBy: `Doctor`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog2.png`,
+    title: `How Your Teeth Benefit from Vitamins and Minerals`,
+    tags: [`smiling teeth `, `vitamins`, `Minerals`, `Health`, `Hospital`, `Infection`],
+    content: `
+
+  <p>
+  Almost everyone has had cavities, but very few know that they can be prevented by better nutrition, not just brushing and flossing adequately
+  </p>
+
+  <p>
+  Eating a diet high in sugar or refined carbohydrates (white flour instead of whole grain, white sugar instead of alternatives like xylitol) results in the sticky particles clinging to teeth and becoming a bacterial film called plaque. This produces acid that eats away at the enamel of teeth and hardens into tartar, resulting in the peeling away of the gums supporting teeth until they fall out or need to be extracted. Eating a diet high in vegetables and whole foods with less sugar, coupled with brushing for two minutes after breakfast and dinner and flossing at night, can help prevent both cavities and periodontal disease. Carbonated sodas also eat away the enamel.
+  </p>
+
+  <p>Fortunately, vitamin and mineral supplementation can help teeth stay healthy. Most important is to take 1,500 mg. of calcium and 750 mg. of magnesium a day, an amount and ratio that play a vital role in making sure all bones (including teeth) are kept strong. Most Americans also do not get enough of the mineral potassium, which is an important part of bones and found in large amounts in leafy vegetables, beans, seeds, and salmon. A supplement of 3,500 mg. a day is recommended. Phosphorous is also an important mineral for teeth and bones, but most people get enough in their diet   </p>
+
+  <p>Collagen is a protein that help hold all bones together. Powder or capsules can be taken, but even more effective is taking 5 mg. of the mineral silicon twice a day, because this prompts the body to internally form its own collagen, according to clinical studies</p>
+ 
+ <p>Vitamin D is the most important vitamin for teeth health, which can be produced by the effect of the sun on skin. However, the lack of daily exposure by many and the difficulty for this happening for those with darker skin, result in the need for supplementation. Most physicians recommend 5,000 I.U.s a
+ dayVitamin C can help prevent cavities and periodontal infections, but it is water soluble (it only stays in the blood for about five hours), so about 1,000 mg. should to be taken twice a day to maintain oral health.</p>
+ 
+ <p>A multi-vitamin-mineral taken twice a day can be helpful, since all nutrients work together to keep us healthy, but the B vitamins that are a primary reason to take a multiple are also water soluble.</p>
+
+ <p>For further advice on how to improve your oral health, make an appointment today for a full dental examination.</p>
+`
+},{
+    id: 2,
+    postedOn: `05/21/2023`,
+    postedBy: `Doctor`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog2.png`,
+    title: `How Your Teeth Benefit from Vitamins and Minerals`,
+    tags: [`smiling teeth `, `vitamins`, `Minerals`, `Health`, `Hospital`, `Infection`],
+    content: `
+`
+},{
+    id: 100,
     postedOn: `24/10/20`,
     postedBy: `Adeel Atta`,
     category: `Diseases`,
     mainImg: `/img/blog-details/blog-details.jpg`,
-    title: `What Can I Do To Prevent Myself & prevent Disease`,
+    title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
     tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
     content: `
 
   <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
+  A beaming white smile isn’t something that has to be reserved for anyone.
   </p>
 
   <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
+  In fact, just about anyone with a bit of cash lying around can commit to getting porcelain veneers on
+  their teeth for an effortless ivory shine.
+  However, once you’ve jumped into this wonderful world, you’ll soon realize that you need to take
+  care of these instant perfect teeth if you want to keep them looking good long-term. Not every dentist
+  will give you the instructions for the after-care and maintenance that you might need, but at Milltown
+  Dental, we make sure you know how to take care of your new veneers. Here are the top 5 tips for
+  maintaining porcelain veneers
   </p>
 
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
+ <h4>1. Don’t skip follow-ups</h4>
+ <br>
   <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
+  Once you’ve completed your first new veneer placement it can be tempting to walk out and never
+  return, ready to beam your smile at the world. However, there’s a reason a follow-up visit, scheduled
+  usually for a week later, is important to attend.
   </p>
 
   <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
+  This is because there needs to be an evaluation of the treatment and to check if there have been
+  any complications. While it can be annoying, this visit is of the utmost importance. It will allow the
+  dentist to assess the placement of your porcelain veneers to ensure everything is going according to
+  plan.
   </p>
+
+  <p>More importantly, this will give you the opportunity to ask any questions or raise any concerns you
+  may have experienced with your new veneers in the days since your treatment. This appointment
+  will establish what maintenance is required to keep your upgraded TEETH LOOKING GOOD.</p>
+
+
+  <h4>2. Ask any questions on your mind</h4>
+  <br>
+  <p>
+  Say whatever you want to say and whatever’s on your mind.
+  </p>
+
+  <p>
+  For instance, if you have concerns about any oral care habits you have or if you’re unsure about
+  something, don’t hold back. Always ask the dentist to explain exactly what you need to do to
+  preserve the veneers and to maintain your general oral health.
+  </p>
+
+  <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+  that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+  as well as the tips here, you could have veneers that last for up to 20 years.</p>
+
+  <p>Their dependability, functionality, and cosmetic beauty are really quite second to none, making them
+  one of the best ways to easily improve your smile.</p>
+
+
+  <h4>3. Continue oral health measures</h4>
+  <br>
+  <p>
+  Just because you have sparkling new white encasings on top of your teeth doesn’t make proper
+  health care any less important. In fact, good dental care may be more important than ever, as your
+  veneer will need all the support it can get to stay shining as bright as the first day you get them.
+  </p>
+
+  <p>
+  So, this brings us to the main point. Brush and floss your teeth every day exactly like you used to.
+  Make sure to use non-abrasive fluoride toothpaste and prioritize your oral health.
+  </p>
+
+  <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+  that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+  as well as the tips here, you could have veneers that last for up to 20 years.</p>
+
+  <h4>4. Protect them from excessive grinding</h4>
+  <p>A lot of people have the common problem of clenching or grinding their teeth too much. This can
+  happen if you’re highly stressed, or anxious and tends to be a problem mostly when you’re sleeping.
+  This is not good if you have porcelain veneers and the constant pressure and stress can cause
+  damage to their shiny exterior.</p>
+
+  <p>If you’re worried about this happening, or if you have a history of grinding teeth, make sure to tell
+  your dentist. In fact, it’s possible to get a PROTECTIVE BITE GUARD that you can wear when you
+  go to sleep that will help minimize these stresses and damages. So get fitted for one and walk out
+  with everything you need to protect yourself and your investment.</p>
+
+  <h4>5. Avoid dangerous foods</h4>
+  <p>This is an unfortunate and somewhat restrictive impact of having veneers. You have to avoid food
+  that would be damaging to them. Thankfully, this usually overlaps with food that would be bad for
+  your natural teeth.</p>
+
+  <p>For instance, don’t chew on ice or hard candy, as it could cause ugly-looking chips and cracks.</p>
+
+  <p>However, on the flip side, things that stain your natural teeth like coffee, blueberries or food dyes are
+  a lot less of a problem and shouldn’t adversely impact YOUR VENEERS. However, they can STAIN
+  YOUR NATURAL TEETH, which might make a noticeable colour difference over time.</p>
+
+  <h4>Closing Thoughts</h4>
+
+<p>Remember that a smile won’t change your whole life but it could help you feel a lot more confident. A
+beautiful smile is a great asset and being able to smile without worrying about the appearance of
+your teeth, enhances your self-esteem and can improve the quality of your life.
+By this point, you should have a pretty good idea of how porcelain veneers can deteriorate over time
+and how you can ensure that this doesn’t happen. You don’t want to have to replace your expensive
+veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
+appointment with Esthetix Dental.</p>
+
 
   <div className="row mb-3">
       <div className="col-lg-4 mt-4">
@@ -238,588 +438,7 @@ export const blogsInfo = [{
       Duis aute irure dolor in reprehenderit in sed quia non
       numquam. consectetur adipisicing elit, sed
   </p>`
-}, {
-    id: 2,
-    postedOn: `24/11/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog/blog2.jpg`,
-    title: `What Can I Do Disease`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
-
-  <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
-  </p>
-
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}, {
-    id: 2,
-    postedOn: `24/11/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog/blog2.jpg`,
-    title: `What Can I Do Disease`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
-
-  <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
-  </p>
-
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}, {
-    id: 2,
-    postedOn: `24/11/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog/blog2.jpg`,
-    title: `What Can I Do Disease`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
-
-  <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
-  </p>
-
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}, {
-    id: 2,
-    postedOn: `24/11/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog/blog2.jpg`,
-    title: `What Can I Do Disease`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
-
-  <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
-  </p>
-
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}, {
-    id: 2,
-    postedOn: `24/11/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog/blog2.jpg`,
-    title: `What Can I Do Disease`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
-
-  <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
-  </p>
-
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}, {
-    id: 2,
-    postedOn: `24/11/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog/blog2.jpg`,
-    title: `What Can I Do Disease`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
-
-  <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
-  </p>
-
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}, {
-    id: 2,
-    postedOn: `24/11/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog/blog2.jpg`,
-    title: `What Can I Do Disease`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
-
-  <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam dolor sit, consectetur
-      qui ratione voluptatem sequi nesciunt.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat labore et dolore magna aliqua
-      consectetur adipisicing elit.
-  </p>
-
-  <blockquote className="flaticon-quote">
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Repellendus aliquid praesentium eveniet illum asperiores,
-          quidem, ipsum voluptatum numquam ducimus nisi
-          exercitationem dolorum facilis Repellendus aliquid
-          praesentium eveniet illum asperiores.
-      </p>
-  </blockquote>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat
-      consectetur adipisicing.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore
-      magnam aliquam quaerat ullamco laboris nisi ut aliquip ex ea
-      commodo laboris nisi.
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
-
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}]
+} ]
 
 
 export const serviceInfo = [
@@ -1165,7 +784,7 @@ export const testimonials = [
         designation: ``,
         rating: 5,
         img: `/img/client/fdummy.jpg`,
-        message: `d
+        message: `
         Had a very pleasant experience. Dr.Vaishali  provided an excellent experience. After having had a previous experience that was not ideal, I was reluctant to find a new dentist that I could trust. Dr. Vaishali took the time to explain the details of what my treatment plan was and the “why behind the what”.I highly recommend this place they have a great bedside manner.Great job!!
     `
     }, {

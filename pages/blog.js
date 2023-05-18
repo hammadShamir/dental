@@ -54,7 +54,7 @@ const BlogGrid = () => {
                                                 <li>Date: {blog.postedOn}</li>
                                             </ul>
 
-                                            <Link href="/blog-details">
+                                            <Link href={`/blog/${blog.id}`}>
                                                 <h3>{blog.title}</h3>
                                             </Link>
 
