@@ -956,8 +956,7 @@ export const testimonials = [
         message: `
         Superb service from Dr. Manoj. Got my cleaning and polishing here and definitely recommending this clinic. He’s even giving advice for proper teeth care which you normally don’t get from other clinics.                          
     `
-    },
-    {
+    },{
         name: `fashionMonk Fmonk`,
         designation: ``,
         rating: 5,
@@ -965,6 +964,5 @@ export const testimonials = [
         message: `
         I recently visited Esthetix Dental Center for a routine check-up and was blown away by the level of care and professionalism exhibited by the staff. From the moment I walked in the door, I felt welcomed and at ease. The dentist who treated me was extremely knowledgeable and took the time to answer all of my questions. I would highly recommend Esthetix Dental Center to anyone in need of dental care in Dubai.                                          
     `
-    },
-    
+    }
 ]
