@@ -10,7 +10,7 @@ const Testimonials = () => {
     const [testimonial, setTestimonial] = useState(testimonials)
 
     const [initial, setInitial] = useState(0)
-    const [cut, setCut] = useState(6);
+    const [cut, setCut] = useState(2);
     return (
         <>
             <Navbar />
@@ -42,7 +42,7 @@ const Testimonials = () => {
 
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-client mr-0 ml-0">
-                                    <img src={client.img} alt="img" />
+                                    <img src={client.img} alt={client.name} />
 
                                     <p>
                                         {client.message}
@@ -92,7 +92,7 @@ const Testimonials = () => {
 
                                         <li className="page-item"
                                             onClick={
-                                                (e) => ((team.length - initial) > cut ? setInitial(initial + cut) : e.preventDefault())
+                                                (e) => ((testimonial.length - initial) > cut ? setInitial(initial + cut) : e.preventDefault())
                                             } >
                                             <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>

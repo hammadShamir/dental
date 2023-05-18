@@ -85,7 +85,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/about/" && "active"
                             }`}
                         >
-                          About
+                          About Us
                         </Link>
                       </li>
 
@@ -176,7 +176,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/contact/" && "active"
                             }`}
                         >
-                          Contact
+                          Contact Us
                         </Link>
                       </li>
                     </ul>
