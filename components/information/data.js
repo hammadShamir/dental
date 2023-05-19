@@ -250,7 +250,7 @@ and how you can ensure that this doesn’t happen. You don’t want to have to r
 veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
 appointment with Esthetix Dental.</p>
 `
-},{
+}, {
     id: 2,
     postedOn: `05/20/2023`,
     postedBy: `Doctor`,
@@ -279,7 +279,7 @@ appointment with Esthetix Dental.</p>
 
  <p>For further advice on how to improve your oral health, make an appointment today for a full dental examination.</p>
 `
-},{
+}, {
     id: 2,
     postedOn: `05/21/2023`,
     postedBy: `Doctor`,
@@ -289,7 +289,7 @@ appointment with Esthetix Dental.</p>
     tags: [`smiling teeth `, `vitamins`, `Minerals`, `Health`, `Hospital`, `Infection`],
     content: `
 `
-},{
+}, {
     id: 100,
     postedOn: `24/10/20`,
     postedBy: `Adeel Atta`,
@@ -438,7 +438,7 @@ appointment with Esthetix Dental.</p>
       Duis aute irure dolor in reprehenderit in sed quia non
       numquam. consectetur adipisicing elit, sed
   </p>`
-} ]
+}]
 
 
 export const serviceInfo = [
@@ -855,4 +855,64 @@ export const testimonials = [
         I recently visited Esthetix Dental Center for a routine check-up and was blown away by the level of care and professionalism exhibited by the staff. From the moment I walked in the door, I felt welcomed and at ease. The dentist who treated me was extremely knowledgeable and took the time to answer all of my questions. I would highly recommend Esthetix Dental Center to anyone in need of dental care in Dubai.                                          
     `
     }
+]
+
+export const gallery = [
+    {
+        url: "/img/gallery/1.png"
+    },
+    {
+        url: "/img/gallery/2.png"
+    },
+    {
+        url: "/img/gallery/3.png"
+    },
+    {
+        url: "/img/gallery/4.png"
+    },
+    {
+        url: "/img/gallery/5.png"
+    },
+    {
+        url: "/img/gallery/6.png"
+    },
+    {
+        url: "/img/gallery/7.png"
+    },
+    {
+        url: "/img/gallery/8.png"
+    },
+    {
+        url: "/img/gallery/9.png"
+    },
+    {
+        url: "/img/gallery/10.png"
+    },
+    {
+        url: "/img/gallery/11.png"
+    },
+    {
+        url: "/img/gallery/12.png"
+    },
+    {
+        url: "/img/gallery/13.png"
+    },
+    {
+        url: "/img/gallery/14.png"
+    },
+    {
+        url: "/img/gallery/15.png"
+    },
+    {
+        url: "/img/gallery/16.png"
+    },
+    {
+        url: "/img/gallery/17.png"
+    },
+    {
+        url: "/img/gallery/18.png"
+    },
+    {
+        url: "/img/gallery/19.png"
+    },
 ]

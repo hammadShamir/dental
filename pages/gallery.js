@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
 import DoctorsStyleTwo from "../components/Common/DoctorsStyleTwo";
-
+import { gallery } from "../components/information/data";
 const Testimonials = () => {
+
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedImageUrl, setSelectedImageUrl] = useState('');
+
+
+
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
     return (
         <>
             <Navbar />
@@ -31,29 +40,31 @@ const Testimonials = () => {
                     </div>
 
                     <div className="row justify-content-center">
-                        <div className="col-lg-4 col-sm-6">
-                            <div className="single-doctors-two">
-                                <div className="doctor-img">
-                                    <img src="/img/doctors/doctor4.jpg" alt="Image" />
-                                </div>
+                        {
+                            gallery && gallery.map((img, index) => {
+                                return (
+                                    <>
+                                        <div className="col-lg-4 col-sm-6" key={index}>
+                                            <div className="single-doctors-two" style={{ cursor: "pointer" }} onClick={() => {
+                                                setSelectedImageUrl(img.url);
+                                                setModalOpen(true);
+                                            }}>
+                                                <div className="doctor-img">
+                                                    <img src={img.url} alt="Image" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </>
+                                )
+                            })
+                        }
+                        {modalOpen && (
+                            <div id="myModal" className="modal" onClick={handleCloseModal}>
+                                <span className="close">&times;</span>
+                                <img className="modal-content" id="img01" src={selectedImageUrl} />
                             </div>
-                        </div>
+                        )}
 
-                        <div className="col-lg-4 col-sm-6">
-                            <div className="single-doctors-two">
-                                <div className="doctor-img">
-                                    <img src="/img/doctors/doctor5.jpg" alt="Image" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-sm-6">
-                            <div className="single-doctors-two">
-                                <div className="doctor-img">
-                                    <img src="/img/doctors/doctor6.jpg" alt="Image" />
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -61,6 +72,7 @@ const Testimonials = () => {
             <Subscribe />
 
             <Footer />
+
         </>
     );
 };
