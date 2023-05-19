@@ -280,14 +280,21 @@ appointment with Esthetix Dental.</p>
  <p>For further advice on how to improve your oral health, make an appointment today for a full dental examination.</p>
 `
 }, {
-    id: 2,
+    id: 3,
     postedOn: `05/21/2023`,
     postedBy: `Doctor`,
     category: `Maintaining`,
     mainImg: `/img/blog/blog2.png`,
-    title: `How Your Teeth Benefit from Vitamins and Minerals`,
+    title: `What are Dentures`,
     tags: [`smiling teeth `, `vitamins`, `Minerals`, `Health`, `Hospital`, `Infection`],
     content: `
+    <p>Dentures are artificial teeth and gums that are formed to replace lost or removed natural teeth. They are a cost effective way of improving facial shape and
+    chewing efficiency, giving you a healthy new smile.</p>
+
+    <p>The loss of teeth can lead to several discomforting situations such as not being able to
+    consume food, difficulty in speaking and it also affects the overall look.</p>
+
+    <p>Two types of dentures are available --<strong> complete and partial dentures.</strong> Complete dentures are used when all the teeth are missing, while partial dentures are used when some natural teeth remain.</p>
 `
 }, {
     id: 100,
