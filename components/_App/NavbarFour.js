@@ -25,6 +25,7 @@ const menuObj = [{
   { element: `Testimonials`, href: `testimonials` },
   { element: `Success Stories`, href: `team` },
   { element: `Terms & Conditions`, href: `termscondition` },
+  { element: `Faqs`, href: `faq` },
   ]
 },
 { name: `Contact Us` }];
@@ -155,8 +156,7 @@ const NavbarFour = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    <img width='67px' height="47px" src="/img/logo.png" alt="logo" />
-                    Esthetix
+                    <img width='90%' src="/img/logo.png" alt="logo" />
                   </Link>
 
                   <button

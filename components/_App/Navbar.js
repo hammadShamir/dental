@@ -48,8 +48,8 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    <img width='80px' src="/img/logo.png" alt="logo" />
-                    Esthetix
+                    <img width='90%' src="/img/logo.png" alt="logo" />
+
                   </Link>
 
                   <button
@@ -165,6 +165,15 @@ const Navbar = () => {
                                 }`}
                             >
                               Success Stories
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/faq/"
+                              className={`nav-link ${currentPath == "/faq/" && "active"
+                                }`}
+                            >
+                              Faqs
                             </Link>
                           </li>
                         </ul>

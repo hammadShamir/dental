@@ -923,3 +923,88 @@ export const gallery = [
         url: "/img/gallery/19.png"
     },
 ]
+
+export const faqs = [
+    {
+        question: `What are my options for teeth whitening? `,
+        answer: `
+        <p>There are many ways for teeth whitening starting from tooth paste that removes superficial stains of coffee, smoking red wines and ending at light activated chair side teeth whitening in dental clinic performed by dentist which can produce dramatic results</p>`
+    },
+    {
+        question: `What is Root canal treatment? `,
+        answer: `
+        <p> Root canal treatment commonly known as (RCT) enables the patient to keep a tooth that otherwise would have to be taken out. This procedure involve cleaning and shaping of canals that comprises tooth roots</p>
+        
+
+       <p> Space leave after cleaning and shaping of canals filled with an inert filling material to achieve 3D seal and future leakage of micro-organism into canal.</p>
+
+        <p>After filing canals opening in crown filled with filling material or crown.</p>
+        `
+    },
+    {
+        question: `Who can Benefits from Orthodontics? `,
+        answer: `
+        <p> Many peoples including young and adult who have problems with their crooked teeth or bite or difficulty to chew food or an overcrowded or mis shape teeth</p>
+        
+
+       <p> An orthodontist who can able to correct their problems although success is more likely in a child or teenager than in adult</p>
+
+        <p>During childhood and pre-teen teeth are still growing therefore responsive more to treatment of braces than adult </p>
+        `
+    },
+    {
+        question: `How often should I get a dental checkup? `,
+        answer: `
+        <p> Dental health and problems vary from individual to individual 
+        For general an adult is to visit a dentist at least once or twice in a year even maintaining excellent oral health
+        </p>
+        
+
+       <p>A dentist can professionally do a regular oral check up</p>
+
+        `
+    },
+    {
+        question: `What are Veneers?`,
+        answer: `
+        <p>
+       <strong> Veneers are thin, tooth-colored porcelain or glass/plastic layers fixed onto the front of your teeth </strong> that can be a suitable option if you have teeth that are stained, with gaps, discolored, broken or chipped, oddly-shaped or badly-aligned.
+        </p>
+
+        `
+    },
+    {
+        question: `What types of veneers are there?`,
+        answer: `
+        <p>
+            There are <strong> two types of veneers; Porcelain Veneers and Composite Resin Veneers. </strong>
+        </p>
+
+        <p>
+        Porcelain veneers are made and bonded to your teeth. Resin veneers are put directly on your teeth. Both are designed to cover the front side of your teeth. Both are intended to fit your mouth and your smile to look natural. Caring for veneers is the same as cleaning natural teeth.
+        </p>
+
+        `
+    },
+    {
+        question: `Why Esthetix Dental Center in Dubai?`,
+        answer: `
+        <p>
+        There are many key reasons why you should choose Esthetix Dental center
+        </p>
+        <p>
+        We always focus to maintain a comfortable, relaxing atmosphere for our patients.
+        </p>
+        <p>
+        We are committed to provide world class dental treatment in a spaciously designed modern clinic where quality and care is given utmost importance.
+        </p>
+        <p>
+        We deeply care about our patients and everything we do to help them maintain their dental health for a lifetime. 
+        </p>
+        <p>
+        Esthetix Dental Center is committed to changing the way you think about dentistry 
+        </p>
+
+        `
+    },
+]
