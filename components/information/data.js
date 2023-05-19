@@ -139,12 +139,12 @@ export const teamInfo = [
 
 export const blogsInfo = [{
     id: 1,
-    postedOn: `05/19/2023`,
-    postedBy: `Doctor`,
+    postedOn: `04/May/2023`,
+    postedBy: `Esthetix Dental Center`,
     category: `Maintaining`,
     mainImg: `/img/blog/blog1.jpg`,
     title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
-    tags: [`white smile `, `veneer`, `Teeth`, `Health`, `Hospital`, `Infection`],
+    tags: [`Porcelain Veneers`, `veneer`, `Teeth`, `Health`, `Hospital`, `Infection`],
     content: `
 
   <p>
@@ -252,12 +252,12 @@ appointment with Esthetix Dental.</p>
 `
 }, {
     id: 2,
-    postedOn: `05/20/2023`,
-    postedBy: `Doctor`,
+    postedOn: `7/Apr/2023`,
+    postedBy: `Esthetix Dental Center`,
     category: `Maintaining`,
     mainImg: `/img/blog/blog2.png`,
     title: `How Your Teeth Benefit from Vitamins and Minerals`,
-    tags: [`smiling teeth `, `vitamins`, `Minerals`, `Health`, `Hospital`, `Infection`],
+    tags: [`Teeth Benefits`, `vitamins`, `Minerals`, `Health`, `Hospital`, `Infection`],
     content: `
 
   <p>
@@ -281,171 +281,318 @@ appointment with Esthetix Dental.</p>
 `
 }, {
     id: 3,
-    postedOn: `05/21/2023`,
-    postedBy: `Doctor`,
+    postedOn: `23/Mar/2023`,
+    postedBy: `Esthetix Dental Center`,
     category: `Maintaining`,
-    mainImg: `/img/blog/blog2.png`,
-    title: `What are Dentures`,
-    tags: [`smiling teeth `, `vitamins`, `Minerals`, `Health`, `Hospital`, `Infection`],
-    content: `
-    <p>Dentures are artificial teeth and gums that are formed to replace lost or removed natural teeth. They are a cost effective way of improving facial shape and
-    chewing efficiency, giving you a healthy new smile.</p>
+    mainImg: `/img/blog/blog3.jpg`,
+    title: `Braces vs. Clear Aligners`,
+    tags: [`Braces & Clear Aligners `, `Clear Aligners`, `Teeth`, `Hollywood smile`, `Hospital`, `care`],
+    content: ` 
+    <p>People who are considering orthodontic treatment usually come prepared with great questions when they consult Esthetix Dental Center, Orthodontist specialists. The question at the top of the list is often which type of appliance to use to correct their orthodontic problem – braces vs clear aligners? How do they decide?</p>
 
-    <p>The loss of teeth can lead to several discomforting situations such as not being able to
-    consume food, difficulty in speaking and it also affects the overall look.</p>
+    <p>First, keep in mind that there is not a single “right way” for orthodontic treatment to be done. An accurate diagnosis is the starting place, and that’s something that orthodontists are especially well-trained at, after obtaining orthodontic records (x-rays, photos and models). The orthodontist pinpoints the problem, and then crafts a customized correction.</p>
 
-    <p>Two types of dentures are available --<strong> complete and partial dentures.</strong> Complete dentures are used when all the teeth are missing, while partial dentures are used when some natural teeth remain.</p>
-`
+    <p>One appliance is not inherently better than another. What is used for an individual’s correction will be based on the goals of treatment, and the patient’s lifestyle needs. Some things, however, apply to all patients, regardless of type of appliance. For example, all patients must brush and floss their teeth daily and will need to wear retainers post-treatment. Now, let’s examine some common treatment factors to consider for both braces and clear aligners.</p>
+
+    <h4>Braces</h4>
+
+    <p>Most orthodontic problems can be successfully treated using braces. Braces have been the traditional form of treatment used by orthodontists for decades, but today’s streamlined braces come in a variety of models – stainless steel, tooth-colored ceramic and even gold-colored.</p>
+
+    <h4>Visibility</h4>
+    <p>While there are more inconspicuous options (tooth colored brackets, braces that go behind the teeth), other elements remain visible (rubber bands, wires or gold colored brackets). You can, however, choose the colors of your rubber bands.</p>
+
+    <h4>Removability</h4>
+    <p>For a stable and functional result, braces remain affixed to the teeth throughout the course of treatment. On the bright side, you can’t lose them, unless you eat hard and sticky foods.</p>
+   
+    <h4>Comfort</h4>
+    <p>There may be some initial discomfort when braces are placed or adjusted, and brackets and wires can temporarily irritate mouth tissue. Overall, the discomfort is short-lived and easily managed. Once patients become accustomed to their braces, they may even forget they have them on.</p>
+   
+    <h4>Hygiene</h4>
+    <p>Patients will need to keep teeth, gums and braces free of plaque and food debris so bacteria can’t attack tooth enamel or cause inflamed gums. Food debris and plaque must be removed by frequent brushing and flossing.</p>
+   
+    <h4>Diet</h4>
+    <p>Those with braces must steer clear of foods that are hard, sticky, crunchy and chewy to avoid breaking a bracket or popping a wire out of the bracket. Patients should opt for water instead of carbonated drinks, flavored waters, or sports drinks – these can contain acids and sugars, and both are bad for tooth enamel.</p>
+
+    <h4>Clear Aligners</h4>
+    <p>Clear aligners are plastic replicas of your teeth. Wearing them puts gentle pressure on the teeth, ever-so-slightly repositioning them. Aligners are one of many technological advancements that have made orthodontic treatment less conspicuous and one of the many appliances orthodontists use to move teeth and align jaws.</p>
+
+    <h4>Visibility</h4>
+    <p>Aligners are clear, thin, plastic-like trays, making them virtually invisible and allowing an individual to inconspicuously achieve a straight smile. Tooth colored attachments are frequently placed on the teeth to help guide the teeth into place. Aligners are designed to minimize the appearance of the appliance to better fit any lifestyle.</p>
+
+    <h4>Removability</h4>
+    <p>Many patients appreciate that aligners are removable. Take them out to eat, to brush and floss, or for short periods for work or social occasions. The key responsibility is wearing them as prescribed. That typically means a minimum of 22 hours a day and in the correct sequence. Because they are removable, aligners can be easily lost or damaged. They fall out of pockets and purses and may even get wrapped in a napkin and thrown away.</p>
+
+    <h4>Comfort</h4>
+    <p>While there may be some initial discomfort when a patient switches to a new set of aligners, the discomfort can be easily managed. Removing aligners because they are uncomfortable defeats their purpose. Aligners can’t work unless they are in the mouth.</p>
+
+    <h4>Hygiene</h4>
+    <p>It is critical to avoid drinking soft drinks, flavored waters or sports drinks of any kind with aligners in. Liquids seep into aligners and if they contain acid, sugar, or both, it can rapidly lead to staining of the teeth and extensive decay. Teeth need to be spotless when aligners are placed in the mouth. The type of appliance used in orthodontic treatment is far less important than the skill in the hands of the person who is providing the treatment. Rely on the skills of the EDC orthodontist, who has the education, experience and expertise to evaluate diagnostic findings, and translate those into a treatment plan that will help you or your child achieve a healthy and beautiful smile.</p>
+    
+    `
 }, {
-    id: 100,
-    postedOn: `24/10/20`,
-    postedBy: `Adeel Atta`,
-    category: `Diseases`,
-    mainImg: `/img/blog-details/blog-details.jpg`,
-    title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
-    tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    content: `
+    id: 4,
+    postedOn: `11/Mar/2023`,
+    postedBy: `Esthetix Dental Center`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog4.jpg`,
+    title: `8 Signs You Need Emergency Dental Services`,
+    tags: [`Emergency Dental Services`, `Risks`, `Teeth`, `Emergency`, `Dental Services`, `care`],
+    content: ` 
 
-  <p>
-  A beaming white smile isn’t something that has to be reserved for anyone.
-  </p>
+    <p>Dental emergencies can lead to pain, swelling, discomfort, or even more significant problems down the road. However, you may wonder what a dental emergency is and what signs show you need to see a dentist for an emergency dental service.</p>
+    <p>Understanding the difference between a dental issue that can be put off until your next dental appointment and an emergency issue that can threaten your health is important. This post discusses what you should know about dental emergencies and how to recognize a dental problem that needs immediate attention.</p>
+    <h4>What is a dental emergency?</h4>
+    <p>A dental emergency is any dental problem that needs immediate treatment to alleviate severe pain, stop bleeding, or save a tooth. This also applies to dental infections (like septicemia) that can be life-threatening.</p>
+    <h4>Common dental emergencies and signs you need emergency dental care</h4>
+    <p>Dental emergencies are often characterized by pain and bleeding. However, not all toothaches or dental problems are considered an emergency. To determine if you need an emergency dental service or if you can wait until your next dental office visit, check for the following dental issues or signs.</p>
+    <ul>
+      <li><strong>You have a loose or knocked-out tooth</strong></li>
+      <p>You need to see your dentist immediately if your teeth are loose, wiggly, or have been knocked out of your mouth. A loose or knocked-out tooth can indicate a localized infection (such as dental caries or gum disease) or a tooth injury (usually caused by a heavy impact from falling, a sports injury, or a car accident). By taking quick action, your dentist can reinsert your tooth and preserve it or identify the root cause and provide treatment.</p>
+      <p>If you have a knocked-out tooth, do the following before seeing your dentist:</p>
+      <ul>
+        <li>Pick the tooth up carefully without touching its root</li>
+        <li>Rinse it (do not scrub it)</li>
+        <li>If possible, reinsert it into its socket</li>
+        <li>If you cannot reinsert it, place it in a container of water or milk</li>
+        <li>Visit your dentist as fast as you can to increase the chances of saving your natural tooth</li>
+      </ul>
+      <li><strong>You have a severe toothache</strong></li>
+      <p>Tooth pain and discomfort are not something you should ignore. They’re your body’s way of expressing an issue in your mouth that needs to be checked. If you experience unexplainable or sudden tooth pain, or the pain’s severity has increased, visit your dentist for proper diagnosis and treatment.</p>
+      <li><strong>Your gums ache, become swollen, or bleed</strong></li>
+      <p>Problems like occasional gum irritation are not considered a dental emergency. However, gums with excessive or recurring bleeding can indicate an underlying health or dental issue, especially if accompanied by swelling and pain. These symptoms (especially if caused by gum disease) can reach the point of no return if left untreated.</p>
+      <li><strong>Your mouth or jaw is swollen</strong></li>
+      <p>If your jaw or mouth suddenly becomes swollen for no obvious reason, then it’s time to visit your dentist for immediate treatment. These symptoms can indicate a serious infection, lymph node irritation, or an underlying issue a professional dental care provider needs to address immediately.</p>
+      <li><strong>You notice signs of an abscessed tooth</strong></li>
+      <p>An abscessed tooth is a painful, severe, and potentially life-threatening infection usually found at the root of the infected tooth. It is typically caused by severe gum disease, untreated cavities, or any trauma to the teeth, like a chipped or cracked tooth. Symptoms of a dental abscess include:</p>
 
-  <p>
-  In fact, just about anyone with a bit of cash lying around can commit to getting porcelain veneers on
-  their teeth for an effortless ivory shine.
-  However, once you’ve jumped into this wonderful world, you’ll soon realize that you need to take
-  care of these instant perfect teeth if you want to keep them looking good long-term. Not every dentist
-  will give you the instructions for the after-care and maintenance that you might need, but at Milltown
-  Dental, we make sure you know how to take care of your new veneers. Here are the top 5 tips for
-  maintaining porcelain veneers
-  </p>
-
- <h4>1. Don’t skip follow-ups</h4>
- <br>
-  <p>
-  Once you’ve completed your first new veneer placement it can be tempting to walk out and never
-  return, ready to beam your smile at the world. However, there’s a reason a follow-up visit, scheduled
-  usually for a week later, is important to attend.
-  </p>
-
-  <p>
-  This is because there needs to be an evaluation of the treatment and to check if there have been
-  any complications. While it can be annoying, this visit is of the utmost importance. It will allow the
-  dentist to assess the placement of your porcelain veneers to ensure everything is going according to
-  plan.
-  </p>
-
-  <p>More importantly, this will give you the opportunity to ask any questions or raise any concerns you
-  may have experienced with your new veneers in the days since your treatment. This appointment
-  will establish what maintenance is required to keep your upgraded TEETH LOOKING GOOD.</p>
-
-
-  <h4>2. Ask any questions on your mind</h4>
-  <br>
-  <p>
-  Say whatever you want to say and whatever’s on your mind.
-  </p>
-
-  <p>
-  For instance, if you have concerns about any oral care habits you have or if you’re unsure about
-  something, don’t hold back. Always ask the dentist to explain exactly what you need to do to
-  preserve the veneers and to maintain your general oral health.
-  </p>
-
-  <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
-  that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
-  as well as the tips here, you could have veneers that last for up to 20 years.</p>
-
-  <p>Their dependability, functionality, and cosmetic beauty are really quite second to none, making them
-  one of the best ways to easily improve your smile.</p>
-
-
-  <h4>3. Continue oral health measures</h4>
-  <br>
-  <p>
-  Just because you have sparkling new white encasings on top of your teeth doesn’t make proper
-  health care any less important. In fact, good dental care may be more important than ever, as your
-  veneer will need all the support it can get to stay shining as bright as the first day you get them.
-  </p>
-
-  <p>
-  So, this brings us to the main point. Brush and floss your teeth every day exactly like you used to.
-  Make sure to use non-abrasive fluoride toothpaste and prioritize your oral health.
-  </p>
-
-  <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
-  that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
-  as well as the tips here, you could have veneers that last for up to 20 years.</p>
-
-  <h4>4. Protect them from excessive grinding</h4>
-  <p>A lot of people have the common problem of clenching or grinding their teeth too much. This can
-  happen if you’re highly stressed, or anxious and tends to be a problem mostly when you’re sleeping.
-  This is not good if you have porcelain veneers and the constant pressure and stress can cause
-  damage to their shiny exterior.</p>
-
-  <p>If you’re worried about this happening, or if you have a history of grinding teeth, make sure to tell
-  your dentist. In fact, it’s possible to get a PROTECTIVE BITE GUARD that you can wear when you
-  go to sleep that will help minimize these stresses and damages. So get fitted for one and walk out
-  with everything you need to protect yourself and your investment.</p>
-
-  <h4>5. Avoid dangerous foods</h4>
-  <p>This is an unfortunate and somewhat restrictive impact of having veneers. You have to avoid food
-  that would be damaging to them. Thankfully, this usually overlaps with food that would be bad for
-  your natural teeth.</p>
-
-  <p>For instance, don’t chew on ice or hard candy, as it could cause ugly-looking chips and cracks.</p>
-
-  <p>However, on the flip side, things that stain your natural teeth like coffee, blueberries or food dyes are
-  a lot less of a problem and shouldn’t adversely impact YOUR VENEERS. However, they can STAIN
-  YOUR NATURAL TEETH, which might make a noticeable colour difference over time.</p>
-
-  <h4>Closing Thoughts</h4>
-
-<p>Remember that a smile won’t change your whole life but it could help you feel a lot more confident. A
-beautiful smile is a great asset and being able to smile without worrying about the appearance of
-your teeth, enhances your self-esteem and can improve the quality of your life.
-By this point, you should have a pretty good idea of how porcelain veneers can deteriorate over time
-and how you can ensure that this doesn’t happen. You don’t want to have to replace your expensive
-veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
-appointment with Esthetix Dental.</p>
+      <ul>
+        <li>Fever</li>
+        <li>Foul taste in the mouth</li>
+        <li>Tooth sensitivity</li>
+        <li>Persistent toothache</li>
+        <li>Pimple-like bumps on your gums</li>
+        <li>Swollen face</li>
+        <li>Tender lymph nodes in your neck</li>
+      </ul>
+      <p>An abscessed tooth is a dental emergency because the infection can spread beyond the mouth and cause issues in other areas of the body.</p>
+      <li><strong>Your dental filling is missing (or your mouth tastes like metal)</strong></li>
+      <p>If you’ve had a metal filling in the past and your mouth suddenly starts tasting like metal, your old filling might be loose or cracked. A missing filling is a potential dental emergency, as your tooth can break easily due to the lack of reinforcement provided by the dental filling. Your tooth’s nerves may even be exposed, leading to several other dental problems requiring immediate care.</p>
+      <li><strong>An object/food is lodged between your teeth</strong></li>
+      <p>You should see your dentist immediately if an object or piece of food becomes lodged between your teeth, and flossing or brushing cannot remove it. Failure to remove the object can lead to tooth decay, gum disease, gum irritation, crooked teeth (as it can shift your teeth), or an infection.</p>
+      <li><strong>Your dental crown breaks or falls off</strong></li>
+      <p>You must immediately see your dentist if your dental crown breaks or completely falls off. This is because your tooth will be exposed and susceptible to infection and damage. An emergency dental visit to replace your dental crown can help you avoid the need for an extraction, root canal, or other dental procedure to preserve your oral health.</p>
+    `
+}, {
+    id: 5,
+    postedOn: `1/Mar/2023`,
+    postedBy: `Esthetix Dental Center`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog5.jpeg`,
+    title: `What Foods Can You Eat After Getting Dental Implants?`,
+    tags: [`Foods to Eat`, `Risks`, `Teeth`, `Emergency`, `Dental Services`, `care`],
+    content: ` 
+    <h4>Getting dental implants can be a major event in someone’s life.</h4>
+<p>After all, this amazing solution restores the look of your smile and the function of your mouth.</p>
+<h4>As such, it’s critical to properly care for your implants after surgery.</h4>
+<p>What you eat (and don’t eat) is of paramount importance.</p>
+<h4>Foods to Eat Immediately After Getting Dental Implants:</h4>
+<p>As you are not permitted to eat six hours before your dental implant procedure, don’t be surprised if you wake up feeling hungry! However, you need to wait at least an hour before having your first snack post-surgery.</p>
+<p>This is because the gauze sponges placed on your surgery site need to remain in your mouth for the first hour after surgery.</p>
+<p>Once they are removed, go easy on yourself. The first 24-48 hours are crucial for your healing post-surgery. You may also be experiencing some discomfort and heightened sensitivity.</p>
+<p>Starting one hour after your dental surgery and continuing for the next 48 hours, stick to the following diet:</p>
+<p>First, you should only consume liquids. For example, we recommend drinking smooth cold soups (nothing chunky), broths, applesauce, meal replacement drinks, smoothies, protein drinks, and juices.</p>
+<p>If you choose fruit smoothies or juices, do so sparingly. Fruit may be high in vitamin C (which is good for your gums), but it’s also highly acidic, and too much can damage tooth enamel.</p>
+<p>Chewing will be difficult initially and can negatively impact your recovery. That’s why you must stick to liquids.</p>
+<p>Second, do not drink your liquids through a straw or water bottle. Doing so requires suction, which can then put pressure on your implant site and disrupt clotting.</p>
+<p>Third, all liquids must be cool. Avoid any hot foods or beverages. Soups may be a fantastic post-surgery meal; however, they must be served cold.</p>
+<p>Fourth, do not drink alcoholic beverages or smoke.</p>
+<p>Fifth, drink lots of water. Staying hydrated is an important part of your recovery. Furthermore, we recommend taking in more fluids after any procedure that uses general anesthesia.</p>
+<h4>Foods to Eat in the Weeks After Dental Implant Surgery</h4>
+<p>Once the first 48 hours are up, you can start introducing soft foods into your diet. The healing process has now started. However, you should still avoid chewing as much as possible.</p>
+<p>As your gums heal, you can introduce more solid foods that require some chewing.</p>
+<p>Every patient will have a slightly different healing journey. It’s important to monitor the sensitivity and tenderness of the surgical site in the days and weeks following your procedure.</p>
+<p>Most patients can start carefully chewing near the implant site at the end of their first-week post-surgery.</p>
+<p>A low level of discomfort is to be expected. However, pain is a sign that your mouth isn’t ready. You should wait to re-introduce chewier foods. If the pain continues, contact your dentist.</p>
+<p>That being said, we recommend that most patients stick to a soft-food diet for the first 10-14 days. Eating foods that are high in protein and vitamin C will help your mouth heal faster.</p>
+<p>Here are a few ideas:</p>
+<ul>
+  <li>Cooked cereal grains are nutritious and easy to eat. For example, consider adding oatmeal or cream of wheat to your diet.</li>
+  <li>Mashed, baked, boiled, or fried potatoes (or sweet potatoes) are also good choices during the first few weeks. Plus, they’re an easy way to add some variety to your diet. No crispy French fries though!</li>
+  <li>Eggs such as scrambled, poached, or in an omelette are also great. They’re soft, high in protein, and rich in vitamin D.</li>
+  <li>Dairy products like milk, yogurt, and soft cheeses offer valuable calcium, which is essential for strong teeth.</li>
+  <li>Don’t forget about your greens. Cook leafy greens like kale and spinach until they’re soft and easy to chew.</li>
+  <li>Initially, any meat you eat should be tender and soft. Soft-cooked fish like salmon, cod, or halibut are great options.</li>
+</ul>
+<h4>Foods to Avoid After Getting Dental Implants</h4>
+<p>Now that you know what you can eat (and when), it’s time to look into what you should avoid.</p>
+<p>Do not eat the following foods:</p>
+<ul>
+  <li>Crunchy foods (chips, hardshell tacos)</li>
+  <li>Chewy foods (gummies, dried fruit)</li>
+  <li>Sticky foods (taffy, candy)</li>
+  <li>Spicy foods (salsa, hot peppers)</li>
+</ul>
+<p>You should also avoid consuming large quantities of acidic foods even though, as we mentioned earlier, many acidic foods (like fruits) offer vital vitamin C.</p>
+<h4>Other Ways to Care for Your Dental Implants</h4>
+<p>Eating the right foods (and avoiding the wrong ones) is just one way to care for your dental implants. Don’t stop there, though!</p>
+<p>Smoking and tobacco are two habits that are never good for your health. You place yourself at a higher risk for tooth decay, cancer, and other serious conditions. Smoking is particularly bad for dental implants. It significantly slows down the healing process and weakens the gums around your implant.</p>
+<p>In the initial few days post-surgery, put down your electric toothbrush and water-flossing device. Under normal circumstances, these tools are immensely beneficial for your oral health. However, they are too vigorous immediately after dental implant surgery. Instead, gently use a traditional toothbrush and floss.</p>
+  `
+}
 
 
-  <div className="row mb-3">
-      <div className="col-lg-4 mt-4">
-          <div className="b-d-s-img">
-              <img src="/img/blog/blog4.jpg" alt="Image" />
-          </div>
-      </div>
-      <div className="col-lg-4 mt-4">
-          <div className="b-d-s-img">
-              <img src="/img/blog/blog5.jpg" alt="Image" />
-          </div>
-      </div>
-      <div className="col-lg-4 mt-4">
-          <div className="b-d-s-img">
-              <img src="/img/blog/blog6.jpg" alt="Image" />
-          </div>
-      </div>
-  </div>
+// {
+//     id: 100,
+//     postedOn: `24/10/20`,
+//     postedBy: `Adeel Atta`,
+//     category: `Diseases`,
+//     mainImg: `/img/blog-details/blog-details.jpg`,
+//     title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
+//     tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
+//     content: `
 
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>
+//   <p>
+//   A beaming white smile isn’t something that has to be reserved for anyone.
+//   </p>
 
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in sed quia non
-      numquam. consectetur adipisicing elit, sed
-  </p>`
-}]
+//   <p>
+//   In fact, just about anyone with a bit of cash lying around can commit to getting porcelain veneers on
+//   their teeth for an effortless ivory shine.
+//   However, once you’ve jumped into this wonderful world, you’ll soon realize that you need to take
+//   care of these instant perfect teeth if you want to keep them looking good long-term. Not every dentist
+//   will give you the instructions for the after-care and maintenance that you might need, but at Milltown
+//   Dental, we make sure you know how to take care of your new veneers. Here are the top 5 tips for
+//   maintaining porcelain veneers
+//   </p>
+
+//  <h4>1. Don’t skip follow-ups</h4>
+//  <br>
+//   <p>
+//   Once you’ve completed your first new veneer placement it can be tempting to walk out and never
+//   return, ready to beam your smile at the world. However, there’s a reason a follow-up visit, scheduled
+//   usually for a week later, is important to attend.
+//   </p>
+
+//   <p>
+//   This is because there needs to be an evaluation of the treatment and to check if there have been
+//   any complications. While it can be annoying, this visit is of the utmost importance. It will allow the
+//   dentist to assess the placement of your porcelain veneers to ensure everything is going according to
+//   plan.
+//   </p>
+
+//   <p>More importantly, this will give you the opportunity to ask any questions or raise any concerns you
+//   may have experienced with your new veneers in the days since your treatment. This appointment
+//   will establish what maintenance is required to keep your upgraded TEETH LOOKING GOOD.</p>
+
+
+//   <h4>2. Ask any questions on your mind</h4>
+//   <br>
+//   <p>
+//   Say whatever you want to say and whatever’s on your mind.
+//   </p>
+
+//   <p>
+//   For instance, if you have concerns about any oral care habits you have or if you’re unsure about
+//   something, don’t hold back. Always ask the dentist to explain exactly what you need to do to
+//   preserve the veneers and to maintain your general oral health.
+//   </p>
+
+//   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+//   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+//   as well as the tips here, you could have veneers that last for up to 20 years.</p>
+
+//   <p>Their dependability, functionality, and cosmetic beauty are really quite second to none, making them
+//   one of the best ways to easily improve your smile.</p>
+
+
+//   <h4>3. Continue oral health measures</h4>
+//   <br>
+//   <p>
+//   Just because you have sparkling new white encasings on top of your teeth doesn’t make proper
+//   health care any less important. In fact, good dental care may be more important than ever, as your
+//   veneer will need all the support it can get to stay shining as bright as the first day you get them.
+//   </p>
+
+//   <p>
+//   So, this brings us to the main point. Brush and floss your teeth every day exactly like you used to.
+//   Make sure to use non-abrasive fluoride toothpaste and prioritize your oral health.
+//   </p>
+
+//   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+//   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+//   as well as the tips here, you could have veneers that last for up to 20 years.</p>
+
+//   <h4>4. Protect them from excessive grinding</h4>
+//   <p>A lot of people have the common problem of clenching or grinding their teeth too much. This can
+//   happen if you’re highly stressed, or anxious and tends to be a problem mostly when you’re sleeping.
+//   This is not good if you have porcelain veneers and the constant pressure and stress can cause
+//   damage to their shiny exterior.</p>
+
+//   <p>If you’re worried about this happening, or if you have a history of grinding teeth, make sure to tell
+//   your dentist. In fact, it’s possible to get a PROTECTIVE BITE GUARD that you can wear when you
+//   go to sleep that will help minimize these stresses and damages. So get fitted for one and walk out
+//   with everything you need to protect yourself and your investment.</p>
+
+//   <h4>5. Avoid dangerous foods</h4>
+//   <p>This is an unfortunate and somewhat restrictive impact of having veneers. You have to avoid food
+//   that would be damaging to them. Thankfully, this usually overlaps with food that would be bad for
+//   your natural teeth.</p>
+
+//   <p>For instance, don’t chew on ice or hard candy, as it could cause ugly-looking chips and cracks.</p>
+
+//   <p>However, on the flip side, things that stain your natural teeth like coffee, blueberries or food dyes are
+//   a lot less of a problem and shouldn’t adversely impact YOUR VENEERS. However, they can STAIN
+//   YOUR NATURAL TEETH, which might make a noticeable colour difference over time.</p>
+
+//   <h4>Closing Thoughts</h4>
+
+// <p>Remember that a smile won’t change your whole life but it could help you feel a lot more confident. A
+// beautiful smile is a great asset and being able to smile without worrying about the appearance of
+// your teeth, enhances your self-esteem and can improve the quality of your life.
+// By this point, you should have a pretty good idea of how porcelain veneers can deteriorate over time
+// and how you can ensure that this doesn’t happen. You don’t want to have to replace your expensive
+// veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
+// appointment with Esthetix Dental.</p>
+
+
+//   <div className="row mb-3">
+//       <div className="col-lg-4 mt-4">
+//           <div className="b-d-s-img">
+//               <img src="/img/blog/blog4.jpg" alt="Image" />
+//           </div>
+//       </div>
+//       <div className="col-lg-4 mt-4">
+//           <div className="b-d-s-img">
+//               <img src="/img/blog/blog5.jpg" alt="Image" />
+//           </div>
+//       </div>
+//       <div className="col-lg-4 mt-4">
+//           <div className="b-d-s-img">
+//               <img src="/img/blog/blog6.jpg" alt="Image" />
+//           </div>
+//       </div>
+//   </div>
+
+//   <p>
+//       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+//       sed do eiusmod tempor incididunt ut labore et dolore magna
+//       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+//       ullamco laboris nisi ut aliquip ex ea commodo consequat.
+//       Duis aute irure dolor in reprehenderit in sed quia non
+//       numquam. consectetur adipisicing elit, sed
+//   </p>
+
+//   <p>
+//       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+//       sed do eiusmod tempor incididunt ut labore et dolore magna
+//       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+//       ullamco laboris nisi ut aliquip ex ea commodo consequat.
+//       Duis aute irure dolor in reprehenderit in sed quia non
+//       numquam. consectetur adipisicing elit, sed
+//   </p>`
+//}
+
+]
 
 
 export const serviceInfo = [

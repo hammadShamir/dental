@@ -26,8 +26,8 @@ const BlogGrid = () => {
             <div className="blog-area ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <span className="top-title">News</span>
-                        <h2>Our Latest News</h2>
+                        <span className="top-title">Blogs</span>
+                        <h2>Our Latest Blogs</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
@@ -41,8 +41,8 @@ const BlogGrid = () => {
 
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-blog">
-                                        <Link href={`/blog/${blog.id}`}>
-                                            <img src={blog.mainImg} alt="Image" />
+                                        <Link href={`/blog/${blog.id}`} style={{minHeight:'237px'}}>
+                                            <img  src={blog.mainImg} alt="Image" />
                                         </Link>
 
                                         <span>{blog.tags[0]}</span>

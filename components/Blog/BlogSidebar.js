@@ -1,11 +1,15 @@
-import React from "react";
+import React, {useMemo} from "react";
 import Link from "next/link";
 
+import { blogsInfo } from "../../components/information/data"
+
 const BlogSidebar = (props) => {
+
+  const blog = useMemo(() => blogsInfo)
   return (
     <>
       <div className="widget-area" id="secondary">
-        <div className="widget widget_search">
+        {/* <div className="widget widget_search">
           <h3 className="widget-title">Search Now</h3>
           <div className="post-wrap">
             <form className="search-form">
@@ -22,27 +26,32 @@ const BlogSidebar = (props) => {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
 
         <div className="widget widget-peru-posts-thumb">
           <h3 className="widget-title">Popular Posts</h3>
           <div className="post-wrap">
+
+
+          {blog.slice(1,4).map(blog => (
+
             <div className="item">
-              <Link href="/blog-details" className="thumb">
-                <span className="fullimage cover bg1" role="img"></span>
+              <Link href={`/blog/${blog.id}`} className="thumb">
+                {/* <span className="fullimage cover bg1" role="img"></span> */}
+                 <img src={blog.mainImg} className="fullimage cover" ></img>
               </Link>
               <div className="info">
-                <span className="time">April 20, 2020</span>
+                <span className="time">{blog.postedOn}</span>
                 <h4 className="title usmall">
-                  <Link href="/blog-details">
-                    250+ Medical Tips We just had to share
+                  <Link href={`/blog/${blog.id}`}>
+                    {blog.title}
                   </Link>
                 </h4>
               </div>
               <div className="clear"></div>
             </div>
-
-            <div className="item">
+))}
+            {/* <div className="item">
               <Link href="/blog-details" className="thumb">
                 <span className="fullimage cover bg2" role="img"></span>
               </Link>
@@ -85,11 +94,11 @@ const BlogSidebar = (props) => {
                 </h4>
               </div>
               <div className="clear"></div>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div className="widget widget_categories">
+        {/* <div className="widget widget_categories">
           <h3 className="widget-title">Archives</h3>
           <div className="post-wrap">
             <ul>
@@ -125,9 +134,9 @@ const BlogSidebar = (props) => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
-        <div className="widget widget_categories">
+        {/* <div className="widget widget_categories">
           <h3 className="widget-title">Categories</h3>
           <div className="post-wrap">
             <ul>
@@ -163,7 +172,7 @@ const BlogSidebar = (props) => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="widget widget_tag_cloud">
           <h3 className="widget-title">Tags</h3>
