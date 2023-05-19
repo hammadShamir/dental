@@ -10,7 +10,7 @@ const menuObj = [{
   name: `Home`
 },
 {
-  name: `About Us`,
+  name: `About`,
 },
 {
   name: `Services`,
@@ -23,12 +23,12 @@ const menuObj = [{
   dropDown: [{ element: `Our Gallery`, href: `gallery` },
   { element: `Our Blogs`, href: `blog` },
   { element: `Testimonials`, href: `testimonials` },
-  { element: `Success Stories`, href: `team` },
+  { element: `Success Stories`, href: `successStories` },
   { element: `Terms & Conditions`, href: `termscondition` },
   { element: `Faqs`, href: `faq` },
   ]
 },
-{ name: `Contact Us` }];
+{ name: `Contact` }];
 
 
 

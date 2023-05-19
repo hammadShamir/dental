@@ -20,96 +20,53 @@ const TermsConditions = () => {
             <div className="terms-conditions ptb-100">
                 <div className="container">
                     <div className="single-privacy">
-                        <h3 className="mt-0">Welcome To Corf Terms Conditions</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum. scrambled it to make a type specimen book. It has
-                            survived not only five centuries.
-                        </p>
+                        <h1 className="mt-0 text-center mb-3">Welcome To Esthetix Dental Center's Terms Conditions</h1>
 
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard
-                            dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book.
-                        </p>
+                        <div class="section mt-5">
+                            <h5>1. Treatment Plan</h5>
+                            <p>Once your treatment plan has been agreed with the Dentist, we will provide printed details of your plan. If
+                                this plan changes due to radiographic or clinical findings, we will inform you and discuss this with you.</p>
+                        </div>
 
-                        <h3>Welcome To Help Corf Conditions</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
-                        </p>
+                        <div class="section mt-3">
+                            <h5>2. Consent Form</h5>
+                            <p>Certain treatments require completion of a written consent form. This is in order to explain the treatment,
+                                aftercare, and any risk to you thoroughly before any of these treatments are carried out.</p>
+                        </div>
+ 
+                        <div class="section mt-3">
+                            <h5>3. Fees for Treatment</h5>
+                            <p>Fees for treatment are due on the day the treatment is provided. Where treatment requires laboratory
+                                procedures, a minimum of 50% of the total fee is due at the appointment where impressions are taken. Another
+                                50% is due at the time of insertion of prosthesis. Fees for certain treatments like Braces are taken in
+                                staged payments at each visit.</p>
+                        </div>
 
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard
-                            dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book.
-                        </p>
+                        <div class="section mt-3">
+                            <h5>4. Payment Methods</h5>
+                            <p>Esthetix Dental does not accept any payments by cheque.</p>
+                        </div>
 
-                        <h3>Welcome To Services Corf Conditions</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
-                        </p>
+                        <div class="section mt-3">
+                            <h5>5. Appointment Cancellation</h5>
+                            <p>We require a minimum of 48 business hours notice for cancellation of any arranged appointment to avoid a fine
+                                of 100 AED. When we schedule an appointment for a patient, we are booking the surgery time off for that
+                                patient's treatment.</p>
+                        </div>
 
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard
-                            dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book.
-                        </p>
+                        <div class="section mt-3">
+                            <h5>6. Medical History</h5>
+                            <p>It is very important that you give a full medical history and details of any medication you take. It is very
+                                important for you to tell your Dentist.</p>
+                        </div>
+
+                        <div class="section mt-3">
+                            <h5>7. Complaints</h5>
+                            <p>At Esthetix Dental, we always take complaints about any aspects of our services very seriously in order to
+                                ensure that every patient has only the very best experience at all times.</p>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
