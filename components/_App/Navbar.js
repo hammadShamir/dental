@@ -160,7 +160,7 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/stories/"
+                              href="/successstories/"
                               className={`nav-link ${currentPath == "/successstories/" && "active"
                                 }`}
                             >
@@ -185,7 +185,7 @@ const Navbar = () => {
                           className={`nav-link ${currentPath == "/contact/" && "active"
                             }`}
                         >
-                          Contact Us
+                          Contact
                         </Link>
                       </li>
                     </ul>
