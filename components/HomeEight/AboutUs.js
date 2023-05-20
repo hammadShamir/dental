@@ -4,26 +4,19 @@ import Link from "next/link";
 const AboutUs = () => {
   return (
     <>
-      <div className="about-area-seven">
+      <div className="about-area-seven pb-70">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-content">
-                <h2>Hospital Doctors Examine Patients So That They Diagnose</h2>
+                <h2>
+                  Leading Multispecialty Oral Healthcare Clinic in Dubai</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  We, at Esthetix Dental Center, are committed to provide world class dental treatment in a spaciously designed modern clinic where quality and care is given utmost importance. Esthetix Dental Center, Dubai assures its patients a holistic personalized dental experience through its team of internationally trained dental specialists, world class dental equipment and technology and patient centered treatment plans.
                 </p>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit, sed do sit amet,
-                  consectetur.
+                  Esthetix Dental Center is a unique center of excellence in Cosmetic, Reconstructive, Implant and General Dentistry. Using the latest in advanced dental technology. We create dazzling smile that brightens your life. It’s our priority to create a warm comfortable and welcoming environment for our patients and deliver treatment with knowledge and care. We understand the finer points of quality, service, and hospitality.
                 </p>
 
                 <div className="about-btn">

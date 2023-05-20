@@ -10,7 +10,7 @@ const Doctors1 = () => {
 
     const [team, setTeam] = useState(teamInfo);
     const [initial, setInitial] = useState(0);
-    const [cut,setCut] = useState(6)
+    const [cut, setCut] = useState(6)
 
     return (
         <>
@@ -30,16 +30,14 @@ const Doctors1 = () => {
                         <span className="top-title">Our Doctors</span>
                         <h2>Our Specialist Doctors</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
-                            vel consequatur tempora atque blanditiis exercitationem incidunt,
-                            alias corporis quam assumenda dicta, temporibus.
+                            Meet our qualified and experienced Doctors with years of working experience in the Dental field. We have the best dental surgeons in Dubai that will help you with your oral health.
                         </p>
                     </div>
 
                     <div className="row">
 
                         {
-                            team.slice(initial,initial+cut ).map(member => (
+                            team.slice(initial, initial + cut).map(member => (
                                 <div className="col-lg-4 col-sm-6">
                                     <div className="single-doctor">
                                         <img src={`${member.image}`} alt={`${member.name}`} />
@@ -79,7 +77,7 @@ const Doctors1 = () => {
                             <div className="page-navigation-area">
                                 <nav aria-label="Page navigation example text-center">
                                     <ul className="pagination">
-                                    <li className="page-item"
+                                        <li className="page-item"
                                             onClick={(e) =>
                                                 initial != 0 ? setInitial(initial - cut) : e.preventDefault()
                                             }>
@@ -88,17 +86,17 @@ const Doctors1 = () => {
                                             </a>
                                         </li>
                                         {[...Array(Math.ceil(team.length / cut))].map((val, index) => (
-                                            <li key={index} className={(index*cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
+                                            <li key={index} className={(index * cut == initial) ? `page-item active` : `page-item`} onClick={() => setInitial(index * cut)}>
                                                 <a className="page-link" >
                                                     {index + 1}
                                                 </a>
                                             </li>
                                         ))}
-                                        
+
                                         <li className="page-item"
-                                                onClick={
-                                                    (e) => ( (team.length - initial) > cut ? setInitial(initial + cut) : e.preventDefault() )
-                                                } >
+                                            onClick={
+                                                (e) => ((team.length - initial) > cut ? setInitial(initial + cut) : e.preventDefault())
+                                            } >
                                             <a className="page-link">
                                                 <i className="bx bx-chevrons-right"></i>
                                             </a>

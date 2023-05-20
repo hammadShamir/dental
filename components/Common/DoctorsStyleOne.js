@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {teamInfo} from '../information/data'
+import { teamInfo } from '../information/data'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
 import Link from "next/link";
@@ -21,9 +21,7 @@ const DoctorsStyleOne = () => {
             <span className="top-title">Our Team</span>
             <h2>Meet Our Doctors</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
-              vel consequatur tempora atque blanditiis exercitationem incidunt,
-              alias corporis quam assumenda dicta, temporibus.
+              Meet our qualified and experienced Doctors with years of working experience in the Dental field. We have the best dental surgeons in Dubai that will help you with your oral health.
             </p>
           </div>
 
@@ -61,29 +59,28 @@ const DoctorsStyleOne = () => {
                   </p>
 
                   <ul>
-                    {member.facebook &&
-                      (<li>
-                        <a href={member.facebook} target="_blank">
-                          <i className="bx bxl-facebook"></i>
-                        </a>
-                      </li>
-                      )}
 
-                    {member.linkedin &&
-                      (<li>
-                        <a href={member.linkedin} target="_blank">
-                          <i className="bx bxl-linkedin"></i>
-                        </a>
-                      </li>
-                      )}
+                    <li>
+                      <a href={member.facebook ? member.facebook : "#"} target="_blank">
+                        <i className="bx bxl-facebook"></i>
+                      </a>
+                    </li>
 
-                    {member.instagram && 
-                    (<li>
-                      <a href={member.instagram} target="_blank">
+
+
+                    <li>
+                      <a href={member.linkedin ? member.linkedin : "#"} target="_blank">
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href={member.instagram ? member.instagram : "#"} target="_blank">
                         <i className="bx bxl-instagram"></i>
                       </a>
                     </li>
-                    )}
+
 
                   </ul>
                 </div>

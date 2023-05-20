@@ -29,9 +29,7 @@ const BlogGrid = () => {
                         <span className="top-title">Blogs</span>
                         <h2>Our Latest Blogs</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                            ipsum suspendisse ultrices gravida. Risus
+                            Esthetix dental center provides you best dental care in dubai with advance technology and certified procedure. Keep updated with our latest news and announcement...
                         </p>
                     </div>
                     <div className="row">
@@ -41,8 +39,8 @@ const BlogGrid = () => {
 
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-blog">
-                                        <Link href={`/blog/${blog.id}`} style={{minHeight:'237px'}}>
-                                            <img  src={blog.mainImg} alt="Image" />
+                                        <Link href={`/blog/${blog.id}`} style={{ minHeight: '237px' }}>
+                                            <img src={blog.mainImg} alt="Image" />
                                         </Link>
 
                                         <span>{blog.tags[0]}</span>

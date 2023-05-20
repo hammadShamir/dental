@@ -976,6 +976,7 @@ Second Facility Area Style
   margin-bottom: 30px;
   transition: all 0.5s;
   background-color: #ffffff;
+  max-height: 250px;
 }
 .second-facility-item::before {
   content: "";

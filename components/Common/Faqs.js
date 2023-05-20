@@ -16,9 +16,7 @@ const Faqs = () => {
             <span className="top-title">FAQ,s</span>
             <h2>Frequently Asked Questions</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
-              vel consequatur tempora atque blanditiis exercitationem incidunt,
-              alias corporis quam assumenda dicta, temporibus.
+              Here are some most common questions that our clients frequently ask about dental care and procedures. These questions will be helpful for you. Take a look
             </p>
           </div>
 

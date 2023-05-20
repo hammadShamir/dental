@@ -10,9 +10,7 @@ const NewsStyleOne = () => {
             <span className="top-title">News</span>
             <h2>Our Latest News</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus
+              Esthetix dental center provides you best dental care in dubai with advance technology and certified procedure. Keep updated with our latest news and announcement...
             </p>
           </div>
 

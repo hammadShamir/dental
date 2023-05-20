@@ -2,11 +2,11 @@ import React from 'react'
 import Navbar from "../components/_App/NavbarFour"
 import MainBanner from "../components/HomeSeven/MainBanner"
 import Facility from "../components/HomeEight/Facility";
-import AboutUs from "../components/HomeTwo/AboutUs";
+import AboutUs from "../components/HomeEight/AboutUs";
 import Department from "../components/HomeEight/Department";
 import FunFactStyleThree from "../components/Common/FunFactStyleOne";
 import OurServices from "../components/HomeEight/OurServices";
-import DoctorsStyleFour from "../components/Common/DoctorsStyleOne";
+import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
 import Pricing from "../components/HomeEight/Pricing";
 import Faqs from "../components/Common/Faqs";
 import AppointmentForm from "../components/HomeOne/AppointmentForm";
@@ -23,16 +23,16 @@ const index = () => {
 
       <MainBanner />
 
-      {/* <Facility /> */}
+      <Facility />
 
       <AboutUs />
 
-      <OurServices />
+      <OurServices cards={6} />
 
       <FunFactStyleThree />
 
       <div className="bg-color">
-        <DoctorsStyleFour />
+        <DoctorsStyleOne />
       </div>
 
       <TestimonialStyleOne />

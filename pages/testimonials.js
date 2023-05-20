@@ -29,9 +29,7 @@ const Testimonials = () => {
                         <span className="top-title">Testimonials</span>
                         <h2>What Our Client’s Say</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
-                            vel consequatur tempora atque blanditiis exercitationem incidunt,
-                            alias corporis quam assumenda dicta, temporibus.
+                            Our keen priority is client satisfaction. Our professional dentist team do what ever it takes to satisfy valuable client . Take a look at our clients reviews on our services
                         </p>
                     </div>
 

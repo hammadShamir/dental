@@ -441,156 +441,156 @@ appointment with Esthetix Dental.</p>
 }
 
 
-// {
-//     id: 100,
-//     postedOn: `24/10/20`,
-//     postedBy: `Adeel Atta`,
-//     category: `Diseases`,
-//     mainImg: `/img/blog-details/blog-details.jpg`,
-//     title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
-//     tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-//     content: `
+    // {
+    //     id: 100,
+    //     postedOn: `24/10/20`,
+    //     postedBy: `Adeel Atta`,
+    //     category: `Diseases`,
+    //     mainImg: `/img/blog-details/blog-details.jpg`,
+    //     title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
+    //     tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
+    //     content: `
 
-//   <p>
-//   A beaming white smile isn’t something that has to be reserved for anyone.
-//   </p>
+    //   <p>
+    //   A beaming white smile isn’t something that has to be reserved for anyone.
+    //   </p>
 
-//   <p>
-//   In fact, just about anyone with a bit of cash lying around can commit to getting porcelain veneers on
-//   their teeth for an effortless ivory shine.
-//   However, once you’ve jumped into this wonderful world, you’ll soon realize that you need to take
-//   care of these instant perfect teeth if you want to keep them looking good long-term. Not every dentist
-//   will give you the instructions for the after-care and maintenance that you might need, but at Milltown
-//   Dental, we make sure you know how to take care of your new veneers. Here are the top 5 tips for
-//   maintaining porcelain veneers
-//   </p>
+    //   <p>
+    //   In fact, just about anyone with a bit of cash lying around can commit to getting porcelain veneers on
+    //   their teeth for an effortless ivory shine.
+    //   However, once you’ve jumped into this wonderful world, you’ll soon realize that you need to take
+    //   care of these instant perfect teeth if you want to keep them looking good long-term. Not every dentist
+    //   will give you the instructions for the after-care and maintenance that you might need, but at Milltown
+    //   Dental, we make sure you know how to take care of your new veneers. Here are the top 5 tips for
+    //   maintaining porcelain veneers
+    //   </p>
 
-//  <h4>1. Don’t skip follow-ups</h4>
-//  <br>
-//   <p>
-//   Once you’ve completed your first new veneer placement it can be tempting to walk out and never
-//   return, ready to beam your smile at the world. However, there’s a reason a follow-up visit, scheduled
-//   usually for a week later, is important to attend.
-//   </p>
+    //  <h4>1. Don’t skip follow-ups</h4>
+    //  <br>
+    //   <p>
+    //   Once you’ve completed your first new veneer placement it can be tempting to walk out and never
+    //   return, ready to beam your smile at the world. However, there’s a reason a follow-up visit, scheduled
+    //   usually for a week later, is important to attend.
+    //   </p>
 
-//   <p>
-//   This is because there needs to be an evaluation of the treatment and to check if there have been
-//   any complications. While it can be annoying, this visit is of the utmost importance. It will allow the
-//   dentist to assess the placement of your porcelain veneers to ensure everything is going according to
-//   plan.
-//   </p>
+    //   <p>
+    //   This is because there needs to be an evaluation of the treatment and to check if there have been
+    //   any complications. While it can be annoying, this visit is of the utmost importance. It will allow the
+    //   dentist to assess the placement of your porcelain veneers to ensure everything is going according to
+    //   plan.
+    //   </p>
 
-//   <p>More importantly, this will give you the opportunity to ask any questions or raise any concerns you
-//   may have experienced with your new veneers in the days since your treatment. This appointment
-//   will establish what maintenance is required to keep your upgraded TEETH LOOKING GOOD.</p>
-
-
-//   <h4>2. Ask any questions on your mind</h4>
-//   <br>
-//   <p>
-//   Say whatever you want to say and whatever’s on your mind.
-//   </p>
-
-//   <p>
-//   For instance, if you have concerns about any oral care habits you have or if you’re unsure about
-//   something, don’t hold back. Always ask the dentist to explain exactly what you need to do to
-//   preserve the veneers and to maintain your general oral health.
-//   </p>
-
-//   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
-//   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
-//   as well as the tips here, you could have veneers that last for up to 20 years.</p>
-
-//   <p>Their dependability, functionality, and cosmetic beauty are really quite second to none, making them
-//   one of the best ways to easily improve your smile.</p>
+    //   <p>More importantly, this will give you the opportunity to ask any questions or raise any concerns you
+    //   may have experienced with your new veneers in the days since your treatment. This appointment
+    //   will establish what maintenance is required to keep your upgraded TEETH LOOKING GOOD.</p>
 
 
-//   <h4>3. Continue oral health measures</h4>
-//   <br>
-//   <p>
-//   Just because you have sparkling new white encasings on top of your teeth doesn’t make proper
-//   health care any less important. In fact, good dental care may be more important than ever, as your
-//   veneer will need all the support it can get to stay shining as bright as the first day you get them.
-//   </p>
+    //   <h4>2. Ask any questions on your mind</h4>
+    //   <br>
+    //   <p>
+    //   Say whatever you want to say and whatever’s on your mind.
+    //   </p>
 
-//   <p>
-//   So, this brings us to the main point. Brush and floss your teeth every day exactly like you used to.
-//   Make sure to use non-abrasive fluoride toothpaste and prioritize your oral health.
-//   </p>
+    //   <p>
+    //   For instance, if you have concerns about any oral care habits you have or if you’re unsure about
+    //   something, don’t hold back. Always ask the dentist to explain exactly what you need to do to
+    //   preserve the veneers and to maintain your general oral health.
+    //   </p>
 
-//   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
-//   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
-//   as well as the tips here, you could have veneers that last for up to 20 years.</p>
+    //   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+    //   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+    //   as well as the tips here, you could have veneers that last for up to 20 years.</p>
 
-//   <h4>4. Protect them from excessive grinding</h4>
-//   <p>A lot of people have the common problem of clenching or grinding their teeth too much. This can
-//   happen if you’re highly stressed, or anxious and tends to be a problem mostly when you’re sleeping.
-//   This is not good if you have porcelain veneers and the constant pressure and stress can cause
-//   damage to their shiny exterior.</p>
-
-//   <p>If you’re worried about this happening, or if you have a history of grinding teeth, make sure to tell
-//   your dentist. In fact, it’s possible to get a PROTECTIVE BITE GUARD that you can wear when you
-//   go to sleep that will help minimize these stresses and damages. So get fitted for one and walk out
-//   with everything you need to protect yourself and your investment.</p>
-
-//   <h4>5. Avoid dangerous foods</h4>
-//   <p>This is an unfortunate and somewhat restrictive impact of having veneers. You have to avoid food
-//   that would be damaging to them. Thankfully, this usually overlaps with food that would be bad for
-//   your natural teeth.</p>
-
-//   <p>For instance, don’t chew on ice or hard candy, as it could cause ugly-looking chips and cracks.</p>
-
-//   <p>However, on the flip side, things that stain your natural teeth like coffee, blueberries or food dyes are
-//   a lot less of a problem and shouldn’t adversely impact YOUR VENEERS. However, they can STAIN
-//   YOUR NATURAL TEETH, which might make a noticeable colour difference over time.</p>
-
-//   <h4>Closing Thoughts</h4>
-
-// <p>Remember that a smile won’t change your whole life but it could help you feel a lot more confident. A
-// beautiful smile is a great asset and being able to smile without worrying about the appearance of
-// your teeth, enhances your self-esteem and can improve the quality of your life.
-// By this point, you should have a pretty good idea of how porcelain veneers can deteriorate over time
-// and how you can ensure that this doesn’t happen. You don’t want to have to replace your expensive
-// veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
-// appointment with Esthetix Dental.</p>
+    //   <p>Their dependability, functionality, and cosmetic beauty are really quite second to none, making them
+    //   one of the best ways to easily improve your smile.</p>
 
 
-//   <div className="row mb-3">
-//       <div className="col-lg-4 mt-4">
-//           <div className="b-d-s-img">
-//               <img src="/img/blog/blog4.jpg" alt="Image" />
-//           </div>
-//       </div>
-//       <div className="col-lg-4 mt-4">
-//           <div className="b-d-s-img">
-//               <img src="/img/blog/blog5.jpg" alt="Image" />
-//           </div>
-//       </div>
-//       <div className="col-lg-4 mt-4">
-//           <div className="b-d-s-img">
-//               <img src="/img/blog/blog6.jpg" alt="Image" />
-//           </div>
-//       </div>
-//   </div>
+    //   <h4>3. Continue oral health measures</h4>
+    //   <br>
+    //   <p>
+    //   Just because you have sparkling new white encasings on top of your teeth doesn’t make proper
+    //   health care any less important. In fact, good dental care may be more important than ever, as your
+    //   veneer will need all the support it can get to stay shining as bright as the first day you get them.
+    //   </p>
 
-//   <p>
-//       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-//       sed do eiusmod tempor incididunt ut labore et dolore magna
-//       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-//       ullamco laboris nisi ut aliquip ex ea commodo consequat.
-//       Duis aute irure dolor in reprehenderit in sed quia non
-//       numquam. consectetur adipisicing elit, sed
-//   </p>
+    //   <p>
+    //   So, this brings us to the main point. Brush and floss your teeth every day exactly like you used to.
+    //   Make sure to use non-abrasive fluoride toothpaste and prioritize your oral health.
+    //   </p>
 
-//   <p>
-//       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-//       sed do eiusmod tempor incididunt ut labore et dolore magna
-//       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-//       ullamco laboris nisi ut aliquip ex ea commodo consequat.
-//       Duis aute irure dolor in reprehenderit in sed quia non
-//       numquam. consectetur adipisicing elit, sed
-//   </p>`
-//}
+    //   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
+    //   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
+    //   as well as the tips here, you could have veneers that last for up to 20 years.</p>
+
+    //   <h4>4. Protect them from excessive grinding</h4>
+    //   <p>A lot of people have the common problem of clenching or grinding their teeth too much. This can
+    //   happen if you’re highly stressed, or anxious and tends to be a problem mostly when you’re sleeping.
+    //   This is not good if you have porcelain veneers and the constant pressure and stress can cause
+    //   damage to their shiny exterior.</p>
+
+    //   <p>If you’re worried about this happening, or if you have a history of grinding teeth, make sure to tell
+    //   your dentist. In fact, it’s possible to get a PROTECTIVE BITE GUARD that you can wear when you
+    //   go to sleep that will help minimize these stresses and damages. So get fitted for one and walk out
+    //   with everything you need to protect yourself and your investment.</p>
+
+    //   <h4>5. Avoid dangerous foods</h4>
+    //   <p>This is an unfortunate and somewhat restrictive impact of having veneers. You have to avoid food
+    //   that would be damaging to them. Thankfully, this usually overlaps with food that would be bad for
+    //   your natural teeth.</p>
+
+    //   <p>For instance, don’t chew on ice or hard candy, as it could cause ugly-looking chips and cracks.</p>
+
+    //   <p>However, on the flip side, things that stain your natural teeth like coffee, blueberries or food dyes are
+    //   a lot less of a problem and shouldn’t adversely impact YOUR VENEERS. However, they can STAIN
+    //   YOUR NATURAL TEETH, which might make a noticeable colour difference over time.</p>
+
+    //   <h4>Closing Thoughts</h4>
+
+    // <p>Remember that a smile won’t change your whole life but it could help you feel a lot more confident. A
+    // beautiful smile is a great asset and being able to smile without worrying about the appearance of
+    // your teeth, enhances your self-esteem and can improve the quality of your life.
+    // By this point, you should have a pretty good idea of how porcelain veneers can deteriorate over time
+    // and how you can ensure that this doesn’t happen. You don’t want to have to replace your expensive
+    // veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
+    // appointment with Esthetix Dental.</p>
+
+
+    //   <div className="row mb-3">
+    //       <div className="col-lg-4 mt-4">
+    //           <div className="b-d-s-img">
+    //               <img src="/img/blog/blog4.jpg" alt="Image" />
+    //           </div>
+    //       </div>
+    //       <div className="col-lg-4 mt-4">
+    //           <div className="b-d-s-img">
+    //               <img src="/img/blog/blog5.jpg" alt="Image" />
+    //           </div>
+    //       </div>
+    //       <div className="col-lg-4 mt-4">
+    //           <div className="b-d-s-img">
+    //               <img src="/img/blog/blog6.jpg" alt="Image" />
+    //           </div>
+    //       </div>
+    //   </div>
+
+    //   <p>
+    //       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    //       sed do eiusmod tempor incididunt ut labore et dolore magna
+    //       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+    //       ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    //       Duis aute irure dolor in reprehenderit in sed quia non
+    //       numquam. consectetur adipisicing elit, sed
+    //   </p>
+
+    //   <p>
+    //       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    //       sed do eiusmod tempor incididunt ut labore et dolore magna
+    //       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+    //       ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    //       Duis aute irure dolor in reprehenderit in sed quia non
+    //       numquam. consectetur adipisicing elit, sed
+    //   </p>`
+    //}
 
 ]
 
@@ -598,6 +598,7 @@ appointment with Esthetix Dental.</p>
 export const serviceInfo = [
     {
         id: 1,
+        icon: `service-icon1.png`,
         name: `Root Canal`,
         title: `Root Canal Treatment`,
         desc: `Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth's root`,
@@ -619,6 +620,7 @@ export const serviceInfo = [
     },
     {
         id: 2,
+        icon: `service-icon2.png`,
         name: `Orthodontic Treatment`,
         title: `Orthodontics Braces`,
         desc: `Orthodontic treatment is a way of straightening or moving teeth to improve the appearance of the teeth and how they work.`,
@@ -663,6 +665,7 @@ export const serviceInfo = [
     },
     {
         id: 3,
+        icon: "service-icon3.png",
         name: `Pediatric Dentistry`,
         title: `Pediatric Dentistry`,
         desc: `We specialize in pediatric dentistry using state-of-the-art techniques...`,
@@ -687,6 +690,7 @@ export const serviceInfo = [
     },
     {
         id: 4,
+        icon: "service-icon1.png",
         name: `Tooth Extraction`,
         title: `Tooth Extraction`,
         desc: `Tooth Extraction is mostly done to remove the tooth that is either damaged, decayed, worn out, or crowded.`,
@@ -706,6 +710,7 @@ export const serviceInfo = [
     },
     {
         id: 5,
+        icon: `service-icon5.png`,
         name: `Composite Filling`,
         title: `Composite Filling`,
         desc: `A composite filling is a quick and pain-free process of restoring teeth to their original shape and function.`,
@@ -734,6 +739,7 @@ export const serviceInfo = [
     },
     {
         id: 6,
+        icon: `service-icon4.png`,
         name: `Scaling & Polishing`,
         title: `Scaling & Polishing`,
         desc: `Scaling & Polishing can remove built-up plaque & tartar on the teeth to ensure a healthy smile on your face.`,
@@ -762,6 +768,7 @@ export const serviceInfo = [
     },
     {
         id: 7,
+        icon: `service-icon2.png`,
         name: `Dental Implants`,
         title: `Dental Implants`,
         desc: `If you have missing or broken teeth, you have come to the right place. We proudly offer a wide range of dental implants services.`,
@@ -797,6 +804,7 @@ export const serviceInfo = [
     },
     {
         id: 8,
+        icon: `service-icon6.png`,
         name: `Dental Crowns`,
         title: `Dental Crowns`,
         desc: `Dental crowns are used to restore function and aesthetics to the mouth. They can be used to replace missing teeth, protect weak or damaged teeth, and improve the appearance of teeth that are discolored or poorly shaped.`,
@@ -823,6 +831,7 @@ export const serviceInfo = [
     },
     {
         id: 9,
+        icon: `service-icon1.png`,
         name: `Denture`,
         title: `Denture`,
         desc: `Dentures are artificial teeth and gums that are formed to replace lost or removed natural teeth. They are a cost effective way of improving facial shape and chewing efficiency, giving you a healthy new smile.`,
@@ -847,6 +856,7 @@ export const serviceInfo = [
     },
     {
         id: 10,
+        icon: `service-icon3.png`,
         name: `Invisible Aligners`,
         title: `Invisible Aligners`,
         desc: `Invisible Aligners are great for patients who had braces when they were younger and just need a “touch up,” as well as for patients who have mild to moderate dental problems like misaligned teeth...`,
@@ -876,6 +886,7 @@ export const serviceInfo = [
     },
     {
         id: 11,
+        icon: `service-icon2.png`,
         name: `Teeth Whitening`,
         title: `Teeth Whitening`,
         desc: `If stained and discolored teeth are standing between you and a brilliant, sparkling smile, teeth whitening might be just the thing to give you the smile you’ve always wanted.`,
@@ -902,6 +913,7 @@ export const serviceInfo = [
     },
     {
         id: 12,
+        icon: "service-icon5.png",
         name: `Hollywood Smile`,
         title: `Hollywood Smile`,
         desc: `It simply refers to the procedure that involves improvement in the appearance of the smile. It includes many Cosmetic makeover processes ranging from teeth straightening to dental...`,
