@@ -27,7 +27,7 @@ const MainBanner = () => {
                 <div className="">
                   <div className="container">
                     <div className="slider-text two">
-                      <span className="top-title">Welcome to Exthetix Dental Center</span>
+                      <span className="top-title">Welcome to Esthetix  Dental Center</span>
                       <h1>Perfect Smile, Perfect You</h1>
                       <p>
                         We are committed to provide world class dental treatment in a spaciously  designed modern clinic where quality and care is given utmost importance
@@ -81,7 +81,7 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-Eight/home-Eight-banner1.jpg)`,
+                backgroundImage: `url(/img/home-Eight/newBanner.jpg)`,
               }}
             >
               <div className="d-table">

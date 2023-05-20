@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import { serviceInfo } from '../information/data'
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -69,24 +69,15 @@ const Footer = () => {
               >
                 <h3>Our Services</h3>
                 <ul>
-                  <li>
-                    <Link href="#">Dental Implants</Link>
-                  </li>
-                  <li>
-                    <Link href="#"> Dental Implants</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Orthodontic Braces</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Invisible Aligners</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Pediatric Dentistry</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Veneers</Link>
-                  </li>
+                  {
+                    serviceInfo && serviceInfo.slice(0, 6).map((item, index) => {
+                      return (
+                        <li key={index}>
+                          <Link href={`/service/${item.id}`}>{item.name}</Link>
+                        </li>
+                      )
+                    })
+                  }
                 </ul>
               </div>
             </div>
