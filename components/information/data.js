@@ -24,10 +24,6 @@ export const menuObj = [{
 { name: `Contact` }];
 
 
-
-
-
-
 export const teamInfo = [
     {
         name: `Dr. Ranjeet Kumar`,
@@ -164,7 +160,6 @@ export const teamInfo = [
         speciality: []
     }
 ]
-
 
 
 export const blogsInfo = [{

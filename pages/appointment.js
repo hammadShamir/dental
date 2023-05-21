@@ -6,8 +6,12 @@ import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
 import Link from "next/link";
 import FunFactStyleOne from "../components/Common/FunFactStyleOne";
+import { serviceInfo } from '../components/information/data';
+
+
 const appointment = () => {
     const [startDate, setStartDate] = useState(new Date());
+    const [service, setService] = useState(serviceInfo)
     return (
         <>
             <Navbar />
@@ -20,7 +24,7 @@ const appointment = () => {
                 imgClass="bg-1"
             />
 
-            <div className="second-facility-area pt-100 pb-70">
+            {/* <div className="second-facility-area pt-100 pb-70">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-sm-6">
@@ -69,7 +73,7 @@ const appointment = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="appointment-area ptb-50 jarallax">
                 <div className="container">
@@ -121,13 +125,17 @@ const appointment = () => {
                                     <label>Select Service</label>
                                     <div className="form-group">
                                         <select className="form-control">
-                                            <option value="0">Select Service</option>
-                                            <option value="1">Surgery & Radiology</option>
-                                            <option value="2">Children Care</option>
-                                            <option value="3">Orthopedics</option>
-                                            <option value="4">Nuclear Magnetic</option>
-                                            <option value="5">Eye Treatment</option>
-                                            <option value="6">X-Ray</option>
+                                        <option value=''>-- Select Service --</option>
+
+                                            {service && service.map(ser => (
+
+                                                <option value={ser.title}>{ser.title}</option>
+
+                                            ))}
+
+
+
+
                                         </select>
                                         <i className="flaticon-heart"></i>
                                     </div>
