@@ -3,33 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import TopHeader from "./TopHeader";
 
-
-
-
-// Menu Objects
-const menuObj = [{
-  name: `Home`
-},
-{
-  name: `About`,
-},
-{
-  name: `Services`,
-},
-{
-  name: `Doctors`,
-},
-{
-  name: `Resources`,
-  dropDown: [{ element: `Our Gallery`, href: `gallery` },
-  { element: `Our Blogs`, href: `blog` },
-  { element: `Testimonials`, href: `testimonials` },
-  { element: `Success Stories`, href: `successStories` },
-  { element: `Terms & Conditions`, href: `termscondition` },
-  { element: `Faqs`, href: `faq` },
-  ]
-},
-{ name: `Contact` }];
+import {menuObj} from '../information/data'
 
 
 
