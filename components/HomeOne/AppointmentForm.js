@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
-
+import {serviceInfo} from '../information/data'
 const AppointmentForm = () => {
   const [startDate, setStartDate] = useState(new Date());
+  const [service,setService] = useState(serviceInfo)
+
   return (
     <>
       <div className="appointment-area jarallax ptb-50">
@@ -10,7 +12,6 @@ const AppointmentForm = () => {
           <div className="appointment-here-form">
             <span className="top-title">Make An Appointment</span>
             <h2>We Are Here For You</h2>
-
             <form>
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
@@ -56,13 +57,12 @@ const AppointmentForm = () => {
                   <label>Select Service</label>
                   <div className="form-group">
                     <select className="form-control">
-                      <option value="0">Select Service</option>
-                      <option value="1">Surgery & Radiology</option>
-                      <option value="2">Children Care</option>
-                      <option value="3">Orthopedics</option>
-                      <option value="4">Nuclear Magnetic</option>
-                      <option value="5">Eye Treatment</option>
-                      <option value="6">X-Ray</option>
+                      <option value="">Select Service</option>
+                      {service && service.map(ser => (
+
+                        <option value={ser.title}>{ser.title}</option>
+
+                      ))}
                     </select>
                     <i className="flaticon-heart"></i>
                   </div>
