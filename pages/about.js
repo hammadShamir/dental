@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../components/_App/NavbarFour"
+import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner";
 import FunFactStyleOne from "../components/Common/FunFactStyleOne";
 import OurVision from '../components/HomeThree/OurVision'

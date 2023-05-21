@@ -3,11 +3,119 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import TopHeader from "./TopHeader";
 
-const Navbar = () => {
+
+
+
+// Menu Objects
+const menuObj = [{
+  name: `Home`
+},
+{
+  name: `About`,
+},
+{
+  name: `Services`,
+},
+{
+  name: `Doctors`,
+},
+{
+  name: `Resources`,
+  dropDown: [{ element: `Our Gallery`, href: `gallery` },
+  { element: `Our Blogs`, href: `blog` },
+  { element: `Testimonials`, href: `testimonials` },
+  { element: `Success Stories`, href: `successStories` },
+  { element: `Terms & Conditions`, href: `termscondition` },
+  { element: `Faqs`, href: `faq` },
+  ]
+},
+{ name: `Contact` }];
+
+
+
+const NavbarFour = () => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
   // console.log(router.asPath)
+
+
+  const [menuItems, setMenuItems] = useState(menuObj);
+
+
+  const navbar = menuItems.map(menuLink => {
+    return (
+
+      <li className="nav-item">
+
+        {
+          menuLink.dropDown ? (
+            <Link
+              href=""
+              onClick={
+                (e) => {
+                  e.preventDefault()
+                }
+              }
+              className={`nav-link ${currentPath == `/${menuLink[`name`].split(' ')[0].toLowerCase()}}/` && "active"
+                }`}
+            >
+              {menuLink.name}
+
+              {menuLink.dropDown && (<i className="bx bx-plus"></i>)}
+            </Link>
+          ) : (
+            <Link
+              href={(menuLink[`name`].split(' ')[0].toLowerCase() === `home`) ?
+                `/` : `/${menuLink[`name`].split(' ')[0].toLowerCase()}/`
+
+              }
+              className={`nav-link ${currentPath == `/${menuLink[`name`].split(' ')[0].toLowerCase()}}/` && "active"
+                }`}
+            >
+              {menuLink.name}
+
+              {menuLink.dropDown && (<i className="bx bx-plus"></i>)}
+            </Link>
+          )
+        }
+
+
+
+        {menuLink.dropDown &&
+          (
+            <ul className="dropdown-menu">
+              {
+                menuLink.dropDown.map(dropDown => {
+
+
+                  return (
+
+                    <li className="nav-item">
+                      <Link
+                        href={`/${dropDown['href'].toLowerCase()}/`}
+                        className={`nav-link ${currentPath == `/${dropDown['href'].toLowerCase()}/` && "active"}`}
+                      >
+                        {dropDown['element']}
+                      </Link>
+                    </li>
+
+
+                  )
+
+
+
+
+                })
+              }
+            </ul>
+          )
+        }
+
+      </li>
+    )
+
+  })
 
   useEffect(() => {
     setCurrentPath(router.asPath);
@@ -39,17 +147,20 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="header-area fixed-top">
+      <header className="header-area">
+
         <TopHeader />
 
-        <div className="nav-area">
+        <div className="nav-area nav-area-seven">
           <div id="navbar" className="navbar-area">
             <div className="main-nav">
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
-                  <Link href="/" className="navbar-brand">
-                    <img width='90%' src="/img/logo.png" alt="logo" />
-
+                  <Link href="/" className="navbar-brand d-flex justify-content-left align-items-center">
+                   <img width={70} src='../img/about/logo.png' alt="logo" />
+                   <div className="d-flex flex-column">
+                      <h4 className="m-0" style={{color: `#01D8F0`,letterSpacing:'0.1ch'}}>Esthetix</h4>
+                      <p className="p-0 " style={{color:`white`}}>Dental Center</p></div>
                   </Link>
 
                   <button
@@ -68,136 +179,24 @@ const Navbar = () => {
                   </button>
 
                   <div className={classOne} id="navbarSupportedContent">
-                    <ul className="navbar-nav m-auto">
-                      <li className="nav-item">
-                        <Link
-                          href="/"
-                          className={`nav-link ${currentPath == "/" && "active"
-                            }`}
-                        >
-                          Home
-                        </Link>
-                      </li>
+                    <ul className="navbar-nav m-auto gap-4">
 
-                      <li className="nav-item">
-                        <Link
-                          href="/about/"
-                          className={`nav-link ${currentPath == "/about/" && "active"
-                            }`}
-                        >
-                          About
-                        </Link>
-                      </li>
+
+                      {navbar}
 
 
 
-                      <li className="nav-item">
-                        <Link
-                          href="/services"
-                          className={`nav-link ${currentPath == "/services/" && "active"
-                            }`}
-                        >
-                          Services
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/doctors"
-                          className={`nav-link ${currentPath == "/doctors/" && "active"
-                            }`}
-                        >
-                          Doctors
-                        </Link>
-
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
-                        >
-                          Resources <i className="bx bx-plus"></i>
-                        </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/gallery/"
-                              className={`nav-link ${currentPath == "/gallery/" && "active"
-                                }`}
-                            >
-                              Our Gallery
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/blog/"
-                              className={`nav-link ${currentPath == "/blog/" && "active"
-                                }`}
-                            >
-                              Our Blogs
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/testimonials/"
-                              className={`nav-link ${currentPath == "/testimonials/" && "active"
-                                }`}
-                            >
-                              Testimonials
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/termscondition/"
-                              className={`nav-link ${currentPath == "/termscondition/" && "active"
-                                }`}
-                            >
-                              Terms & Conditions
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/successstories/"
-                              className={`nav-link ${currentPath == "/successstories/" && "active"
-                                }`}
-                            >
-                              Success Stories
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/faq/"
-                              className={`nav-link ${currentPath == "/faq/" && "active"
-                                }`}
-                            >
-                              Faqs
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/contact/"
-                          className={`nav-link ${currentPath == "/contact/" && "active"
-                            }`}
-                        >
-                          Contact
-                        </Link>
-                      </li>
                     </ul>
                   </div>
 
-                  <div className="others-option">
-                    <div className="subscribe">
-                      <Link href="/appointment" className="default-btn">
+                  <div className="others-option d-flex align-items-center " style={{ height: `45px` }}>
+                    <div className="subscribe d-flex justify-content-center align-items-center" style={{ height: `100%` }}>
+                      <a href='/appointment' className="default-btn">
                         Appointment
-                      </Link>
+                      </a>
                     </div>
                   </div>
+
                 </div>
               </nav>
             </div>
@@ -208,4 +207,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarFour;

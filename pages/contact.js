@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../components/_App/NavbarFour"
+import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner";
 import ContactInfo from "../components/ContactUs/ContactInfo";
 import ContactForm from "../components/ContactUs/ContactForm";

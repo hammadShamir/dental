@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import DatePicker from "react-datepicker";
-import Navbar from "../components/_App/NavbarFour"
+import Navbar from "../../components/_App/Navbar"
 import PageBanner from "../../components/Common/PageBanner";
 import Subscribe from "../../components/Common/Subscribe";
 import Footer from "../../components/_App/Footer";
@@ -96,7 +96,7 @@ const DoctorDetails = () => {
                   </div>
 
 
-                  <div className="client-area doctors-feedback">
+                  {/* <div className="client-area doctors-feedback">
                     <div className="client-wrap-two owl-carousel owl-theme">
                       <div className="single-client">
                         <img src="/img/client/client1.jpg" alt="img" />
@@ -163,7 +163,7 @@ const DoctorDetails = () => {
                         <span>Company Founder</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
