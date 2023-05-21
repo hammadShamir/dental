@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { serviceInfo } from '../information/data'
+import { SiWhatsapp } from "react-icons/si";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -43,13 +45,10 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://www.facebyoutubeook.com/"
-                        target="_blank"
-                      >
-                        <i className="bx x-bxl-tiktok"></i>
-                      </a>
-                    </li>
+                  <a className="d-flex align-items-center justify-content-center" href="https://www.whatsapp.com/" target="_blank" >
+                    <SiWhatsapp />
+                  </a>
+                </li>
                     <li>
                       <a href="https://instagram.com/esthetixdentalcenter?igshid=ZDdkNTZiNTM=" target="_blank">
                         <i className="bx bxl-instagram"></i>

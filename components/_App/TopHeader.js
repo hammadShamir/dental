@@ -1,4 +1,5 @@
 import React from "react";
+import {BsWhatsapp} from 'react-icons/bs'
 
 const TopHeader = () => {
   return (
@@ -40,15 +41,16 @@ const TopHeader = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.pinterest.com/" target="_blank">
-                    <i className="bx bxl-pinterest-alt"></i>
-                  </a>
-                </li>
-                <li>
                   <a href="https://www.instagram.com/" target="_blank">
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </li>
+                <li>
+                  <a className="d-flex align-items-center justify-content-center" href="https://www.whatsapp.com/" target="_blank" >
+                    <BsWhatsapp />
+                  </a>
+                </li>
+
               </ul>
             </div>
           </div>

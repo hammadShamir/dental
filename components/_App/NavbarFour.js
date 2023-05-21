@@ -5,6 +5,7 @@ import TopHeader from "./TopHeader";
 
 
 
+
 // Menu Objects
 const menuObj = [{
   name: `Home`
@@ -155,8 +156,10 @@ const NavbarFour = () => {
             <div className="main-nav">
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
-                  <Link href="/" className="navbar-brand">
-                    <img width='90%' src="/img/logo.png" alt="logo" />
+                  <Link href="/" className="navbar-brand d-flex justify-content-left align-items-center">
+                    <div className="d-flex flex-column">
+                      <h4 className="m-0" style={{color: `#01D8F0`,letterSpacing:'0.1ch'}}>Esthetix</h4>
+                      <p className="p-0 " style={{color:`white`}}>Dental Center</p></div>
                   </Link>
 
                   <button
@@ -185,8 +188,8 @@ const NavbarFour = () => {
                     </ul>
                   </div>
 
-                  <div className="others-option">
-                    <div className="subscribe">
+                  <div className="others-option d-flex align-items-center " style={{ height: `45px` }}>
+                    <div className="subscribe d-flex justify-content-center align-items-center" style={{ height: `100%` }}>
                       <a href='/appointment' className="default-btn">
                         Appointment
                       </a>

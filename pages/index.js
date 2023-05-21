@@ -3,11 +3,10 @@ import Navbar from "../components/_App/NavbarFour"
 import MainBanner from "../components/HomeSeven/MainBanner"
 import Facility from "../components/HomeEight/Facility";
 import AboutUs from "../components/HomeEight/AboutUs";
-import Department from "../components/HomeEight/Department";
 import FunFactStyleThree from "../components/Common/FunFactStyleOne";
 import OurServices from "../components/HomeEight/OurServices";
 import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
-import Pricing from "../components/HomeEight/Pricing";
+
 import Faqs from "../components/Common/Faqs";
 import AppointmentForm from "../components/HomeOne/AppointmentForm";
 import TestimonialStyleOne from "../components/Common/TestimonialStyleOne";
@@ -43,7 +42,7 @@ const index = () => {
 
       <AppointmentForm />
 
-      <NewsStyleTwo />
+      <NewsStyleTwo blogNum={3} />
 
       <Subscribe />
 

@@ -23,7 +23,7 @@ const Faqs = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="faq-img">
-                <img src="/img/faq-img.png" alt="Image" />
+                <img src="/img/faq-img.jpg" alt="Image" />
               </div>
             </div>
 
