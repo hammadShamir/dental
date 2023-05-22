@@ -233,6 +233,7 @@ textarea.form-control {
 }
 
 /* Default Btn Area Style */
+
 .default-btn {
   font-size: 16px;
   color: #ffffff;
@@ -6547,5 +6548,8 @@ Page-navigation Area Style*/
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
+  }
+  .header-area .default-btn {
+    display: none;
   }
 }

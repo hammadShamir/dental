@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import TopHeader from "./TopHeader";
-import {menuObj} from '../information/data'
+import { menuObj } from '../information/data'
 
 
 
@@ -132,10 +132,10 @@ const NavbarFour = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand d-flex justify-content-left align-items-center">
-                   <img width={70} src='../img/about/logo.png' alt="logo" />
-                   <div className="d-flex flex-column">
-                      <h4 className="m-0" style={{color: `#01D8F0`,letterSpacing:'0.1ch'}}>Esthetix</h4>
-                      <p className="p-0 " style={{color:`white`}}>Dental Center</p></div>
+                    <img width={70} src='../img/about/logo.png' alt="logo" />
+                    <div className="d-flex flex-column">
+                      <h4 className="m-0" style={{ color: `#01D8F0`, letterSpacing: '0.1ch' }}>Esthetix</h4>
+                      <p className="p-0 " style={{ color: `white` }}>Dental Center</p></div>
                   </Link>
 
                   <button

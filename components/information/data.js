@@ -158,7 +158,21 @@ export const teamInfo = [
         education: [],
         experience: [`HR Executive of Esthetix Dental Center`],
         speciality: []
-    }
+    },
+    // {
+    //     name: `Dr. Nudrat Malik`,
+    //     designation: `HR Executive`,
+    //     detail: `Mr. Vishal Kumar started his career with Esthetix Dental Center as Administrator Assistant.
+
+    //                   His tired less work for the company got him into operations as Operation Assistant. Currently he is serving as HR Executive.`,
+    //     image: `/img/doctors/9.png`,
+    //     facebook: ``,
+    //     linkedin: `https://www.linkedin.com/in/vishal-rejhra-697238204`,
+    //     instagram: ``,
+    //     education: [],
+    //     experience: [`HR Executive of Esthetix Dental Center`],
+    //     speciality: []
+    // }
 ]
 
 
