@@ -3,7 +3,6 @@ import Link from "next/link";
 import { serviceInfo } from '../information/data'
 const OurServices = ({ cards }) => {
   const [data, setData] = useState(serviceInfo)
-  console.log(serviceInfo);
   return (
     <>
       <div className="services-area-eight pb-70">
@@ -18,9 +17,9 @@ const OurServices = ({ cards }) => {
 
           <div className="row">
             {
-              serviceInfo && serviceInfo.slice(0, cards && cards).map((item) => {
+              serviceInfo && serviceInfo.slice(0, cards && cards).map((item, index) => {
                 return (
-                  <div className="col-lg-4 col-sm-6">
+                  <div className="col-lg-4 col-sm-6" key={index}>
                     <div className="single-services">
                       <span>
                         <img src={`/img/home-eight/${item.icon}`} alt="Image" />

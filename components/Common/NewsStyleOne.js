@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { blogsInfo } from '../information/data';
 
-const NewsStyleOne = ({blogNum = 3}) => {
+const NewsStyleOne = ({ blogNum = 3 }) => {
   const [blogs, setBlogs] = useState(blogsInfo);
 
   return (
@@ -20,35 +20,35 @@ const NewsStyleOne = ({blogNum = 3}) => {
           <div className="row justify-content-center">
             {blogs && (
 
-                            blogs.slice(0, blogNum).map(blog => (
+              blogs.slice(0, blogNum).map((blog, index) => (
 
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="single-blog">
-                                        <Link href={`/blog/${blog.id}`} style={{ minHeight: '237px' }}>
-                                            <img src={blog.mainImg} alt="Image" />
-                                        </Link>
+                <div className="col-lg-4 col-md-6" key={index}>
+                  <div className="single-blog">
+                    <Link href={`/blog/${blog.id}`} style={{ minHeight: '237px' }}>
+                      <img src={blog.mainImg} alt="Image" />
+                    </Link>
 
-                                        <span>{blog.tags[0]}</span>
-                                        <div className="blog-content">
-                                            <ul>
-                                                <li>
-                                                    <a href="#">{blog.postedBy}</a>
-                                                </li>
-                                                <li>Date: {blog.postedOn}</li>
-                                            </ul>
+                    <span>{blog.tags[0]}</span>
+                    <div className="blog-content">
+                      <ul>
+                        <li>
+                          <a href="#">{blog.postedBy}</a>
+                        </li>
+                        <li>Date: {blog.postedOn}</li>
+                      </ul>
 
-                                            <Link href={`/blog/${blog.id}`}>
-                                                <h3>{blog.title}</h3>
-                                            </Link>
+                      <Link href={`/blog/${blog.id}`}>
+                        <h3>{blog.title}</h3>
+                      </Link>
 
-                                            <Link href={`/blog/${blog.id}`} className="read-more">
-                                                Read More <i className="bx bx-plus"></i>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))
-                        )}
+                      <Link href={`/blog/${blog.id}`} className="read-more">
+                        Read More <i className="bx bx-plus"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              ))
+            )}
           </div>
         </div>
       </div>

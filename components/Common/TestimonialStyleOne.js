@@ -37,9 +37,9 @@ const TestimonialStyleOne = () => {
             className="client-slide"
           >
             {
-              testimonials && testimonials.map((item) => {
+              testimonials && testimonials.map((item, index) => {
                 return (
-                  <SwiperSlide>
+                  <SwiperSlide key={index}>
                     <div className="single-client">
                       <img src={item.img} alt="img" />
 

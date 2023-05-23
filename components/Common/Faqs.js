@@ -33,7 +33,7 @@ const Faqs = () => {
                   {
                     faqs && faqs.map((faq, index) => {
                       return (
-                        <AccordionItem uuid={index}>
+                        <AccordionItem key={index}>
                           <AccordionItemHeading>
                             <AccordionItemButton>
                               <span>{faq.question}</span>

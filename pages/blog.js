@@ -35,9 +35,9 @@ const BlogGrid = () => {
                     <div className="row">
                         {blogs && (
 
-                            blogs.slice(initial, initial + cut).map(blog => (
+                            blogs.slice(initial, initial + cut).map((blog, index) => (
 
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6" key={index}>
                                     <div className="single-blog">
                                         <Link href={`/blog/${blog.id}`} style={{ minHeight: '237px' }}>
                                             <img src={blog.mainImg} alt="Image" />

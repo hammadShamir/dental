@@ -48,8 +48,8 @@ const DoctorsStyleOne = () => {
             className="doctors-slide"
           >
 
-            {team.map(member => (
-              <SwiperSlide>
+            {team.map((member, index) => (
+              <SwiperSlide key={index}>
                 <div className="single-doctor">
                   <img src={`${member.image}`} alt={`${member.name}`} />
                   <h3><Link href={`/doctors/${member.name.replace(/\s/g, '')}`}>{member.name}</Link></h3>

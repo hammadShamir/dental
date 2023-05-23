@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
-import {serviceInfo} from '../information/data'
+import { serviceInfo } from '../information/data'
 const AppointmentForm = () => {
   const [startDate, setStartDate] = useState(new Date());
-  const [service,setService] = useState(serviceInfo)
+  const [service, setService] = useState(serviceInfo)
 
   return (
     <>
@@ -58,9 +58,9 @@ const AppointmentForm = () => {
                   <div className="form-group">
                     <select className="form-control">
                       <option value="">Select Service</option>
-                      {service && service.map(ser => (
+                      {service && service.map((ser, index) => (
 
-                        <option value={ser.title}>{ser.title}</option>
+                        <option value={ser.title} key={index}>{ser.title}</option>
 
                       ))}
                     </select>
