@@ -36,7 +36,7 @@ const ServicesDetails = () => {
 
 
 
-            <div className="services-details-area ptb-100">
+            <div className="services-details-area ">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -77,12 +77,12 @@ const ServicesDetails = () => {
                                         const url = "/img/service-details/"
                                         return (
                                             <SwiperSlide>
-                                                <div className="services-item">
+                                                <div className="services-item " style={{marginTop:'50px'}}>
                                                     <img
                                                         src={url + item.url}
                                                         alt="Image"
-                                                        className="w-100"
-                                                        style={{ aspectRatio: '4/3', transform: 'scale(0.7)' }}
+                                                        className="w-100 "
+                                                        style={{  transform: 'scale(0.7)',marginTop:'1rem' }}
                                                     />
                                                 </div>
                                             </SwiperSlide>
