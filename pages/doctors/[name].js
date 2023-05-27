@@ -73,20 +73,8 @@ const DoctorDetails = () => {
 
                     <ul>
                       <li>
-                        Monday - Friday
-                        <span>9.00 - 20.00</span>
-                      </li>
-                      <li>
-                        Saturday
-                        <span>10.00 - 16.00</span>
-                      </li>
-                      <li>
-                        Sunday
-                        <span>9.30 - 18.00</span>
-                      </li>
-                      <li>
-                        Friday
-                        <span>Closed</span>
+                        Monday - Sunday
+                        <span>9AM - 10PM</span>
                       </li>
                     </ul>
 
@@ -94,76 +82,6 @@ const DoctorDetails = () => {
                       Request An Appointment
                     </Link>
                   </div>
-
-
-                  {/* <div className="client-area doctors-feedback">
-                    <div className="client-wrap-two owl-carousel owl-theme">
-                      <div className="single-client">
-                        <img src="/img/client/client1.jpg" alt="img" />
-
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Lorem Ipsum is simply dummy text of the
-                          printing and Quis suspendisse typesetting ipsum dolor
-                          sit amet, consectetur
-                        </p>
-
-                        <ul>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                        </ul>
-
-                        <h3>Steven Jony</h3>
-                        <span>CEO of Company</span>
-                      </div>
-
-                      <div className="single-client">
-                        <img src="/img/client/client2.jpg" alt="img" />
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Lorem Ipsum is simply dummy text of the
-                          printing and Quis suspendisse typesetting ipsum dolor
-                          sit amet, consectetur
-                        </p>
-
-                        <ul>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                          <li>
-                            <i className="bx bxs-star"></i>
-                          </li>
-                        </ul>
-
-                        <h3>Omit Jacson</h3>
-                        <span>Company Founder</span>
-                      </div>
-                    </div>
-                  </div> */}
                 </div>
               </div>
 
@@ -247,86 +165,7 @@ const DoctorDetails = () => {
                           </div>
                         </div>
                       </div>
-
                     )}
-                    {/*
-                  <div className="row borders">
-                    <div className="col-lg-3 pl-0">
-                      <div className="left-title">
-                        <h3>Address</h3>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-9">
-                      <div className="right-title">
-                        <ul>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            123, Western Road, Melbourne Australia
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="row borders">
-                    <div className="col-lg-3 pl-0">
-                      <div className="left-title">
-                        <h3>Phone</h3>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-9">
-                      <div className="right-title">
-                        <ul>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            +822456974
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="row borders">
-                    <div className="col-lg-3 pl-0">
-                      <div className="left-title">
-                        <h3>Email</h3>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-9">
-                      <div className="right-title">
-                        <ul>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            hello@corf.com
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="row borders">
-                    <div className="col-lg-3 pl-0">
-                      <div className="left-title">
-                        <h3>Website</h3>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-9">
-                      <div className="right-title">
-                        <ul>
-                          <li>
-                            <i className="bx bxs-hand-right"></i>
-                            <a href="#" target="_blank">
-                              www.corf.com
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div> */}
                   </div>
 
                   <div className="appointment-here-form">

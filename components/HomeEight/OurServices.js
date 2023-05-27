@@ -29,7 +29,7 @@ const OurServices = ({ cards }) => {
                         {item.desc.substring(0, 120) + "..."}
                       </p>
 
-                      <Link href={`/service/${item.id}`} className="read-more">
+                      <Link href={`/services/${item.id}`} className="read-more">
                         Read More <i className="bx bx-plus"></i>
                       </Link>
                     </div>

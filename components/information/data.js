@@ -159,20 +159,21 @@ export const teamInfo = [
         experience: [`HR Executive of Esthetix Dental Center`],
         speciality: []
     },
-    // {
-    //     name: `Dr. Nudrat Malik`,
-    //     designation: `HR Executive`,
-    //     detail: `Mr. Vishal Kumar started his career with Esthetix Dental Center as Administrator Assistant.
+    {
+        name: `Dr. nadrat malik`,
+        designation: `General and Cosmetics Dentist`,
+        detail: `Dr. Nudrat is a General and Aesthetic Dentist With a rich experience of more than 13 years.  She completed her diploma in Aesthetic and Restorative dentistry and has attended many courses in Dubai and other parts of the world. She practiced dentistry in India, Mauritius and Dubai and has a great understanding of patients. She speaks English, Urdu, Hindi, and minor Arabic.
 
-    //                   His tired less work for the company got him into operations as Operation Assistant. Currently he is serving as HR Executive.`,
-    //     image: `/img/doctors/9.png`,
-    //     facebook: ``,
-    //     linkedin: `https://www.linkedin.com/in/vishal-rejhra-697238204`,
-    //     instagram: ``,
-    //     education: [],
-    //     experience: [`HR Executive of Esthetix Dental Center`],
-    //     speciality: []
-    // }
+        Her areas of expertise include General Dentistry, Root Canal Treatments, Teeth Extractions, Crowns & Bridges, Partial & Complete Dentures, Veneers, Smile Designing, Hollywood Smile, Teeth Whitening, Tooth Jwellery, Tooth colored fillings, Mouth Guard and Pit and Fissure Sealants. `,
+        image: `/img/doctors/10.png`,
+        facebook: ``,
+        linkedin: `https://www.linkedin.com/in/vishal-rejhra-697238204`,
+        instagram: ``,
+        education: [`Bachelor in dental surgery
+        Diploma`],
+        experience: [],
+        speciality: []
+    }
 ]
 
 
