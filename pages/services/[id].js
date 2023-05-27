@@ -23,7 +23,7 @@ const ServicesDetails = () => {
                 service && (
                     <>
                         <PageBanner
-                            pageTitle={service.name}
+                            pageTitle={service.name && service.name}
                             homePageUrl="/services"
                             homePageText="services"
                             activePageText="Services Details"
@@ -43,9 +43,9 @@ const ServicesDetails = () => {
                             <div className="services-img d-flex justify-content-center align-items-center mt-5">
                                 {/* todo */}
                                 <div className="single-work">
-                                    <img src="/img/work1.jpg" style={{filter: 'grayscale(1)'}} alt="Image" />
+                                    <img src="/img/work1.jpg" style={{ filter: 'grayscale(1)' }} alt="Image" />
 
-                                    <h3 className="work-title " style={{top:'50%', bottom:'auto', left:'50%' , right:'auto',width:'fit-content', transform:`translate(-50%,-50%)`}}>
+                                    <h3 className="work-title " style={{ top: '50%', bottom: 'auto', left: '50%', right: 'auto', width: 'fit-content', transform: `translate(-50%,-50%)` }}>
                                         <i className="flaticon-kidney"></i>
                                         {service.name}
                                     </h3>
@@ -82,7 +82,7 @@ const ServicesDetails = () => {
                                                         src={url + item.url}
                                                         alt="Image"
                                                         className="w-100"
-                                                        style={{ aspectRatio: '4/3',transform:'scale(0.7)' }}
+                                                        style={{ aspectRatio: '4/3', transform: 'scale(0.7)' }}
                                                     />
                                                 </div>
                                             </SwiperSlide>
