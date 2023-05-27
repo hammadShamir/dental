@@ -36,7 +36,7 @@ const ServicesDetails = () => {
 
 
 
-            <div className="services-details-area ">
+            <div className="services-details-area ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -82,7 +82,7 @@ const ServicesDetails = () => {
                                                         src={url + item.url}
                                                         alt="Image"
                                                         className="w-100 "
-                                                        style={{ transform: 'scale(0.7)', marginTop: '1rem' }}
+                                                        style={{ transform: 'scale(0.7)' }}
                                                     />
                                                 </div>
                                             </SwiperSlide>
