@@ -171,8 +171,8 @@ export const teamInfo = [
         instagram: ``,
         education: [`Bachelor in dental surgery
         Diploma`],
-        experience: [],
-        speciality: []
+        experience: [`more than 13 years`],
+        speciality: [`General Dentistry, Root Canal Treatments, Teeth Extractions, Crowns & Bridges, Partial & Complete Dentures, Veneers, Smile Designing, Hollywood Smile, Teeth Whitening, Tooth Jwellery, Tooth colored fillings, Mouth Guard and Pit and Fissure Sealants. `]
     }
 ]
 
