@@ -54,7 +54,7 @@ const ServicesDetails = () => {
                                         <div className="work-content">
                                             <h3>{service.name}</h3>
                                             <p>
-                                                {(service.desc)}
+                                                {service.desc}
                                             </p>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ const ServicesDetails = () => {
                                                         src={url + item.url}
                                                         alt="Image"
                                                         className="w-100 "
-                                                        style={{  transform: 'scale(0.7)' }}
+                                                        style={{  aspectRatio: '4/3.3', transform: 'scale(0.7)' }}
                                                     />
                                                 </div>
                                             </SwiperSlide>
