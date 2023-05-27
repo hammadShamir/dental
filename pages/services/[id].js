@@ -77,12 +77,12 @@ const ServicesDetails = () => {
                                         const url = "/img/service-details/"
                                         return (
                                             <SwiperSlide>
-                                                <div className="services-item " style={{marginTop:'50px'}}>
+                                                <div className="services-item " style={{ marginTop: '50px' }}>
                                                     <img
                                                         src={url + item.url}
                                                         alt="Image"
                                                         className="w-100 "
-                                                        style={{  transform: 'scale(0.7)',marginTop:'1rem' }}
+                                                        style={{ transform: 'scale(0.7)', marginTop: '1rem' }}
                                                     />
                                                 </div>
                                             </SwiperSlide>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { serviceInfo } from '../information/data'
-import { SiWhatsapp } from "react-icons/si";
+import { BsWhatsapp } from 'react-icons/bs'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -35,20 +35,15 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.twitter.com/" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
                       <a href="https://www.linkedin.com/company/esthetix-dental-center/" target="_blank">
                         <i className="bx bxl-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                  <a className="d-flex align-items-center justify-content-center" href="https://www.whatsapp.com/" target="_blank" >
-                    <SiWhatsapp />
-                  </a>
-                </li>
+                      <a className="d-flex align-items-center justify-content-center" href="https://wa.me/+971561140462" target="_blank" >
+                        <BsWhatsapp style={{ color: "#0cb8b6" }} />
+                      </a>
+                    </li>
                     <li>
                       <a href="https://instagram.com/esthetixdentalcenter?igshid=ZDdkNTZiNTM=" target="_blank">
                         <i className="bx bxl-instagram"></i>
