@@ -77,7 +77,7 @@ const ServicesDetails = () => {
                                         const url = "/img/service-details/"
                                         return (
                                             <SwiperSlide>
-                                                <div className="services-item " style={{marginTop:'50px'}}>
+                                                <div className="services-item " style={{ marginTop: '50px' }}>
                                                     <img
                                                         src={url + item.url}
                                                         alt="Image"
