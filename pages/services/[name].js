@@ -12,9 +12,9 @@ import { serviceInfo } from '../../components/information/data'
 const ServicesDetails = () => {
 
     const router = useRouter();
-    const { id } = router.query;
+    const { name } = router.query;
 
-    const service = useMemo(() => serviceInfo.filter(item => item.id == id)[0], [id])
+    const service = useMemo(() => serviceInfo.filter(item => item.name.replace(/\s/g, '') == name)[0], [name])
 
     return (
         <>
@@ -82,7 +82,7 @@ const ServicesDetails = () => {
                                                         src={url + item.url}
                                                         alt="Image"
                                                         className="w-100 "
-                                                        style={{  aspectRatio: '4/3.3', transform: 'scale(0.7)' }}
+                                                        style={{ aspectRatio: '4/3.3', transform: 'scale(0.7)' }}
                                                     />
                                                 </div>
                                             </SwiperSlide>

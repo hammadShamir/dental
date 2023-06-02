@@ -14,9 +14,9 @@ import { blogsInfo } from "../../components/information/data"
 const BlogGrid = () => {
 
     const router = useRouter();
-    const { id } = router.query;
+    const { title } = router.query;
 
-    const blog = useMemo(() => blogsInfo.filter(blog => blog.id == id)[0], [id])
+    const blog = useMemo(() => blogsInfo.filter(blog => blog.title.replace(/\s/g, '') === title)[0], [title])
 
     return (
         <>

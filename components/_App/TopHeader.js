@@ -1,5 +1,5 @@
 import React from "react";
-import {BsWhatsapp} from 'react-icons/bs'
+
 
 const TopHeader = () => {
   return (
@@ -11,7 +11,7 @@ const TopHeader = () => {
               <ul className="header-content-left">
                 <li>
                   <i className="bx bx-time"></i>
-                  Mon-sun 9am-10pm 
+                  Mon-Sun 9am-10pm
                 </li>
                 <li>
                   <a href="tel:+822456974">
@@ -31,23 +31,23 @@ const TopHeader = () => {
             <div className="col-lg-4 col-md-3 col-sm-6">
               <ul className="header-content-right">
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank">
+                  <a href="https://www.facebook.com/profile.php?id=100082956321235&mibextid=ZbWKwL" target="_blank">
                     <i className="bx bxl-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/" target="_blank">
-                    <i className="bx bxl-twitter"></i>
+                  <a href="https://www.linkedin.com/company/esthetix-dental-center/" target="_blank">
+                    <i className="bx bxl-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank">
+                  <a href="https://instagram.com/esthetixdentalcenter?igshid=ZDdkNTZiNTM=" target="_blank">
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="d-flex align-items-center justify-content-center" href="https://www.whatsapp.com/" target="_blank" >
-                    <BsWhatsapp />
+                  <a className="d-flex align-items-center justify-content-center" href="https://wa.me/+971561140462" target="_blank" >
+                    <i className="bx bxl-whatsapp"></i>
                   </a>
                 </li>
 

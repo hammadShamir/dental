@@ -422,7 +422,8 @@ appointment with Esthetix Dental.</p>
       <li><strong>Your dental crown breaks or falls off</strong></li>
       <p>You must immediately see your dentist if your dental crown breaks or completely falls off. This is because your tooth will be exposed and susceptible to infection and damage. An emergency dental visit to replace your dental crown can help you avoid the need for an extraction, root canal, or other dental procedure to preserve your oral health.</p>
     `
-}, {
+},
+{
     id: 5,
     postedOn: `1/Mar/2023`,
     postedBy: `Esthetix Dental Center`,
@@ -478,159 +479,225 @@ appointment with Esthetix Dental.</p>
 <p>Smoking and tobacco are two habits that are never good for your health. You place yourself at a higher risk for tooth decay, cancer, and other serious conditions. Smoking is particularly bad for dental implants. It significantly slows down the healing process and weakens the gums around your implant.</p>
 <p>In the initial few days post-surgery, put down your electric toothbrush and water-flossing device. Under normal circumstances, these tools are immensely beneficial for your oral health. However, they are too vigorous immediately after dental implant surgery. Instead, gently use a traditional toothbrush and floss.</p>
   `
+},
+{
+    id: 6,
+    postedOn: `31/Mar/2023`,
+    postedBy: `Esthetix Dental Center`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog6.png`,
+    title: `Teeth Whitening: A Comprehensive Guide`,
+    tags: [`Foods to Eat`, `Risks`, `Teeth`, `Emergency`, `Dental Services`, `care`],
+    content: ` 
+    <p>Your smile can be brightened and improved with teeth whitening, which is a common method. Using over-the-counter products at home or professional whitening procedures in a dental clinic are both options. 
+    The various whitening options, advantages and disadvantages of whitening, and some advice for achieving the best results will all be covered in this blog.
+    </p>
+    <h4>Types of Teeth Whitening Products</h4>
+<p>A variety of teeth-whitening products are on the market, including whitening toothpaste, whitening strips, whitening trays, and Dental expert in teeth-whitening procedures.
+</p>
+<h4>Whitening Toothpaste</h4>
+<p>For those looking for a quick and affordable way to whiten their teeth, whitening toothpastes are a popular choice. These toothpaste have gentle abrasives that help polish teeth and remove surface stains. </p>
+<p>Although they may not be as effective as other whitening products, they are typically safe to use.
+</p>
+<h4>Whitening Strips
+</h4>
+<p>Thin plastic strips covered in a whitening gel are known as whitening strips. After applying the strips, the teeth are given a specific amount of time to absorb their effects.</p>
+<p>The peroxides in the gel, either hydrogen peroxide or carbamide peroxide, aid in dissolving color-causing molecules and removing stains. Although whitening strips are generally safe to use, some people may become sensitive to them.
+</p>
+<h4>Whitening Trays
+</h4>
+<p>Custom-made whitening trays are worn for a predetermined period of time while being filled with a whitening gel. The whitening gel can reach all of the teeth's surfaces because the trays are made to fit the teeth snugly. </p>
+<p>Although whitening trays are generally safe to use, some people may become sensitive to them.</p>
+<h4>The best method for whitening teeth is with professional Dental Clinic whitening procedures. These procedures involve a dental professional applying a stronger concentration of whitening gel. 
+</h4>
+<p>Professional whitening procedures are typically safe to use, but some people may experience some sensitivity.
+</p>
+<h4>Benefits of Teeth Whitening</h4>
+<p>Many advantages can result from teeth whitening, such as:
+</p>
+<ul>
+    <li>A more attractive smile</li>
+    <li> Increased self-assurance</li>
+    <li> Better oral health</li>
+    <li>  Less staining from food and beverages.</li>
+</ul>
+<h4>Risk of teeth whitening:</h4>
+<p>Despite being generally risk-free, teeth whitening has some drawbacks. These dangers consist of</p>
+<ul>
+    <li>Tooth sensitivity</li>
+    <li> Irritation of the gums</li>
+    <li> Damage to the enamel</li>
+    <li>  Less staining from food and beverages.</li>
+</ul>
+<h4>Tips for Getting the Best Results</h4>
+<p>There are a few things you can do to get the best results if you're thinking about getting your teeth whitened:</p>
+<ul>
+    <li>For your needs, pick the appropriate product. Make sure to choose the appropriate product for your needs because different products are better suited for various types of stains.
+    </li>
+    <li>Follow the instructions carefully. It's necessary to follow the instructions carefully to ensure the best results.
+    </li>
+    <li>Avoid staining foods and drinks. To keep your teeth looking their best, it's important to avoid staining foods and drinks, such as coffee, tea, and red wine.
+    </li>
+    <li>Visit your dentist regularly. Regular visits to your dentist can help to keep your teeth looking their best.
+    </li>
+</ul>
+<h4>FAQs - Teeth Whitening</h4>
+<p><strong>How much does teeth Whitening cost in Dubai?</strong></p>
+<p>Teeth Whitening has several procedures depending upon the condition of your teeth. Esthetix Dental Center offers the best teeth whitening treatment at the most affordable price in Dubai.</p>
+<h4>How long does Teeth whitening last?</h4>
+<p>After the completion of the procedure, the experts of Esthetix Dental Center suggest you a healthy diet for Teeth benefits safety procedures for long-lasting results. You can visit our Dental center for a free routine checkup</p>
+<h4>Is Teeth Whitening Safe?</h4>
+<p>Teeth whitening is a completely safe procedure just make sure you choose the experts. Our dental Center has the Best Dental doctors in Dubai with years of experience in the field.</p>
+<h4>Conclusion</h4>
+<p>Teeth whitening is a popular way to brighten and enhance the appearance of your smile. It will boost your confidence as well.</p>
+<p>A variety of whitening products are on the market but if you have tried these products already then you must go for professional Dental whitening procedures.</p>
+<p>In this regard, Esthetix Clinic has the best client reviews, and our team of professional dental doctors is always here to help you smile better.
+</p>
+<p>We have calm and latest technology equipment that will lower the risk and better the benefits to your treatment at a very reasonable price in Dubai
+</p>
+  `
+},
+
+
+{
+    id: 7,
+    postedOn: `31/Mar/2023`,
+    postedBy: `Esthetix Dental Center`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog7.png`,
+    title: `What is Root Canal Treatment`,
+    tags: [`Foods to Eat`, `Risks`, `Teeth`, `Emergency`, `Dental Services`, `care`],
+    content: ` 
+    <p>
+    Root canal treatment is a common dental procedure that is done to treat a tooth that has become infected or damaged due to decay or injury. 
+During this treatment, the infected or damaged tissue is removed from the tooth, and the inside of the tooth is cleaned, disinfected, and filled.</p>
+<strong>Here is a step-by-step guide to what you can expect during a root canal treatment:</strong>
+    <h4>1: Diagnosis and Consultation</h4>
+<p>The first step in getting a root canal treatment is to consult with your dentist. They will examine your tooth and may take X-rays to determine the extent of the damage or infection. If they determine that a root canal is necessary, they will explain the procedure to you and answer any questions you may have
+</p>
+<h4>2: Anesthesia</h4>
+<p>Before starting the root canal procedure, the dentist will numb the area around the tooth with a local anesthetic. This will ensure that you don't feel any pain during the treatment.
+</p>
+<h4>3: Access to the Pulp Chamber
+</h4>
+<p>Once the area around the tooth is numb, the dentist will create an opening in the top of the tooth to access the pulp chamber. The pulp chamber is the soft tissue inside the tooth that contains the nerves, blood vessels, and connective tissue.</p>
+<h4>4: Removal of the Infected or Damaged Tissue</h4>
+<p>Next, the dentist will use special instruments to remove the infected or damaged tissue from the pulp chamber and the root canals. They will clean the inside of the tooth thoroughly to ensure that all of the bacteria and debris have been removed.
+</p>
+<h4>5: Shaping of the Root Canals
+</h4>
+<p>Once the inside of the tooth is clean, the dentist will use special instruments to shape the root canals so that they can be filled.
+</p>
+<h4>6: Disinfection</h4>
+<p>After the root canals have been shaped, the dentist will disinfect the inside of the tooth using an antimicrobial solution. This will help to kill any remaining bacteria and prevent further infection.</p>
+<h4>7: Filling the Root Canals</h4>
+<p>Once the tooth is thoroughly disinfected and dried, the dentist will fill the root canals with a rubber-like material called gutta-percha. This material seals the canals and helps to prevent further infection.</p>
+<h4>8: Temporary Filling</h4>
+<p>After the root canals have been filled, the dentist will place a temporary filling in the opening in the top of the tooth. This will protect the tooth until it can be permanently restored.</p>
+<h4>9: Permanent Restoration</h4>
+<p>The final step in a root canal treatment is to restore the tooth with a permanent filling or crown. This will protect the tooth and restore its function.</p>
+<h4>FAQs - Root Canal</h4>
+<strong>How long it takes for a Complete Root canal Treatment?</strong>
+<p>It is a detailed dental procedure that may take a couple of weeks depending on the patient's condition.</p>
+<strong>How Much Does Root Canal Cost</strong>
+<p>Root Canal has a detailed procedure and the cost varies according to the patient's condition and infected teeth. However, Esthetix Dental Center offers great discounts on Root Canal treatment. 
+Our Most experience dental surgeons will provide you best dental treatment in Dubai at an affordable price.</p>
+<h4>Conclusion</h4>
+<p>Overall, a root canal treatment is a safe and effective way to save a tooth that has become infected or damaged. 
+If you need a root canal or other dental checkup, our dental clinic will provide you with the best dental doctors in Dubai.
+We have the best equipment with a loving staff and a calm environment that will treat you according to your requirements at very affordable prices.
+</p>
+  `
+},
+{
+    id: 8,
+    postedOn: `31/Mar/2023`,
+    postedBy: `Esthetix Dental Center`,
+    category: `Maintaining`,
+    mainImg: `/img/blog/blog8.png`,
+    title: `What is a Tooth Implant`,
+    tags: [`Foods to Eat`, `Risks`, `Teeth`, `Emergency`, `Dental Services`, `care`],
+    content: `
+        <p>A tooth implant is a structure that replaces a missing tooth. With screw-like devices, the surgeon inserts a screw into the jawbone, and it acts as an anchor for an artificial tooth called a crown.
+        A device called an abutment connects the artificial tooth to the dental implant</p>
+        
+        <p> <strong>Crown:</strong>
+        The crown is a custom-made artificial Tooth to fit the person's mouth and match the color of their teeth. It feels and work like a normal tooth.</p>    
+
+        <h4>Implants have several benefits:</h4>
+
+        <ul>
+            <li>Implants are more natural and comfortable</li>
+            <li>have a higher success rate</li>
+            <li>improve chewing function</li>
+            <li>lead to a lower risk of cavities developing in nearby teeth</li>
+            <li>lead to better maintenance of bone at the site of the lost tooth</li>
+            <li>cause decreased sensitivity in nearby teeth</li>
+            <li>do not need to be taken out and cleaned every night</li>
+        </ul>
+
+        <p>However, a tooth implant is not suitable for everyone. A person's tooth must be strong enough before it undergoes the implantation process. The implanting device must bond with the jawbone</p>
+
+        <h4>Types of Tooth Implantation:</h4>
+
+        <p>There are two types of tooth implantation.</p>
+
+        <ul>
+            <li>Endosteal</li>
+            <li>Superiosteal </li>
+        </ul>
+
+        <h4>Endosteal</h4>
+
+        <p>Endosteal is the most common type. A surgeon embeds them in the jawbone which can hold more than one artificial tooth</p>
+
+        <h4>Subperiosteal</h4>
+
+        <p>A surgeon affixes a subperiosteal implant on top of the jawbone. Dental surgeons choose this option for people who do not have much height to their jawbone.</p>
+
+        <h4>Safety</h4>
+
+        <p>Research by the American Academy of Implant Dentistry shows that around 3 million people in the United States have dental implants, and this number increases by about 500,000 every year.</p>
+
+        <p>Dental implant surgery is safe when it is performed by a qualified and experienced surgeon or dentist. It is also the only dental restoration option that maintains the health of the person’s jawbone and stimulates its growth.</p>
+
+        <h4>Risk</h4>
+
+        <p>Some people are not eligible for tooth implanting. It is not safe for people who have:</p>
+
+        <ul>
+            <li>Acute illness</li>
+            <li>Uncontrollable metabolic disease</li>
+            <li>Soft bone or tissue disease</li>
+        </ul>
+
+        <p>If these issues are resolved then a person can have surgery.</p>
+
+        <h4>FAQs - Tooth Implant</h4>
+
+        <p><strong>How much does Tooth Implant Cost in Dubai?<strong><p>
+
+        <p>Every patient has a different implantation requirement that's why its cost varies according to the procedure of a patient's requirement. Esthetix Dental Center (Best Dental Center in Al-Bashra, Dubai) offers the best price for tooth implants in the town.</p>
+
+        <h4>Can Kids Get Tooth Implant?</h4>
+
+        <p>No, Kids have naturally growing teeth and their Jaws are not fully mature so the minimum age for Dental Implant (Tooth Implant) is 18 years. But one’s jaws should be fully mature for implantation.</p>
+
+        <h4>Does Tooth Implant get Cavity?</h4>
+
+        <p>It is an artificial tooth which is made of Titanium Material which will never get any cavities. However, you must take care of the implanted teeth and overall Oral Health to avoid any infection or gum issues of an implanted tooth. </p>
+
+        <p>Our skill full dentists will guide you to the proper method to take care of implanted teeth and you can visit our Esthetic Dental center for a free checkup.</p>
+
+        <h4>Our Concern</h4>
+
+        <p>Tooth Implantation is a simple and very useful dental procedure that helps you with confidence-boosting, better looks, enjoying all kinds of foods, better chewing, and getting rid of regular dispatch and cleaning.</p>
+
+        <p>Here at Esthetix Clinic, we have the most experienced dental doctors in Dubai and advanced equipment that will make your Tooth Implantation easier and more successful at an affordable price.</p>
+
+    `
 }
 
-
-    // {
-    //     id: 100,
-    //     postedOn: `24/10/20`,
-    //     postedBy: `Adeel Atta`,
-    //     category: `Diseases`,
-    //     mainImg: `/img/blog-details/blog-details.jpg`,
-    //     title: `Top 5 Tips for Maintaining Your Porcelain Veneers`,
-    //     tags: [`antibiotics`, `Diseases`, `Heart`, `Health`, `Hospital`, `Infection`],
-    //     content: `
-
-    //   <p>
-    //   A beaming white smile isn’t something that has to be reserved for anyone.
-    //   </p>
-
-    //   <p>
-    //   In fact, just about anyone with a bit of cash lying around can commit to getting porcelain veneers on
-    //   their teeth for an effortless ivory shine.
-    //   However, once you’ve jumped into this wonderful world, you’ll soon realize that you need to take
-    //   care of these instant perfect teeth if you want to keep them looking good long-term. Not every dentist
-    //   will give you the instructions for the after-care and maintenance that you might need, but at Milltown
-    //   Dental, we make sure you know how to take care of your new veneers. Here are the top 5 tips for
-    //   maintaining porcelain veneers
-    //   </p>
-
-    //  <h4>1. Don’t skip follow-ups</h4>
-    //  <br>
-    //   <p>
-    //   Once you’ve completed your first new veneer placement it can be tempting to walk out and never
-    //   return, ready to beam your smile at the world. However, there’s a reason a follow-up visit, scheduled
-    //   usually for a week later, is important to attend.
-    //   </p>
-
-    //   <p>
-    //   This is because there needs to be an evaluation of the treatment and to check if there have been
-    //   any complications. While it can be annoying, this visit is of the utmost importance. It will allow the
-    //   dentist to assess the placement of your porcelain veneers to ensure everything is going according to
-    //   plan.
-    //   </p>
-
-    //   <p>More importantly, this will give you the opportunity to ask any questions or raise any concerns you
-    //   may have experienced with your new veneers in the days since your treatment. This appointment
-    //   will establish what maintenance is required to keep your upgraded TEETH LOOKING GOOD.</p>
-
-
-    //   <h4>2. Ask any questions on your mind</h4>
-    //   <br>
-    //   <p>
-    //   Say whatever you want to say and whatever’s on your mind.
-    //   </p>
-
-    //   <p>
-    //   For instance, if you have concerns about any oral care habits you have or if you’re unsure about
-    //   something, don’t hold back. Always ask the dentist to explain exactly what you need to do to
-    //   preserve the veneers and to maintain your general oral health.
-    //   </p>
-
-    //   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
-    //   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
-    //   as well as the tips here, you could have veneers that last for up to 20 years.</p>
-
-    //   <p>Their dependability, functionality, and cosmetic beauty are really quite second to none, making them
-    //   one of the best ways to easily improve your smile.</p>
-
-
-    //   <h4>3. Continue oral health measures</h4>
-    //   <br>
-    //   <p>
-    //   Just because you have sparkling new white encasings on top of your teeth doesn’t make proper
-    //   health care any less important. In fact, good dental care may be more important than ever, as your
-    //   veneer will need all the support it can get to stay shining as bright as the first day you get them.
-    //   </p>
-
-    //   <p>
-    //   So, this brings us to the main point. Brush and floss your teeth every day exactly like you used to.
-    //   Make sure to use non-abrasive fluoride toothpaste and prioritize your oral health.
-    //   </p>
-
-    //   <p>Although the veneers are highly durable, they can be damaged - and it could be the kind of damage
-    //   that’s incredibly costly to fix. However, if you ask the right questions and follow the dentist’s advice,
-    //   as well as the tips here, you could have veneers that last for up to 20 years.</p>
-
-    //   <h4>4. Protect them from excessive grinding</h4>
-    //   <p>A lot of people have the common problem of clenching or grinding their teeth too much. This can
-    //   happen if you’re highly stressed, or anxious and tends to be a problem mostly when you’re sleeping.
-    //   This is not good if you have porcelain veneers and the constant pressure and stress can cause
-    //   damage to their shiny exterior.</p>
-
-    //   <p>If you’re worried about this happening, or if you have a history of grinding teeth, make sure to tell
-    //   your dentist. In fact, it’s possible to get a PROTECTIVE BITE GUARD that you can wear when you
-    //   go to sleep that will help minimize these stresses and damages. So get fitted for one and walk out
-    //   with everything you need to protect yourself and your investment.</p>
-
-    //   <h4>5. Avoid dangerous foods</h4>
-    //   <p>This is an unfortunate and somewhat restrictive impact of having veneers. You have to avoid food
-    //   that would be damaging to them. Thankfully, this usually overlaps with food that would be bad for
-    //   your natural teeth.</p>
-
-    //   <p>For instance, don’t chew on ice or hard candy, as it could cause ugly-looking chips and cracks.</p>
-
-    //   <p>However, on the flip side, things that stain your natural teeth like coffee, blueberries or food dyes are
-    //   a lot less of a problem and shouldn’t adversely impact YOUR VENEERS. However, they can STAIN
-    //   YOUR NATURAL TEETH, which might make a noticeable colour difference over time.</p>
-
-    //   <h4>Closing Thoughts</h4>
-
-    // <p>Remember that a smile won’t change your whole life but it could help you feel a lot more confident. A
-    // beautiful smile is a great asset and being able to smile without worrying about the appearance of
-    // your teeth, enhances your self-esteem and can improve the quality of your life.
-    // By this point, you should have a pretty good idea of how porcelain veneers can deteriorate over time
-    // and how you can ensure that this doesn’t happen. You don’t want to have to replace your expensive
-    // veneers. However, even with the best advice, things can still go wrong. If this happens, just make an
-    // appointment with Esthetix Dental.</p>
-
-
-    //   <div className="row mb-3">
-    //       <div className="col-lg-4 mt-4">
-    //           <div className="b-d-s-img">
-    //               <img src="/img/blog/blog4.jpg" alt="Image" />
-    //           </div>
-    //       </div>
-    //       <div className="col-lg-4 mt-4">
-    //           <div className="b-d-s-img">
-    //               <img src="/img/blog/blog5.jpg" alt="Image" />
-    //           </div>
-    //       </div>
-    //       <div className="col-lg-4 mt-4">
-    //           <div className="b-d-s-img">
-    //               <img src="/img/blog/blog6.jpg" alt="Image" />
-    //           </div>
-    //       </div>
-    //   </div>
-
-    //   <p>
-    //       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    //       sed do eiusmod tempor incididunt ut labore et dolore magna
-    //       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    //       ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    //       Duis aute irure dolor in reprehenderit in sed quia non
-    //       numquam. consectetur adipisicing elit, sed
-    //   </p>
-
-    //   <p>
-    //       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    //       sed do eiusmod tempor incididunt ut labore et dolore magna
-    //       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    //       ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    //       Duis aute irure dolor in reprehenderit in sed quia non
-    //       numquam. consectetur adipisicing elit, sed
-    //   </p>`
-    //}
 
 ]
 
