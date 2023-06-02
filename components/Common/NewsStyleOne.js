@@ -24,7 +24,7 @@ const NewsStyleOne = ({ blogNum = 3 }) => {
 
                 <div className="col-lg-4 col-md-6" key={index}>
                   <div className="single-blog">
-                    <Link href={`/blog/${blog.id}`} style={{ minHeight: '237px' }}>
+                    <Link href={`/blog/${blog.title.replace(/\s/g, '')}`} style={{ minHeight: '237px' }}>
                       <img src={blog.mainImg} alt="Image" />
                     </Link>
 
@@ -37,11 +37,11 @@ const NewsStyleOne = ({ blogNum = 3 }) => {
                         <li>Date: {blog.postedOn}</li>
                       </ul>
 
-                      <Link href={`/blog/${blog.id}`}>
+                      <Link href={`/blog/${blog.title.replace(/\s/g, '')}`}>
                         <h3>{blog.title}</h3>
                       </Link>
 
-                      <Link href={`/blog/${blog.id}`} className="read-more">
+                      <Link href={`/blog/${blog.title.replace(/\s/g, '')}`} className="read-more">
                         Read More <i className="bx bx-plus"></i>
                       </Link>
                     </div>
