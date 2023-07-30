@@ -37,8 +37,8 @@ const Doctors1 = () => {
                     <div className="row">
 
                         {
-                            team.slice(initial, initial + cut).map(member => (
-                                <div className="col-lg-4 col-sm-6">
+                            team.slice(initial, initial + cut).map((member, index) => (
+                                <div className="col-lg-4 col-sm-6" key={index}>
                                     <div className="single-doctor">
                                         <img src={`${member.image}`} alt={`${member.name}`} />
                                         <h3><Link href={`/doctors/${member.name.replace(/\s/g, '')}`}>{member.name}</Link></h3>

@@ -43,18 +43,16 @@ const Testimonials = () => {
                         {
                             gallery && gallery.map((img, index) => {
                                 return (
-                                    <>
-                                        <div className="col-lg-4 col-sm-6" key={index}>
-                                            <div className="single-doctors-two" style={{ cursor: "pointer" }} onClick={() => {
-                                                setSelectedImageUrl(img.url);
-                                                setModalOpen(true);
-                                            }}>
-                                                <div className="doctor-img">
-                                                    <img src={img.url} alt="Image" />
-                                                </div>
+                                    <div className="col-lg-4 col-sm-6" key={index}>
+                                        <div className="single-doctors-two" style={{ cursor: "pointer" }} onClick={() => {
+                                            setSelectedImageUrl(img.url);
+                                            setModalOpen(true);
+                                        }}>
+                                            <div className="doctor-img">
+                                                <img src={img.url} alt="Image" />
                                             </div>
                                         </div>
-                                    </>
+                                    </div>
                                 )
                             })
                         }

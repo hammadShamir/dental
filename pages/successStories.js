@@ -27,22 +27,22 @@ const Testimonials = () => {
 
                     <div className="row justify-content-center">
 
-                    <div className="col-lg-6 col-sm-12">
-                    <iframe style={{ width: `100%`, height: `400px`}} src="https://www.youtube.com/embed/5gh4m7FtqwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-                    </div>
+                        <div className="col-lg-6 col-sm-12">
+                            <iframe style={{ width: `100%`, height: `400px` }} src="https://www.youtube.com/embed/5gh4m7FtqwQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
+                        </div>
 
-                    <div className="col-lg-6 col-sm-12">
-                    <iframe style={{ width: `100%`, height: `400px`}} src="https://www.youtube.com/embed/Sa8FpyORDsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-                    </div>
+                        <div className="col-lg-6 col-sm-12">
+                            <iframe style={{ width: `100%`, height: `400px` }} src="https://www.youtube.com/embed/Sa8FpyORDsI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
+                        </div>
 
-                    <div className="col-lg-6 col-sm-12">
-                    <iframe style={{ width: `100%`, height: `400px`}} src="https://www.youtube.com/embed/-4o_u0VSREY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-                    </div>
+                        <div className="col-lg-6 col-sm-12">
+                            <iframe style={{ width: `100%`, height: `400px` }} src="https://www.youtube.com/embed/-4o_u0VSREY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
+                        </div>
 
-                    <div className="col-lg-6 col-sm-12">
-                    <iframe style={{ width: `100%`, height: `400px`}} src="https://www.youtube.com/embed/GjSbvENvuCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-                    </div>
-                   
+                        <div className="col-lg-6 col-sm-12">
+                            <iframe style={{ width: `100%`, height: `400px` }} src="https://www.youtube.com/embed/GjSbvENvuCI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
+                        </div>
+
 
 
 
