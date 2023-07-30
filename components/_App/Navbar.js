@@ -18,10 +18,10 @@ const NavbarFour = () => {
   const [menuItems, setMenuItems] = useState(menuObj);
 
 
-  const navbar = menuItems.map(menuLink => {
+  const navbar = menuItems.map((menuLink, index) => {
     return (
 
-      <li className="nav-item">
+      <li className="nav-item" key={index}>
 
         {
           menuLink.dropDown ? (
@@ -61,12 +61,12 @@ const NavbarFour = () => {
           (
             <ul className="dropdown-menu">
               {
-                menuLink.dropDown.map(dropDown => {
+                menuLink.dropDown.map((dropDown, index) => {
 
 
                   return (
 
-                    <li className="nav-item">
+                    <li className="nav-item" key={index}>
                       <Link
                         href={`/${dropDown['href'].toLowerCase()}/`}
                         className={`nav-link ${currentPath == `/${dropDown['href'].toLowerCase()}/` && "active"}`}

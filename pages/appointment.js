@@ -125,11 +125,11 @@ const appointment = () => {
                                     <label>Select Service</label>
                                     <div className="form-group">
                                         <select className="form-control">
-                                        <option value=''>-- Select Service --</option>
+                                            <option value=''>-- Select Service --</option>
 
-                                            {service && service.map(ser => (
+                                            {service && service.map((ser, index) => (
 
-                                                <option value={ser.title}>{ser.title}</option>
+                                                <option key={index} value={ser.title}>{ser.title}</option>
 
                                             ))}
 
