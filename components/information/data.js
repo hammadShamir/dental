@@ -19,6 +19,7 @@ export const menuObj = [{
     { element: `Success Stories`, href: `successStories` },
     { element: `Terms & Conditions`, href: `termscondition` },
     { element: `Faqs`, href: `faq` },
+    { element: `Our Partners`, href: `partners` },
     ]
 },
 { name: `Contact` }];

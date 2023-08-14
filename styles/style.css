@@ -2732,6 +2732,9 @@ Page Title Area Style
 .page-title-area.bg-4 {
   background-image: url(/img/page-banner-bg4.jpg);
 }
+.page-title-area.bg-partner {
+  background-image: url(/img/bg-partner.jpg);
+}
 .page-title-area .page-title-content h2 {
   margin-bottom: 15px;
   color: #ffffff;
