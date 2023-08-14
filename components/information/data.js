@@ -161,7 +161,7 @@ export const teamInfo = [
         speciality: []
     },
     {
-        name: `Dr. nadrat malik`,
+        name: `Dr. Nadrat malik`,
         designation: `General and Cosmetics Dentist`,
         detail: `Dr. Nudrat is a General and Aesthetic Dentist With a rich experience of more than 13 years.  She completed her diploma in Aesthetic and Restorative dentistry and has attended many courses in Dubai and other parts of the world. She practiced dentistry in India, Mauritius and Dubai and has a great understanding of patients. She speaks English, Urdu, Hindi, and minor Arabic.
 
