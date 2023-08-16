@@ -11,6 +11,7 @@ const transporter = nodemailer.createTransport({
 });
 
 export default async (req, res) => {
+    console.log("Effectedddd");
     const {
         name,
         email,
@@ -23,7 +24,7 @@ export default async (req, res) => {
 
     const mailOptions = {
         from: '"Esthetix - Dental Center" <email@example.com>',
-        to: "hammadshamir7@gmail.com", // Change this to the recipient's email address
+        to: "meedii6464@gmail.com", // Change this to the recipient's email address
         subject: "Appointment Request",
         text: message,
         html: `
