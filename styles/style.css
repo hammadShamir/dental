@@ -6565,4 +6565,5 @@ Page-navigation Area Style*/
 }
 .whatsapp img {
   height: 50px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.24) 0px 3px 8px);
 }

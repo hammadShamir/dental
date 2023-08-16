@@ -47,8 +47,8 @@ const Layout = ({ children }) => {
       {loader ? <Preloader /> : null}
 
       <div className="whatsapp" style={{ bottom: postiton }}>
-        <Link href={""} target="_blank">
-          <img src="/img/whatsapp.jpg" alt="" />
+        <Link href={"https://wa.me/97145294421"} target="_blank">
+          <img src="/img/whatsapp.png" alt="" />
         </Link>
       </div>
 
