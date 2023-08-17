@@ -4,11 +4,14 @@ import DatePicker from 'react-datepicker';
 import PageBanner from '../components/Common/PageBanner';
 import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/_App/Footer';
-import Link from 'next/link';
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+const MySwal = withReactContent(Swal);
 import FunFactStyleOne from '../components/Common/FunFactStyleOne';
 import { serviceInfo } from '../components/information/data';
 import baseUrl from "../utils/baseUrl";
 import { format } from 'date-fns';
+import axios from "axios";
 const Appointment = () => {
     const [startDate, setStartDate] = useState(new Date());
     const [service, setService] = useState(serviceInfo);
@@ -52,23 +55,38 @@ const Appointment = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`${baseUrl}/api/appointment`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
-
-            if (response.ok) {
-                console.log('Email sent successfully');
-            } else {
-                console.error('Error sending email');
-            }
+            const url = `${baseUrl}/api/appointment`;
+            const { name, email, phone, selectedService, appointmentDate, selectedTime, message } = formData;
+            const payload = { name, email, phone, selectedService, appointmentDate, selectedTime, message };
+            const response = await axios.post(url, payload);
+            alertContent();
+            setFormData({
+                name: '',
+                email: '',
+                phone: '',
+                selectedService: '',
+                appointmentDate: new Date(),
+                selectedTime: '',
+                message: '',
+            })
         } catch (error) {
             console.error('Error:', error);
         }
     };
+
+
+
+    const alertContent = () => {
+        MySwal.fire({
+            title: "Congratulations!",
+            text: "Your message was successfully send and will back to you soon",
+            icon: "success",
+            timer: 2000,
+            timerProgressBar: true,
+            showConfirmButton: false,
+        });
+    };
+
 
     return (
         <>
@@ -181,14 +199,14 @@ const Appointment = () => {
                                             onChange={handleSelectChange}
                                         >
                                             <option value="0">Select Time</option>
-                                            <option value="1">09.00 AM To 10.00 AM</option>
-                                            <option value="2">10.00 AM To 11.00 AM</option>
-                                            <option value="3">11.00 AM To 12.00 PM</option>
-                                            <option value="4">12.00 PM To 01.00 PM</option>
-                                            <option value="5">01.00 PM To 03.00 PM</option>
-                                            <option value="6">04.00 PM To 06.00 PM</option>
-                                            <option value="7">07.00 PM To 10.00 PM</option>
-                                            <option value="8">10.00 PM To 11.00 PM</option>
+                                            <option value="09.00 AM To 10.00 AM">09.00 AM To 10.00 AM</option>
+                                            <option value="10.00 AM To 11.00 AM">10.00 AM To 11.00 AM</option>
+                                            <option value="11.00 AM To 12.00 PM">11.00 AM To 12.00 PM</option>
+                                            <option value="12.00 PM To 01.00 PM">12.00 PM To 01.00 PM</option>
+                                            <option value="01.00 PM To 03.00 PM">01.00 PM To 03.00 PM</option>
+                                            <option value="04.00 PM To 06.00 PM">04.00 PM To 06.00 PM</option>
+                                            <option value="07.00 PM To 10.00 PM">07.00 PM To 10.00 PM</option>
+                                            <option value="10.00 PM To 11.00 PM">10.00 PM To 11.00 PM</option>
                                         </select>
                                         <i className="flaticon-clock"></i>
                                     </div>
