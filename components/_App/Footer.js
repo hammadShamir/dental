@@ -67,7 +67,7 @@ const Footer = () => {
                     serviceInfo && serviceInfo.slice(0, 6).map((item, index) => {
                       return (
                         <li key={index}>
-                          <Link href={`/service/${item.id}`}>{item.name}</Link>
+                          <Link href={`/services/${item.name.replace(/\s/g, '')}`}>{item.name}</Link>
                         </li>
                       )
                     })

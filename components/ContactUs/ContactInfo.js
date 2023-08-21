@@ -12,9 +12,11 @@ const ContactInfo = () => {
               <div className="single-contact-info">
                 <i className="bx bx-location-plus"></i>
                 <h3>Dubai - UAE</h3>
-                <p>#305, Floor 3, Dusseldorf Business Point Building, Al Barsha-1, Dubai-UAE</p>
-                <span>Email: info@esthetixdentalcenters.com</span>
-                <span>Tel: +971-4-5294-421</span>
+                <p><a href="https://www.google.com/maps/place/Floor+3,+Dusseldorf+Business+Point+Building,+Al+Barsha-1,+Dubai-UAE" target="_blank">#305, Floor 3, Dusseldorf Business Point Building, Al Barsha-1, Dubai-UAE</a></p>
+                <span>Email: <a href="mailto:info@esthetixdentalcenters.com">info@esthetixdentalcenters.com</a>
+                </span>
+                <span>Tel: <a href="tel:+97145294421">+971-4-5294-421</a></span>
+                <span>Tel: <a href="tel:+971561140462">+971-56-114-0462</a></span>
               </div>
             </div>
             <div className="col-lg-1"></div>
