@@ -21,7 +21,7 @@ const BlogGrid = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Blog"
-                imgClass="bg-2"
+                imgClass="bg-blog"
             />
             <div className="blog-area ptb-100">
                 <div className="container">

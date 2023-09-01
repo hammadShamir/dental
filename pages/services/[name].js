@@ -25,7 +25,7 @@ const ServicesDetails = () => {
                     homePageUrl="/services"
                     homePageText="services"
                     activePageText="Services Details"
-                    imgClass="bg-1"
+                    imgClass="bg-service"
                 />
             </>
             )
@@ -41,7 +41,7 @@ const ServicesDetails = () => {
                             <div className="services-img d-flex justify-content-center align-items-center mt-5">
                                 {/* todo */}
                                 <div className="single-work">
-                                    <img src="/img/work1.jpg" style={{ filter: 'grayscale(1)' }} alt="Image" />
+                                    <img src="/img/new/esthetix-dental-center-procedures.png" alt="Image" />
 
                                     <h3 className="work-title " style={{ top: '50%', bottom: 'auto', left: '50%', right: 'auto', width: 'fit-content', transform: `translate(-50%,-50%)` }}>
                                         <i className="flaticon-kidney"></i>

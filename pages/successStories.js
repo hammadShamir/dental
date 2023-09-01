@@ -15,7 +15,7 @@ const Testimonials = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Success Stories"
-                imgClass="bg-3"
+                imgClass="bg-success"
             />
 
             <div className="doctors-area-two pt-100 pb-70">

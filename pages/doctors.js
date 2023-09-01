@@ -21,7 +21,7 @@ const Doctors1 = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Doctors"
-                imgClass="bg-1"
+                imgClass="bg-doctor"
             />
 
             <div className="doctors-area-two ptb-100">

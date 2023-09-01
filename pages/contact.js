@@ -16,7 +16,7 @@ const contact = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Contact us"
-                imgClass="bg-2"
+                imgClass="bg-doctor"
             />
 
             <ContactInfo />

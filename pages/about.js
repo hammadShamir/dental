@@ -16,7 +16,7 @@ const about = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="About"
-                imgClass="bg-1"
+                imgClass="bg-about"
             />
 
             <div className="about-area about-page pb-130" >

@@ -20,7 +20,7 @@ const Testimonials = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Testimonials"
-                imgClass="bg-3"
+                imgClass="bg-testimonial"
             />
 
             <div className="client-area ptb-100">

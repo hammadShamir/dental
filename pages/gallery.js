@@ -24,7 +24,7 @@ const Testimonials = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Our Gallery"
-                imgClass="bg-3"
+                imgClass="bg-gallery"
             />
 
             <div className="doctors-area-two pt-100 pb-70">

@@ -13,13 +13,14 @@ export const menuObj = [{
 },
 {
     name: `Resources`,
-    dropDown: [{ element: `Our Gallery`, href: `gallery` },
-    { element: `Our Blogs`, href: `blog` },
-    { element: `Testimonials`, href: `testimonials` },
-    { element: `Success Stories`, href: `successStories` },
-    { element: `Terms & Conditions`, href: `termscondition` },
-    { element: `Faqs`, href: `faq` },
-    { element: `Our Partners`, href: `partners` },
+    dropDown: [
+        { element: `Our Partners`, href: `partners` },
+        { element: `Our Gallery`, href: `gallery` },
+        { element: `Our Blogs`, href: `blog` },
+        { element: `Testimonials`, href: `testimonials` },
+        { element: `Success Stories`, href: `successStories` },
+        { element: `Terms & Conditions`, href: `termscondition` },
+        { element: `Faqs`, href: `faq` },
     ]
 },
 { name: `Contact` }];

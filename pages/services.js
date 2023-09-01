@@ -15,7 +15,7 @@ const services = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Services"
-                imgClass="bg-2"
+                imgClass="bg-service"
             />
 
             <Facility />

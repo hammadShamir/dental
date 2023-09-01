@@ -97,7 +97,7 @@ const Appointment = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Appointment"
-                imgClass="bg-1"
+                imgClass="bg-appoitment"
             />
 
             <div className="appointment-area ptb-50 jarallax">
@@ -238,7 +238,7 @@ const Appointment = () => {
                         </form>
 
                         <div className="shape">
-                            <img src="/img/shape/appointment-shape.png" alt="Image" />
+                            <img src="/img/new/shape_teeth.png" alt="Image" style={{ maxWidth: "250px" }} />
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ const TermsConditions = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Terms & Conditions"
-                imgclassName="bg-1"
+                imgClass="bg-terms"
             />
 
             <div className="terms-conditions ptb-100">

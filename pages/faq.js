@@ -16,7 +16,7 @@ const Faq = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="FAQs"
-        imgClass="bg-2"
+        imgClass="bg-faq"
       />
 
       <Faqs />

@@ -1493,7 +1493,7 @@ Counter Area Style
 Appointment Area Style
 ======================================================*/
 .appointment-area {
-  background-image: url(/img/appointment-bg.jpg);
+  background-image: url(/img/new/esthetix-dental-center-doctors.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1721,7 +1721,7 @@ Client Area Style
 }
 
 .client-area.c-bg {
-  background-image: url(/img/client/client-bg.jpg);
+  background-image: url(/img/new/esthetix-dental-center-background.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1742,7 +1742,7 @@ Client Area Style
   height: 100%;
   background-color: #ffffff;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .client-slide .swiper-pagination {
@@ -2734,6 +2734,36 @@ Page Title Area Style
 }
 .page-title-area.bg-partner {
   background-image: url(/img/bg-partner.jpg);
+}
+.page-title-area.bg-service {
+  background-image: url(/img/new/esthetix-dental-center-team-members.png);
+}
+.page-title-area.bg-doctor {
+  background-image: url(/img/new/esthetix-dental-center-Card.png);
+}
+.page-title-area.bg-about {
+  background-image: url(/img/new/esthetix-dental-center-about.png);
+}
+.page-title-area.bg-appoitment {
+  background-image: url(/img/new/esthetix-dental-center-doctors.png);
+}
+.page-title-area.bg-testimonial {
+  background-image: url(/img/new/esthetix-dental-feedback.jpg);
+}
+.page-title-area.bg-blog {
+  background-image: url(/img/new/esthetix-dental-center-blog.jpg);
+}
+.page-title-area.bg-success {
+  background-image: url(/img/new/esthetix-dental-center-success.jpg);
+}
+.page-title-area.bg-faq {
+  background-image: url(/img/new/esthetix-dental-center-faqs.jpg);
+}
+.page-title-area.bg-gallery {
+  background-image: url(/img/new/esthetix-dental-center-gallery.jpg);
+}
+.page-title-area.bg-terms {
+  background-image: url(/img/new/esthetix-dental-center-terms-and-conditions.jpg);
 }
 .page-title-area .page-title-content h2 {
   margin-bottom: 15px;
