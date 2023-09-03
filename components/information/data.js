@@ -1152,9 +1152,6 @@ export const gallery = [
         url: "/img/gallery/6.png"
     },
     {
-        url: "/img/gallery/7.png"
-    },
-    {
         url: "/img/gallery/8.png"
     },
     {
