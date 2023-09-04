@@ -30,27 +30,23 @@ const ServicesDetails = () => {
             </>
             )
             }
-
-
-
-
             <div className="services-details-area ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="services-img d-flex justify-content-center align-items-center mt-5">
+                            <div className="services-img d-flex justify-content-center align-items-center ">
                                 {/* todo */}
                                 <div className="single-work">
                                     <img src="/img/new/esthetix-dental-center-procedures.png" alt="Image" />
 
-                                    <h3 className="work-title " style={{ top: '50%', bottom: 'auto', left: '50%', right: 'auto', width: 'fit-content', transform: `translate(-50%,-50%)` }}>
+                                    <h3 className="work-title" style={{ bottom: "0", top: "25%", transform: "translateY(-50%)", padding: "20px 0px", height: "75px" }}>
                                         <i className="flaticon-kidney"></i>
                                         {service && service.name}
                                     </h3>
 
                                     <div className="work-content-wrap">
                                         <div className="work-content">
-                                            <h3>{service && service.name}</h3>
+                                            <h3 style={{ marginBottom: "0px" }}>{service && service.name}</h3>
                                             <p>
                                                 {service && service.desc}
                                             </p>
@@ -75,12 +71,12 @@ const ServicesDetails = () => {
                                         const url = "/img/service-details/"
                                         return (
                                             <SwiperSlide>
-                                                <div className="services-item " style={{ marginTop: '50px' }}>
+                                                <div className="services-item ">
                                                     <img
                                                         src={url + item.url}
                                                         alt="Image"
                                                         className="w-100 "
-                                                        style={{ aspectRatio: '4/3.3', transform: 'scale(0.7)' }}
+                                                        style={{ aspectRatio: '5.6/3.3' }}
                                                     />
                                                 </div>
                                             </SwiperSlide>

@@ -854,16 +854,16 @@ export const serviceInfo = [
         desc: `Scaling & Polishing can remove built-up plaque & tartar on the teeth to ensure a healthy smile on your face.`,
         img: [
             {
-                url: 'scaling-polishing-before-1.jpeg'
+                url: 'scaling-polishing-before-1.jpg'
             },
             {
-                url: 'scaling-polishing-after-1.jpeg'
+                url: 'scaling-polishing-after-1.jpg'
             },
             {
-                url: 'scaling-polishing-before-2.jpeg'
+                url: 'scaling-polishing-before-2.jpg'
             },
             {
-                url: 'scaling-polishing-after-2.jpeg'
+                url: 'scaling-polishing-after-2.jpg'
             },
         ],
         content: `
@@ -971,13 +971,13 @@ export const serviceInfo = [
         desc: `Invisible Aligners are great for patients who had braces when they were younger and just need a “touch up,” as well as for patients who have mild to moderate dental problems like misaligned teeth...`,
         img: [
             {
-                url: 'invi-aligners-1.jpeg'
+                url: 'invi-aligners-1.jpg'
             },
             {
-                url: 'invi-aligners-2.jpeg'
+                url: 'invi-aligners-2.jpg'
             },
             {
-                url: 'invi-aligners-3.jpeg'
+                url: 'invi-aligners-3.jpg'
             }
         ],
         content: `
