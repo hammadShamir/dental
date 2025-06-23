@@ -20,7 +20,7 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-Eight/home-Eight-banner2.jpg)`,
+                backgroundImage: `url(/img/home-eight/home-eight-banner2.jpg)`,
               }}
             >
               <div className="d-table">
@@ -49,7 +49,7 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-Eight/home-Eight-banner1.jpg)`,
+                backgroundImage: `url(/img/home-eight/home-eight-banner1.jpg)`,
               }}
             >
               <div className="d-table">
@@ -81,7 +81,7 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-Eight/newBanner.jpg)`,
+                backgroundImage: `url(/img/home-eight/newBanner.jpg)`,
               }}
             >
               <div className="d-table">
